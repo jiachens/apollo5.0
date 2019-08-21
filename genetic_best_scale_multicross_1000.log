@@ -1,0 +1,62 @@
+Using TensorFlow backend.
+Loading caffemodel:  ./cnnseg/velodyne64/deploy.caffemodel
+***Doing generation 1 of 30***
+Generation average: -0.80896, best fitness:  -0.69979
+***Doing generation 2 of 30***
+Generation average: -0.79122, best fitness:  -0.69979
+***Doing generation 3 of 30***
+Generation average: -0.77809, best fitness:  -0.69979
+***Doing generation 4 of 30***
+Generation average: -0.76548, best fitness:  -0.69979
+***Doing generation 5 of 30***
+Generation average: -0.75351, best fitness:  -0.68828
+***Doing generation 6 of 30***
+Generation average: -0.74382, best fitness:  -0.68472
+***Doing generation 7 of 30***
+Generation average: -0.73331, best fitness:  -0.67243
+***Doing generation 8 of 30***
+Generation average: -0.72425, best fitness:  -0.66463
+***Doing generation 9 of 30***
+Generation average: -0.71489, best fitness:  -0.65217
+***Doing generation 10 of 30***
+Generation average: -0.70722, best fitness:  -0.64613
+***Doing generation 11 of 30***
+Generation average: -0.69802, best fitness:  -0.63731
+***Doing generation 12 of 30***
+Generation average: -0.69019, best fitness:  -0.62481
+***Doing generation 13 of 30***
+Generation average: -0.68198, best fitness:  -0.62304
+***Doing generation 14 of 30***
+Generation average: -0.67477, best fitness:  -0.60780
+***Doing generation 15 of 30***
+Generation average: -0.66701, best fitness:  -0.59919
+***Doing generation 16 of 30***
+Generation average: -0.65881, best fitness:  -0.59767
+***Doing generation 17 of 30***
+Generation average: -0.65038, best fitness:  -0.58608
+***Doing generation 18 of 30***
+Generation average: -0.64155, best fitness:  -0.56263
+***Doing generation 19 of 30***
+Generation average: -0.63317, best fitness:  -0.56263
+***Doing generation 20 of 30***
+Generation average: -0.62409, best fitness:  -0.56024
+***Doing generation 21 of 30***
+Generation average: -0.61579, best fitness:  -0.55573
+***Doing generation 22 of 30***
+Generation average: -0.60682, best fitness:  -0.55573
+***Doing generation 23 of 30***
+Generation average: -0.59880, best fitness:  -0.54171
+***Doing generation 24 of 30***
+Generation average: -0.59136, best fitness:  -0.54171
+***Doing generation 25 of 30***
+Generation average: -0.58409, best fitness:  -0.53364
+***Doing generation 26 of 30***
+Generation average: -0.57675, best fitness:  -0.52520
+***Doing generation 27 of 30***
+Generation average: -0.56933, best fitness:  -0.51883
+***Doing generation 28 of 30***
+Generation average: -0.56180, best fitness:  -0.51052
+***Doing generation 29 of 30***
+Generation average: -0.55432, best fitness:  -0.50306
+***Doing generation 30 of 30***
+Generation average: -0.54755, best fitness:  -0.49434

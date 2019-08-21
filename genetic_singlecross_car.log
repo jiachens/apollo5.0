@@ -1,0 +1,1502 @@
+Using TensorFlow backend.
+Loading caffemodel:  ./cnnseg/velodyne64/deploy.caffemodel
+***Doing generation 1 of 500***
+Generation average: -0.86141, best fitness:  -0.81889
+tensor([0.9983, 1.0138, 0.9538,  ..., 0.9500, 1.0323, 1.0006], device='cuda:0')
+***Doing generation 2 of 500***
+Generation average: -0.85642, best fitness:  -0.81889
+tensor([0.9983, 1.0138, 0.9538,  ..., 0.9500, 1.0323, 1.0006], device='cuda:0')
+***Doing generation 3 of 500***
+Generation average: -0.84344, best fitness:  -0.80971
+tensor([1.0500, 0.9500, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 4 of 500***
+Generation average: -0.83369, best fitness:  -0.80971
+tensor([1.0500, 0.9500, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 5 of 500***
+Generation average: -0.82741, best fitness:  -0.80520
+tensor([0.9983, 1.0138, 0.9538,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 6 of 500***
+Generation average: -0.82149, best fitness:  -0.80445
+tensor([1.0500, 0.9500, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 7 of 500***
+Generation average: -0.81548, best fitness:  -0.79186
+tensor([1.0500, 1.0138, 1.0352,  ..., 0.9500, 0.9500, 0.9500])
+***Doing generation 8 of 500***
+Generation average: -0.81083, best fitness:  -0.79186
+tensor([1.0500, 1.0138, 1.0352,  ..., 0.9500, 0.9500, 0.9500])
+***Doing generation 9 of 500***
+Generation average: -0.80679, best fitness:  -0.78984
+tensor([0.9902, 0.9500, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 10 of 500***
+Generation average: -0.80486, best fitness:  -0.78284
+tensor([0.9983, 0.9500, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 11 of 500***
+Generation average: -0.79719, best fitness:  -0.78284
+tensor([0.9983, 0.9500, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 12 of 500***
+Generation average: -0.79369, best fitness:  -0.78032
+tensor([1.0500, 1.0138, 1.0352,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 13 of 500***
+Generation average: -0.78976, best fitness:  -0.77912
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 14 of 500***
+Generation average: -0.78574, best fitness:  -0.76771
+tensor([0.9983, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 15 of 500***
+Generation average: -0.78251, best fitness:  -0.76771
+tensor([0.9983, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 16 of 500***
+Generation average: -0.77939, best fitness:  -0.76625
+tensor([0.9983, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 17 of 500***
+Generation average: -0.77483, best fitness:  -0.75291
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 18 of 500***
+Generation average: -0.77054, best fitness:  -0.75261
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 19 of 500***
+Generation average: -0.76674, best fitness:  -0.75059
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 20 of 500***
+Generation average: -0.76301, best fitness:  -0.74890
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 21 of 500***
+Generation average: -0.76128, best fitness:  -0.74886
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 22 of 500***
+Generation average: -0.75754, best fitness:  -0.74886
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 23 of 500***
+Generation average: -0.75405, best fitness:  -0.74494
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 24 of 500***
+Generation average: -0.75170, best fitness:  -0.73492
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 25 of 500***
+Generation average: -0.74994, best fitness:  -0.73492
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 26 of 500***
+Generation average: -0.74454, best fitness:  -0.73039
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 27 of 500***
+Generation average: -0.74186, best fitness:  -0.73039
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 28 of 500***
+Generation average: -0.73877, best fitness:  -0.72433
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 29 of 500***
+Generation average: -0.73474, best fitness:  -0.72433
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 30 of 500***
+Generation average: -0.73179, best fitness:  -0.72180
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 31 of 500***
+Generation average: -0.72943, best fitness:  -0.72169
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 32 of 500***
+Generation average: -0.72760, best fitness:  -0.72169
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 33 of 500***
+Generation average: -0.72567, best fitness:  -0.72169
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 34 of 500***
+Generation average: -0.72417, best fitness:  -0.72116
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 35 of 500***
+Generation average: -0.72336, best fitness:  -0.71886
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 36 of 500***
+Generation average: -0.72208, best fitness:  -0.71791
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 37 of 500***
+Generation average: -0.72066, best fitness:  -0.71779
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 38 of 500***
+Generation average: -0.71962, best fitness:  -0.71693
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 39 of 500***
+Generation average: -0.71889, best fitness:  -0.71619
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 40 of 500***
+Generation average: -0.71815, best fitness:  -0.71497
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 41 of 500***
+Generation average: -0.71766, best fitness:  -0.71497
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 42 of 500***
+Generation average: -0.71681, best fitness:  -0.71359
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 43 of 500***
+Generation average: -0.71599, best fitness:  -0.71345
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 44 of 500***
+Generation average: -0.71526, best fitness:  -0.71326
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 45 of 500***
+Generation average: -0.71463, best fitness:  -0.71326
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 46 of 500***
+Generation average: -0.71432, best fitness:  -0.71323
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 1.0006])
+***Doing generation 47 of 500***
+Generation average: -0.71384, best fitness:  -0.71196
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 48 of 500***
+Generation average: -0.71325, best fitness:  -0.71090
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 49 of 500***
+Generation average: -0.71253, best fitness:  -0.71090
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 50 of 500***
+Generation average: -0.71174, best fitness:  -0.71065
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 51 of 500***
+Generation average: -0.71138, best fitness:  -0.71038
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 52 of 500***
+Generation average: -0.71098, best fitness:  -0.70981
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 53 of 500***
+Generation average: -0.71067, best fitness:  -0.70948
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 54 of 500***
+Generation average: -0.71032, best fitness:  -0.70948
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 55 of 500***
+Generation average: -0.71005, best fitness:  -0.70948
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 56 of 500***
+Generation average: -0.70981, best fitness:  -0.70897
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 57 of 500***
+Generation average: -0.70965, best fitness:  -0.70872
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 58 of 500***
+Generation average: -0.70937, best fitness:  -0.70872
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 59 of 500***
+Generation average: -0.70911, best fitness:  -0.70740
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 60 of 500***
+Generation average: -0.70893, best fitness:  -0.70681
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 61 of 500***
+Generation average: -0.70881, best fitness:  -0.70681
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 62 of 500***
+Generation average: -0.70841, best fitness:  -0.70653
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 63 of 500***
+Generation average: -0.70821, best fitness:  -0.70653
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 64 of 500***
+Generation average: -0.70766, best fitness:  -0.70593
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 65 of 500***
+Generation average: -0.70679, best fitness:  -0.70593
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 66 of 500***
+Generation average: -0.70655, best fitness:  -0.70593
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 67 of 500***
+Generation average: -0.70629, best fitness:  -0.70590
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 68 of 500***
+Generation average: -0.70614, best fitness:  -0.70576
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 69 of 500***
+Generation average: -0.70598, best fitness:  -0.70567
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 70 of 500***
+Generation average: -0.70577, best fitness:  -0.70484
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 71 of 500***
+Generation average: -0.70566, best fitness:  -0.70484
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 72 of 500***
+Generation average: -0.70553, best fitness:  -0.70484
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 73 of 500***
+Generation average: -0.70545, best fitness:  -0.70484
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 74 of 500***
+Generation average: -0.70535, best fitness:  -0.70484
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 75 of 500***
+Generation average: -0.70521, best fitness:  -0.70413
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 76 of 500***
+Generation average: -0.70505, best fitness:  -0.70413
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 77 of 500***
+Generation average: -0.70479, best fitness:  -0.70382
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 78 of 500***
+Generation average: -0.70436, best fitness:  -0.70382
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 79 of 500***
+Generation average: -0.70413, best fitness:  -0.70374
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 80 of 500***
+Generation average: -0.70400, best fitness:  -0.70374
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 81 of 500***
+Generation average: -0.70384, best fitness:  -0.70345
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 82 of 500***
+Generation average: -0.70377, best fitness:  -0.70344
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 83 of 500***
+Generation average: -0.70365, best fitness:  -0.70339
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 84 of 500***
+Generation average: -0.70352, best fitness:  -0.70301
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 85 of 500***
+Generation average: -0.70340, best fitness:  -0.70256
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 86 of 500***
+Generation average: -0.70322, best fitness:  -0.70245
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 87 of 500***
+Generation average: -0.70301, best fitness:  -0.70239
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 88 of 500***
+Generation average: -0.70276, best fitness:  -0.70239
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 89 of 500***
+Generation average: -0.70290, best fitness:  -0.70235
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 90 of 500***
+Generation average: -0.70247, best fitness:  -0.70235
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 91 of 500***
+Generation average: -0.70244, best fitness:  -0.70209
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 92 of 500***
+Generation average: -0.70240, best fitness:  -0.70205
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 93 of 500***
+Generation average: -0.70231, best fitness:  -0.70204
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 94 of 500***
+Generation average: -0.70218, best fitness:  -0.70172
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 95 of 500***
+Generation average: -0.70224, best fitness:  -0.70170
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 96 of 500***
+Generation average: -0.70201, best fitness:  -0.70161
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 97 of 500***
+Generation average: -0.70191, best fitness:  -0.70161
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 98 of 500***
+Generation average: -0.70175, best fitness:  -0.70143
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 99 of 500***
+Generation average: -0.70167, best fitness:  -0.70130
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 100 of 500***
+Generation average: -0.70160, best fitness:  -0.70091
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 101 of 500***
+Generation average: -0.70141, best fitness:  -0.70091
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 102 of 500***
+Generation average: -0.70140, best fitness:  -0.70091
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 103 of 500***
+Generation average: -0.70124, best fitness:  -0.70071
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 104 of 500***
+Generation average: -0.70116, best fitness:  -0.70066
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 105 of 500***
+Generation average: -0.70092, best fitness:  -0.70016
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 106 of 500***
+Generation average: -0.70071, best fitness:  -0.70016
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 107 of 500***
+Generation average: -0.70058, best fitness:  -0.70016
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 108 of 500***
+Generation average: -0.70041, best fitness:  -0.70007
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 109 of 500***
+Generation average: -0.70036, best fitness:  -0.69996
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 110 of 500***
+Generation average: -0.70021, best fitness:  -0.69996
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 111 of 500***
+Generation average: -0.70012, best fitness:  -0.69996
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 112 of 500***
+Generation average: -0.70005, best fitness:  -0.69996
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 113 of 500***
+Generation average: -0.69998, best fitness:  -0.69988
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 114 of 500***
+Generation average: -0.69998, best fitness:  -0.69987
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 115 of 500***
+Generation average: -0.69993, best fitness:  -0.69961
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 116 of 500***
+Generation average: -0.69991, best fitness:  -0.69958
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 117 of 500***
+Generation average: -0.69989, best fitness:  -0.69958
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 118 of 500***
+Generation average: -0.69978, best fitness:  -0.69951
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 119 of 500***
+Generation average: -0.69970, best fitness:  -0.69899
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 120 of 500***
+Generation average: -0.69993, best fitness:  -0.69898
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 121 of 500***
+Generation average: -0.69939, best fitness:  -0.69871
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 122 of 500***
+Generation average: -0.69927, best fitness:  -0.69871
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 123 of 500***
+Generation average: -0.69901, best fitness:  -0.69855
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 124 of 500***
+Generation average: -0.69892, best fitness:  -0.69851
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 125 of 500***
+Generation average: -0.69882, best fitness:  -0.69845
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 126 of 500***
+Generation average: -0.69880, best fitness:  -0.69844
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 127 of 500***
+Generation average: -0.69866, best fitness:  -0.69807
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 128 of 500***
+Generation average: -0.69852, best fitness:  -0.69807
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 129 of 500***
+Generation average: -0.69834, best fitness:  -0.69804
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 130 of 500***
+Generation average: -0.69814, best fitness:  -0.69777
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 131 of 500***
+Generation average: -0.69802, best fitness:  -0.69616
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 132 of 500***
+Generation average: -0.69786, best fitness:  -0.69616
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 133 of 500***
+Generation average: -0.69778, best fitness:  -0.69616
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 134 of 500***
+Generation average: -0.69774, best fitness:  -0.69616
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 135 of 500***
+Generation average: -0.69767, best fitness:  -0.69616
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 136 of 500***
+Generation average: -0.69781, best fitness:  -0.69615
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 137 of 500***
+Generation average: -0.69735, best fitness:  -0.69551
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 138 of 500***
+Generation average: -0.69691, best fitness:  -0.69551
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 139 of 500***
+Generation average: -0.69644, best fitness:  -0.69535
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 140 of 500***
+Generation average: -0.69576, best fitness:  -0.69531
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 141 of 500***
+Generation average: -0.69556, best fitness:  -0.69528
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 142 of 500***
+Generation average: -0.69546, best fitness:  -0.69523
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 143 of 500***
+Generation average: -0.69542, best fitness:  -0.69523
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 144 of 500***
+Generation average: -0.69535, best fitness:  -0.69516
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 145 of 500***
+Generation average: -0.69530, best fitness:  -0.69515
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 146 of 500***
+Generation average: -0.69521, best fitness:  -0.69495
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 147 of 500***
+Generation average: -0.69517, best fitness:  -0.69495
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 148 of 500***
+Generation average: -0.69517, best fitness:  -0.69495
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 149 of 500***
+Generation average: -0.69510, best fitness:  -0.69484
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 150 of 500***
+Generation average: -0.69505, best fitness:  -0.69478
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 151 of 500***
+Generation average: -0.69500, best fitness:  -0.69478
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 152 of 500***
+Generation average: -0.69490, best fitness:  -0.69470
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 153 of 500***
+Generation average: -0.69482, best fitness:  -0.69452
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 154 of 500***
+Generation average: -0.69476, best fitness:  -0.69440
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 155 of 500***
+Generation average: -0.69469, best fitness:  -0.69440
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 156 of 500***
+Generation average: -0.69458, best fitness:  -0.69438
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 157 of 500***
+Generation average: -0.69452, best fitness:  -0.69416
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 158 of 500***
+Generation average: -0.69440, best fitness:  -0.69416
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 159 of 500***
+Generation average: -0.69439, best fitness:  -0.69416
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 160 of 500***
+Generation average: -0.69474, best fitness:  -0.69415
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 161 of 500***
+Generation average: -0.69451, best fitness:  -0.69413
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 162 of 500***
+Generation average: -0.69435, best fitness:  -0.69413
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 163 of 500***
+Generation average: -0.69436, best fitness:  -0.69380
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 164 of 500***
+Generation average: -0.69429, best fitness:  -0.69380
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 165 of 500***
+Generation average: -0.69415, best fitness:  -0.69380
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 166 of 500***
+Generation average: -0.69407, best fitness:  -0.69358
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 167 of 500***
+Generation average: -0.69393, best fitness:  -0.69352
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 168 of 500***
+Generation average: -0.69385, best fitness:  -0.69352
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 169 of 500***
+Generation average: -0.69371, best fitness:  -0.69352
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 170 of 500***
+Generation average: -0.69363, best fitness:  -0.69346
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 171 of 500***
+Generation average: -0.69356, best fitness:  -0.69340
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 172 of 500***
+Generation average: -0.69351, best fitness:  -0.69330
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 173 of 500***
+Generation average: -0.69346, best fitness:  -0.69320
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 174 of 500***
+Generation average: -0.69349, best fitness:  -0.69320
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 175 of 500***
+Generation average: -0.69350, best fitness:  -0.69320
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 176 of 500***
+Generation average: -0.69331, best fitness:  -0.69313
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 177 of 500***
+Generation average: -0.69324, best fitness:  -0.69296
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 178 of 500***
+Generation average: -0.69331, best fitness:  -0.69292
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 179 of 500***
+Generation average: -0.69314, best fitness:  -0.69281
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 180 of 500***
+Generation average: -0.69299, best fitness:  -0.69094
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 181 of 500***
+Generation average: -0.69291, best fitness:  -0.69094
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 182 of 500***
+Generation average: -0.69285, best fitness:  -0.69094
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 183 of 500***
+Generation average: -0.69274, best fitness:  -0.69072
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 184 of 500***
+Generation average: -0.69266, best fitness:  -0.69072
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 185 of 500***
+Generation average: -0.69256, best fitness:  -0.69066
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 186 of 500***
+Generation average: -0.69223, best fitness:  -0.69063
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 187 of 500***
+Generation average: -0.69150, best fitness:  -0.69015
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 188 of 500***
+Generation average: -0.69068, best fitness:  -0.69015
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 189 of 500***
+Generation average: -0.69061, best fitness:  -0.69015
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 190 of 500***
+Generation average: -0.69057, best fitness:  -0.69010
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 191 of 500***
+Generation average: -0.69052, best fitness:  -0.68986
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 192 of 500***
+Generation average: -0.69048, best fitness:  -0.68985
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 193 of 500***
+Generation average: -0.69014, best fitness:  -0.68985
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 194 of 500***
+Generation average: -0.69003, best fitness:  -0.68969
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 195 of 500***
+Generation average: -0.68990, best fitness:  -0.68969
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 196 of 500***
+Generation average: -0.68983, best fitness:  -0.68965
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 197 of 500***
+Generation average: -0.68977, best fitness:  -0.68965
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 198 of 500***
+Generation average: -0.68972, best fitness:  -0.68958
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 199 of 500***
+Generation average: -0.68967, best fitness:  -0.68954
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 200 of 500***
+Generation average: -0.68962, best fitness:  -0.68954
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 201 of 500***
+Generation average: -0.68956, best fitness:  -0.68941
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 202 of 500***
+Generation average: -0.68955, best fitness:  -0.68941
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 203 of 500***
+Generation average: -0.68951, best fitness:  -0.68938
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 204 of 500***
+Generation average: -0.68949, best fitness:  -0.68932
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 205 of 500***
+Generation average: -0.68957, best fitness:  -0.68929
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 206 of 500***
+Generation average: -0.68950, best fitness:  -0.68926
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 207 of 500***
+Generation average: -0.68942, best fitness:  -0.68913
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 208 of 500***
+Generation average: -0.68937, best fitness:  -0.68913
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 209 of 500***
+Generation average: -0.68928, best fitness:  -0.68913
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 210 of 500***
+Generation average: -0.68924, best fitness:  -0.68913
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 211 of 500***
+Generation average: -0.68920, best fitness:  -0.68907
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 212 of 500***
+Generation average: -0.68914, best fitness:  -0.68907
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 213 of 500***
+Generation average: -0.68914, best fitness:  -0.68907
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 214 of 500***
+Generation average: -0.68913, best fitness:  -0.68907
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 215 of 500***
+Generation average: -0.68918, best fitness:  -0.68906
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 216 of 500***
+Generation average: -0.68918, best fitness:  -0.68886
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 217 of 500***
+Generation average: -0.68906, best fitness:  -0.68885
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 218 of 500***
+Generation average: -0.68899, best fitness:  -0.68871
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 219 of 500***
+Generation average: -0.68894, best fitness:  -0.68839
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 220 of 500***
+Generation average: -0.68883, best fitness:  -0.68839
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 221 of 500***
+Generation average: -0.68875, best fitness:  -0.68839
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 222 of 500***
+Generation average: -0.68882, best fitness:  -0.68839
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 223 of 500***
+Generation average: -0.68872, best fitness:  -0.68834
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 224 of 500***
+Generation average: -0.68861, best fitness:  -0.68816
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 225 of 500***
+Generation average: -0.68838, best fitness:  -0.68783
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 226 of 500***
+Generation average: -0.68826, best fitness:  -0.68783
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 227 of 500***
+Generation average: -0.68814, best fitness:  -0.68783
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 228 of 500***
+Generation average: -0.68800, best fitness:  -0.68783
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 229 of 500***
+Generation average: -0.68793, best fitness:  -0.68775
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 230 of 500***
+Generation average: -0.68790, best fitness:  -0.68774
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 231 of 500***
+Generation average: -0.68782, best fitness:  -0.68774
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 232 of 500***
+Generation average: -0.68783, best fitness:  -0.68752
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 233 of 500***
+Generation average: -0.68773, best fitness:  -0.68752
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 234 of 500***
+Generation average: -0.68777, best fitness:  -0.68752
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 235 of 500***
+Generation average: -0.68779, best fitness:  -0.68752
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 236 of 500***
+Generation average: -0.68767, best fitness:  -0.68556
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 237 of 500***
+Generation average: -0.68772, best fitness:  -0.68540
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 238 of 500***
+Generation average: -0.68743, best fitness:  -0.68540
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 239 of 500***
+Generation average: -0.68736, best fitness:  -0.68534
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 240 of 500***
+Generation average: -0.68694, best fitness:  -0.68487
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 241 of 500***
+Generation average: -0.68650, best fitness:  -0.68487
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 242 of 500***
+Generation average: -0.68561, best fitness:  -0.68487
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 243 of 500***
+Generation average: -0.68520, best fitness:  -0.68487
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 244 of 500***
+Generation average: -0.68512, best fitness:  -0.68474
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 245 of 500***
+Generation average: -0.68509, best fitness:  -0.68474
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 246 of 500***
+Generation average: -0.68497, best fitness:  -0.68449
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 247 of 500***
+Generation average: -0.68484, best fitness:  -0.68449
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 248 of 500***
+Generation average: -0.68477, best fitness:  -0.68449
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 249 of 500***
+Generation average: -0.68468, best fitness:  -0.68426
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 250 of 500***
+Generation average: -0.68462, best fitness:  -0.68401
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 251 of 500***
+Generation average: -0.68448, best fitness:  -0.68401
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 252 of 500***
+Generation average: -0.68451, best fitness:  -0.68401
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 253 of 500***
+Generation average: -0.68438, best fitness:  -0.68389
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 254 of 500***
+Generation average: -0.68423, best fitness:  -0.68389
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 255 of 500***
+Generation average: -0.68406, best fitness:  -0.68296
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 256 of 500***
+Generation average: -0.68402, best fitness:  -0.68296
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 257 of 500***
+Generation average: -0.68399, best fitness:  -0.68292
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 258 of 500***
+Generation average: -0.68389, best fitness:  -0.68292
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 259 of 500***
+Generation average: -0.68382, best fitness:  -0.68292
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 260 of 500***
+Generation average: -0.68377, best fitness:  -0.68291
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 261 of 500***
+Generation average: -0.68360, best fitness:  -0.68275
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 262 of 500***
+Generation average: -0.68329, best fitness:  -0.68273
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 263 of 500***
+Generation average: -0.68302, best fitness:  -0.68273
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 264 of 500***
+Generation average: -0.68289, best fitness:  -0.68267
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 265 of 500***
+Generation average: -0.68277, best fitness:  -0.68262
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 266 of 500***
+Generation average: -0.68278, best fitness:  -0.68260
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 267 of 500***
+Generation average: -0.68272, best fitness:  -0.68260
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 268 of 500***
+Generation average: -0.68265, best fitness:  -0.68240
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 269 of 500***
+Generation average: -0.68260, best fitness:  -0.68240
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 270 of 500***
+Generation average: -0.68259, best fitness:  -0.68240
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 271 of 500***
+Generation average: -0.68268, best fitness:  -0.68229
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 272 of 500***
+Generation average: -0.68246, best fitness:  -0.68224
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 273 of 500***
+Generation average: -0.68243, best fitness:  -0.68222
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 274 of 500***
+Generation average: -0.68243, best fitness:  -0.68222
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 275 of 500***
+Generation average: -0.68239, best fitness:  -0.68213
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 276 of 500***
+Generation average: -0.68226, best fitness:  -0.68213
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 277 of 500***
+Generation average: -0.68224, best fitness:  -0.68207
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 278 of 500***
+Generation average: -0.68223, best fitness:  -0.68205
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 279 of 500***
+Generation average: -0.68230, best fitness:  -0.68205
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 280 of 500***
+Generation average: -0.68219, best fitness:  -0.68192
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 281 of 500***
+Generation average: -0.68204, best fitness:  -0.68192
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 282 of 500***
+Generation average: -0.68201, best fitness:  -0.68189
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 283 of 500***
+Generation average: -0.68197, best fitness:  -0.68172
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 284 of 500***
+Generation average: -0.68194, best fitness:  -0.68172
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 285 of 500***
+Generation average: -0.68185, best fitness:  -0.68165
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 286 of 500***
+Generation average: -0.68183, best fitness:  -0.68165
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 287 of 500***
+Generation average: -0.68176, best fitness:  -0.68155
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 288 of 500***
+Generation average: -0.68171, best fitness:  -0.68144
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 289 of 500***
+Generation average: -0.68168, best fitness:  -0.68134
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 290 of 500***
+Generation average: -0.68173, best fitness:  -0.68131
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 291 of 500***
+Generation average: -0.68148, best fitness:  -0.68109
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 292 of 500***
+Generation average: -0.68138, best fitness:  -0.68109
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 293 of 500***
+Generation average: -0.68130, best fitness:  -0.68079
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 294 of 500***
+Generation average: -0.68116, best fitness:  -0.68053
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 295 of 500***
+Generation average: -0.68116, best fitness:  -0.68053
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 296 of 500***
+Generation average: -0.68101, best fitness:  -0.68028
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 297 of 500***
+Generation average: -0.68087, best fitness:  -0.68027
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 298 of 500***
+Generation average: -0.68071, best fitness:  -0.68023
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 299 of 500***
+Generation average: -0.68045, best fitness:  -0.68020
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 300 of 500***
+Generation average: -0.68035, best fitness:  -0.68012
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 301 of 500***
+Generation average: -0.68026, best fitness:  -0.67973
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 302 of 500***
+Generation average: -0.68023, best fitness:  -0.67973
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 303 of 500***
+Generation average: -0.68015, best fitness:  -0.67949
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 304 of 500***
+Generation average: -0.68007, best fitness:  -0.67949
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 305 of 500***
+Generation average: -0.67993, best fitness:  -0.67949
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 306 of 500***
+Generation average: -0.67993, best fitness:  -0.67949
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 307 of 500***
+Generation average: -0.67970, best fitness:  -0.67923
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 308 of 500***
+Generation average: -0.67959, best fitness:  -0.67914
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 309 of 500***
+Generation average: -0.67948, best fitness:  -0.67914
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 310 of 500***
+Generation average: -0.67939, best fitness:  -0.67869
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 311 of 500***
+Generation average: -0.67924, best fitness:  -0.67868
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 312 of 500***
+Generation average: -0.67935, best fitness:  -0.67868
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 313 of 500***
+Generation average: -0.67898, best fitness:  -0.67855
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 314 of 500***
+Generation average: -0.67885, best fitness:  -0.67849
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 315 of 500***
+Generation average: -0.67873, best fitness:  -0.67845
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 316 of 500***
+Generation average: -0.67868, best fitness:  -0.67816
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 317 of 500***
+Generation average: -0.67855, best fitness:  -0.67816
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 318 of 500***
+Generation average: -0.67847, best fitness:  -0.67816
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 319 of 500***
+Generation average: -0.67839, best fitness:  -0.67816
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 320 of 500***
+Generation average: -0.67825, best fitness:  -0.67816
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 321 of 500***
+Generation average: -0.67823, best fitness:  -0.67812
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 322 of 500***
+Generation average: -0.67830, best fitness:  -0.67802
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 323 of 500***
+Generation average: -0.67820, best fitness:  -0.67802
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 324 of 500***
+Generation average: -0.67821, best fitness:  -0.67802
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 325 of 500***
+Generation average: -0.67813, best fitness:  -0.67802
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 326 of 500***
+Generation average: -0.67812, best fitness:  -0.67802
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 327 of 500***
+Generation average: -0.67814, best fitness:  -0.67799
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 328 of 500***
+Generation average: -0.67814, best fitness:  -0.67799
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 329 of 500***
+Generation average: -0.67811, best fitness:  -0.67794
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 330 of 500***
+Generation average: -0.67826, best fitness:  -0.67786
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 331 of 500***
+Generation average: -0.67818, best fitness:  -0.67786
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 332 of 500***
+Generation average: -0.67808, best fitness:  -0.67776
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 333 of 500***
+Generation average: -0.67797, best fitness:  -0.67775
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 334 of 500***
+Generation average: -0.67784, best fitness:  -0.67769
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 335 of 500***
+Generation average: -0.67779, best fitness:  -0.67769
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 336 of 500***
+Generation average: -0.67780, best fitness:  -0.67748
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 337 of 500***
+Generation average: -0.67770, best fitness:  -0.67746
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 338 of 500***
+Generation average: -0.67784, best fitness:  -0.67742
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 339 of 500***
+Generation average: -0.67757, best fitness:  -0.67740
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 340 of 500***
+Generation average: -0.67747, best fitness:  -0.67659
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 341 of 500***
+Generation average: -0.67740, best fitness:  -0.67659
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 342 of 500***
+Generation average: -0.67732, best fitness:  -0.67654
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 343 of 500***
+Generation average: -0.67711, best fitness:  -0.67640
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 344 of 500***
+Generation average: -0.67674, best fitness:  -0.67569
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 345 of 500***
+Generation average: -0.67642, best fitness:  -0.67567
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 346 of 500***
+Generation average: -0.67622, best fitness:  -0.67552
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 347 of 500***
+Generation average: -0.67581, best fitness:  -0.67508
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 348 of 500***
+Generation average: -0.67570, best fitness:  -0.67508
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 349 of 500***
+Generation average: -0.67554, best fitness:  -0.67412
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 350 of 500***
+Generation average: -0.67545, best fitness:  -0.67412
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 351 of 500***
+Generation average: -0.67532, best fitness:  -0.67377
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 352 of 500***
+Generation average: -0.67519, best fitness:  -0.67374
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 353 of 500***
+Generation average: -0.67496, best fitness:  -0.67373
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 354 of 500***
+Generation average: -0.67481, best fitness:  -0.67373
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 355 of 500***
+Generation average: -0.67450, best fitness:  -0.67357
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 356 of 500***
+Generation average: -0.67404, best fitness:  -0.67301
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 357 of 500***
+Generation average: -0.67371, best fitness:  -0.67301
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 358 of 500***
+Generation average: -0.67361, best fitness:  -0.67301
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 359 of 500***
+Generation average: -0.67345, best fitness:  -0.67280
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 360 of 500***
+Generation average: -0.67328, best fitness:  -0.67280
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 361 of 500***
+Generation average: -0.67309, best fitness:  -0.67236
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 362 of 500***
+Generation average: -0.67290, best fitness:  -0.67236
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 363 of 500***
+Generation average: -0.67280, best fitness:  -0.67236
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 364 of 500***
+Generation average: -0.67298, best fitness:  -0.67236
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 365 of 500***
+Generation average: -0.67249, best fitness:  -0.67224
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 366 of 500***
+Generation average: -0.67242, best fitness:  -0.67224
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 367 of 500***
+Generation average: -0.67237, best fitness:  -0.67179
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 368 of 500***
+Generation average: -0.67233, best fitness:  -0.67179
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 369 of 500***
+Generation average: -0.67225, best fitness:  -0.67179
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 370 of 500***
+Generation average: -0.67226, best fitness:  -0.67179
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 371 of 500***
+Generation average: -0.67225, best fitness:  -0.67179
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 372 of 500***
+Generation average: -0.67221, best fitness:  -0.67168
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 373 of 500***
+Generation average: -0.67238, best fitness:  -0.67168
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 374 of 500***
+Generation average: -0.67217, best fitness:  -0.67166
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 375 of 500***
+Generation average: -0.67211, best fitness:  -0.67166
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 376 of 500***
+Generation average: -0.67206, best fitness:  -0.67161
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 377 of 500***
+Generation average: -0.67189, best fitness:  -0.67153
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 378 of 500***
+Generation average: -0.67174, best fitness:  -0.67150
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 379 of 500***
+Generation average: -0.67164, best fitness:  -0.67149
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 380 of 500***
+Generation average: -0.67173, best fitness:  -0.67149
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 381 of 500***
+Generation average: -0.67153, best fitness:  -0.67138
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 382 of 500***
+Generation average: -0.67151, best fitness:  -0.67138
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 383 of 500***
+Generation average: -0.67149, best fitness:  -0.67137
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 384 of 500***
+Generation average: -0.67151, best fitness:  -0.67133
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 385 of 500***
+Generation average: -0.67148, best fitness:  -0.67133
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 386 of 500***
+Generation average: -0.67138, best fitness:  -0.67126
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 387 of 500***
+Generation average: -0.67140, best fitness:  -0.67126
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 388 of 500***
+Generation average: -0.67137, best fitness:  -0.67124
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 389 of 500***
+Generation average: -0.67135, best fitness:  -0.67121
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 390 of 500***
+Generation average: -0.67134, best fitness:  -0.67116
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 391 of 500***
+Generation average: -0.67130, best fitness:  -0.67114
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 392 of 500***
+Generation average: -0.67124, best fitness:  -0.67114
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 393 of 500***
+Generation average: -0.67124, best fitness:  -0.67114
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 394 of 500***
+Generation average: -0.67127, best fitness:  -0.67106
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 395 of 500***
+Generation average: -0.67119, best fitness:  -0.67106
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 396 of 500***
+Generation average: -0.67116, best fitness:  -0.67089
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 397 of 500***
+Generation average: -0.67114, best fitness:  -0.67089
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 398 of 500***
+Generation average: -0.67108, best fitness:  -0.67089
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 399 of 500***
+Generation average: -0.67098, best fitness:  -0.67086
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 400 of 500***
+Generation average: -0.67094, best fitness:  -0.67083
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 401 of 500***
+Generation average: -0.67091, best fitness:  -0.67075
+tensor([1.0500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 402 of 500***
+Generation average: -0.67083, best fitness:  -0.66826
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 403 of 500***
+Generation average: -0.67078, best fitness:  -0.66826
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 404 of 500***
+Generation average: -0.67077, best fitness:  -0.66826
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 405 of 500***
+Generation average: -0.67069, best fitness:  -0.66826
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 406 of 500***
+Generation average: -0.67068, best fitness:  -0.66826
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 407 of 500***
+Generation average: -0.67064, best fitness:  -0.66824
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 408 of 500***
+Generation average: -0.67066, best fitness:  -0.66824
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 409 of 500***
+Generation average: -0.67044, best fitness:  -0.66816
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 410 of 500***
+Generation average: -0.66977, best fitness:  -0.66805
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 411 of 500***
+Generation average: -0.66879, best fitness:  -0.66805
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 412 of 500***
+Generation average: -0.66824, best fitness:  -0.66795
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 413 of 500***
+Generation average: -0.66817, best fitness:  -0.66792
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 414 of 500***
+Generation average: -0.66811, best fitness:  -0.66786
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 415 of 500***
+Generation average: -0.66796, best fitness:  -0.66768
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 416 of 500***
+Generation average: -0.66790, best fitness:  -0.66748
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 417 of 500***
+Generation average: -0.66789, best fitness:  -0.66748
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 418 of 500***
+Generation average: -0.66780, best fitness:  -0.66736
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 419 of 500***
+Generation average: -0.66769, best fitness:  -0.66732
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 420 of 500***
+Generation average: -0.66753, best fitness:  -0.66723
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 421 of 500***
+Generation average: -0.66743, best fitness:  -0.66718
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 422 of 500***
+Generation average: -0.66731, best fitness:  -0.66677
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 423 of 500***
+Generation average: -0.66725, best fitness:  -0.66677
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 424 of 500***
+Generation average: -0.66722, best fitness:  -0.66677
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 425 of 500***
+Generation average: -0.66710, best fitness:  -0.66666
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 426 of 500***
+Generation average: -0.66698, best fitness:  -0.66654
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 427 of 500***
+Generation average: -0.66682, best fitness:  -0.66641
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 428 of 500***
+Generation average: -0.66667, best fitness:  -0.66635
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 429 of 500***
+Generation average: -0.66665, best fitness:  -0.66635
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 430 of 500***
+Generation average: -0.66675, best fitness:  -0.66618
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 431 of 500***
+Generation average: -0.66666, best fitness:  -0.66618
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 432 of 500***
+Generation average: -0.66640, best fitness:  -0.66616
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 433 of 500***
+Generation average: -0.66632, best fitness:  -0.66610
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 434 of 500***
+Generation average: -0.66618, best fitness:  -0.66591
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 435 of 500***
+Generation average: -0.66616, best fitness:  -0.66584
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 436 of 500***
+Generation average: -0.66610, best fitness:  -0.66584
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 437 of 500***
+Generation average: -0.66607, best fitness:  -0.66584
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 438 of 500***
+Generation average: -0.66605, best fitness:  -0.66576
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 439 of 500***
+Generation average: -0.66595, best fitness:  -0.66571
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 440 of 500***
+Generation average: -0.66596, best fitness:  -0.66563
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 441 of 500***
+Generation average: -0.66631, best fitness:  -0.66561
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 442 of 500***
+Generation average: -0.66574, best fitness:  -0.66547
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 443 of 500***
+Generation average: -0.66569, best fitness:  -0.66547
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 444 of 500***
+Generation average: -0.66561, best fitness:  -0.66547
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 445 of 500***
+Generation average: -0.66559, best fitness:  -0.66547
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 446 of 500***
+Generation average: -0.66553, best fitness:  -0.66533
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 447 of 500***
+Generation average: -0.66547, best fitness:  -0.66529
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 448 of 500***
+Generation average: -0.66544, best fitness:  -0.66522
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 449 of 500***
+Generation average: -0.66537, best fitness:  -0.66509
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 450 of 500***
+Generation average: -0.66528, best fitness:  -0.66503
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 451 of 500***
+Generation average: -0.66523, best fitness:  -0.66488
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 452 of 500***
+Generation average: -0.66512, best fitness:  -0.66488
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 453 of 500***
+Generation average: -0.66504, best fitness:  -0.66488
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 454 of 500***
+Generation average: -0.66497, best fitness:  -0.66488
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 455 of 500***
+Generation average: -0.66499, best fitness:  -0.66488
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 456 of 500***
+Generation average: -0.66496, best fitness:  -0.66482
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 457 of 500***
+Generation average: -0.66491, best fitness:  -0.66471
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 458 of 500***
+Generation average: -0.66490, best fitness:  -0.66471
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 459 of 500***
+Generation average: -0.66489, best fitness:  -0.66471
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 460 of 500***
+Generation average: -0.66482, best fitness:  -0.66467
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 461 of 500***
+Generation average: -0.66477, best fitness:  -0.66464
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 462 of 500***
+Generation average: -0.66472, best fitness:  -0.66463
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 463 of 500***
+Generation average: -0.66475, best fitness:  -0.66463
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 464 of 500***
+Generation average: -0.66489, best fitness:  -0.66463
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 465 of 500***
+Generation average: -0.66468, best fitness:  -0.66459
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 466 of 500***
+Generation average: -0.66465, best fitness:  -0.66451
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 467 of 500***
+Generation average: -0.66462, best fitness:  -0.66399
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 468 of 500***
+Generation average: -0.66467, best fitness:  -0.66399
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 469 of 500***
+Generation average: -0.66471, best fitness:  -0.66395
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 470 of 500***
+Generation average: -0.66453, best fitness:  -0.66382
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 471 of 500***
+Generation average: -0.66431, best fitness:  -0.66373
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 472 of 500***
+Generation average: -0.66422, best fitness:  -0.66373
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 473 of 500***
+Generation average: -0.66402, best fitness:  -0.66363
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 474 of 500***
+Generation average: -0.66390, best fitness:  -0.66361
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 475 of 500***
+Generation average: -0.66379, best fitness:  -0.66361
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 476 of 500***
+Generation average: -0.66372, best fitness:  -0.66358
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 477 of 500***
+Generation average: -0.66378, best fitness:  -0.66354
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 478 of 500***
+Generation average: -0.66366, best fitness:  -0.66354
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 479 of 500***
+Generation average: -0.66370, best fitness:  -0.66350
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 480 of 500***
+Generation average: -0.66360, best fitness:  -0.66347
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 481 of 500***
+Generation average: -0.66354, best fitness:  -0.66346
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 482 of 500***
+Generation average: -0.66351, best fitness:  -0.66340
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 483 of 500***
+Generation average: -0.66358, best fitness:  -0.66340
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 484 of 500***
+Generation average: -0.66348, best fitness:  -0.66340
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 485 of 500***
+Generation average: -0.66343, best fitness:  -0.66243
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 486 of 500***
+Generation average: -0.66341, best fitness:  -0.66243
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 487 of 500***
+Generation average: -0.66334, best fitness:  -0.66243
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 488 of 500***
+Generation average: -0.66332, best fitness:  -0.66242
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 489 of 500***
+Generation average: -0.66318, best fitness:  -0.66228
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 490 of 500***
+Generation average: -0.66288, best fitness:  -0.66225
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 491 of 500***
+Generation average: -0.66283, best fitness:  -0.66217
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 492 of 500***
+Generation average: -0.66240, best fitness:  -0.66216
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 493 of 500***
+Generation average: -0.66228, best fitness:  -0.66214
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 494 of 500***
+Generation average: -0.66222, best fitness:  -0.66191
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 495 of 500***
+Generation average: -0.66218, best fitness:  -0.66189
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 496 of 500***
+Generation average: -0.66213, best fitness:  -0.66189
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 497 of 500***
+Generation average: -0.66210, best fitness:  -0.66188
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 498 of 500***
+Generation average: -0.66205, best fitness:  -0.66188
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 499 of 500***
+Generation average: -0.66194, best fitness:  -0.66184
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])
+***Doing generation 500 of 500***
+Generation average: -0.66191, best fitness:  -0.66176
+tensor([0.9500, 1.0138, 0.9500,  ..., 0.9500, 1.0323, 0.9500])

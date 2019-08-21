@@ -1,0 +1,21 @@
+Using TensorFlow backend.
+Loading caffemodel:  ./cnnseg/velodyne64/deploy.caffemodel
+***Doing generation 1 of 50***
+Generation average: -0.87475, best fitness:  -0.64788
+***Doing generation 2 of 50***
+Generation average: -0.84853, best fitness:  -0.64788
+***Doing generation 3 of 50***
+Generation average: -0.84355, best fitness:  -0.64669
+***Doing generation 4 of 50***
+Generation average: -0.84761, best fitness:  -0.64669
+***Doing generation 5 of 50***
+Generation average: -0.84903, best fitness:  -0.60313
+***Doing generation 6 of 50***
+Generation average: -0.84605, best fitness:  -0.60313
+***Doing generation 7 of 50***
+Generation average: -0.84446, best fitness:  -0.57127
+***Doing generation 8 of 50***
+Generation average: -0.84760, best fitness:  -0.57127
+***Doing generation 9 of 50***
+Generation average: -0.84062, best fitness:  -0.55575
+***Doing generation 10 of 50***
