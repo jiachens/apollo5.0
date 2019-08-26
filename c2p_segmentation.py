@@ -87,7 +87,7 @@ def groupPc2Pixel(PT, inv_res_x, range_):
 	return x,y
 
 
-def loadPCL(PCL,flag):
+def loadPCL(PCL,flag = True):
 
 	if flag:
 		PCL = np.fromfile(PCL, dtype=np.float32)

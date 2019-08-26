@@ -7,6 +7,7 @@ import torch.distributions as tdist
 import loss
 import numpy as np
 import os
+from xyz2grid import *
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 
@@ -26,7 +27,7 @@ _, PCL_except_car,target_obs = c2p_segmentation.preProcess(PCL_path,'./7/18_obs.
 class Optimizer():
     """Class that implements genetic algorithm."""
 
-    def __init__(self, length, retain=0.4,
+    def __init__(self, length, retain=0.3,
                  random_select=0.1, mutate_chance=0.2):
         """Create an optimizer.
         Args:
@@ -81,20 +82,19 @@ class Optimizer():
         z_final = torch.cat([z_final,z_var],dim = 0)
         i_final = torch.cat([i_final,i_var],dim = 0)
 
-        PCL = torch.stack([x_final,y_final,z_final,i_final]).permute(1,0).cpu().detach().numpy()
-        PCLConverted = c2p_segmentation.mapPointToGrid(PCL)
-        featureM = c2p_segmentation.generateFM(PCL, PCLConverted)
-        featureM = np.array(featureM).astype('float32')
-        featureM = torch.cuda.FloatTensor(featureM)
-        featureM = featureM.view(1,6,672,672)
+        grids = xyzi2grid(x_final, y_final, z_final, i_final)
+        FM = gridi2feature(grids)
+
+
         with torch.no_grad():
-            outputPytorch = pytorchModels(featureM)
+            outputPytorch = pytorchModels(FM)
         lossValue,loss_object,loss_distance = loss.lossPassiveAttack(outputPytorch,x_var,y_var,z_var,scale)
 
-        del x_var,y_var,z_var,i_var,x_final,y_final,z_final,i_final,PCL,PCLConverted,featureM,outputPytorch
+        del x_var,y_var,z_var,i_var,x_final,y_final,z_final,i_final,outputPytorch
         torch.cuda.empty_cache()
 
         return -lossValue
+
 
     def grade(self, pop):
         """Find average fitness for a population.
@@ -213,25 +213,33 @@ class Optimizer():
 
 if __name__ == '__main__':
 
-    generations = 50
-    population = 1000
-    optimizer = Optimizer(target_obs.shape[0])
-    scales = optimizer.create_population(population)
+    generations = 25
+    population = 2000
 
-    for i in range(generations):
+    for retain in [0.1,0.2,0.3]:
+        for rand in [0.01,0.05,0.1]:
+            optimizer = Optimizer(target_obs.shape[0],retain=retain,random_select=rand)
+            scales = optimizer.create_population(population)
 
-        print "***Doing generation %d of %d***" % (i + 1, generations)
+            print "***Doing retain %f, random %f***" % (retain, rand)
+
+            for i in range(generations):
+
+                print "***Doing generation %d of %d***" % (i + 1, generations)
 
 
-        # Get the average accuracy for this generation.
-        average_fitness, fitlist = optimizer.grade(scales)
-        rank = [x for x in sorted(fitlist, key=lambda x: x[0], reverse=True)]
+                # Get the average accuracy for this generation.
+                average_fitness, fitlist = optimizer.grade(scales)
+                rank = [x for x in sorted(fitlist, key=lambda x: x[0], reverse=True)]
 
-        # Print out the average accuracy each generation.
-        print "Generation average: %.5f, best fitness:  %.5f" % (average_fitness,rank[0][0])
-        # Evolve, except on the last iteration.
-        if i != generations - 1:
-            # Do the evolution.
-            scales = optimizer.evolve(scales,fitlist)
+                # Print out the average accuracy each generation.
+                print "Generation average: %.5f, best fitness:  %.5f" % (average_fitness,rank[0][0])
+                # Evolve, except on the last iteration.
+                if i != generations - 1:
+                    # Do the evolution.
+                    scales = optimizer.evolve(scales,fitlist)
 
-        rank[0][1].cpu().numpy().tofile('genetic_best_scale_multicross_1000_7_18_cyl_09_11.bin')
+
+                # os.mkdir('./genetic/%d'%(dataIdx))
+
+                rank[0][1].cpu().numpy().tofile('./genetic/%f_%f_2000_7_18_cyl_09_11.bin'%(retain,rand))

@@ -1,0 +1,406 @@
+Using TensorFlow backend.
+Loading caffemodel:  ./cnnseg/velodyne64/deploy.caffemodel
+***Doing perturbation 0.005000 ***
+***Doing generation 1 of 50***
+Generation average: -0.88099, best fitness:  -0.83131
+***Doing generation 2 of 50***
+Generation average: -0.87182, best fitness:  -0.82192
+***Doing generation 3 of 50***
+Generation average: -0.86691, best fitness:  -0.81866
+***Doing generation 4 of 50***
+Generation average: -0.86784, best fitness:  -0.81669
+***Doing generation 5 of 50***
+Generation average: -0.86937, best fitness:  -0.81669
+***Doing generation 6 of 50***
+Generation average: -0.87147, best fitness:  -0.81565
+***Doing generation 7 of 50***
+Generation average: -0.86814, best fitness:  -0.80674
+***Doing generation 8 of 50***
+Generation average: -0.86955, best fitness:  -0.80674
+***Doing generation 9 of 50***
+Generation average: -0.87058, best fitness:  -0.80674
+***Doing generation 10 of 50***
+Generation average: -0.86773, best fitness:  -0.80509
+***Doing generation 11 of 50***
+Generation average: -0.86746, best fitness:  -0.78675
+***Doing generation 12 of 50***
+Generation average: -0.86521, best fitness:  -0.78675
+***Doing generation 13 of 50***
+Generation average: -0.86569, best fitness:  -0.78675
+***Doing generation 14 of 50***
+Generation average: -0.86750, best fitness:  -0.78675
+***Doing generation 15 of 50***
+Generation average: -0.86349, best fitness:  -0.78675
+***Doing generation 16 of 50***
+Generation average: -0.86665, best fitness:  -0.78675
+***Doing generation 17 of 50***
+Generation average: -0.86644, best fitness:  -0.78675
+***Doing generation 18 of 50***
+Generation average: -0.86425, best fitness:  -0.78675
+***Doing generation 19 of 50***
+Generation average: -0.86204, best fitness:  -0.78675
+***Doing generation 20 of 50***
+Generation average: -0.86147, best fitness:  -0.78675
+***Doing generation 21 of 50***
+Generation average: -0.85960, best fitness:  -0.78675
+***Doing generation 22 of 50***
+Generation average: -0.85789, best fitness:  -0.78675
+***Doing generation 23 of 50***
+Generation average: -0.85724, best fitness:  -0.78675
+***Doing generation 24 of 50***
+Generation average: -0.85877, best fitness:  -0.78675
+***Doing generation 25 of 50***
+Generation average: -0.85553, best fitness:  -0.78675
+***Doing generation 26 of 50***
+Generation average: -0.85645, best fitness:  -0.78675
+***Doing generation 27 of 50***
+Generation average: -0.85963, best fitness:  -0.78675
+***Doing generation 28 of 50***
+Generation average: -0.85514, best fitness:  -0.78675
+***Doing generation 29 of 50***
+Generation average: -0.85448, best fitness:  -0.78675
+***Doing generation 30 of 50***
+Generation average: -0.85785, best fitness:  -0.78416
+***Doing generation 31 of 50***
+Generation average: -0.86011, best fitness:  -0.78416
+***Doing generation 32 of 50***
+Generation average: -0.85941, best fitness:  -0.78416
+***Doing generation 33 of 50***
+Generation average: -0.85804, best fitness:  -0.78416
+***Doing generation 34 of 50***
+Generation average: -0.86022, best fitness:  -0.78416
+***Doing generation 35 of 50***
+Generation average: -0.85986, best fitness:  -0.78416
+***Doing generation 36 of 50***
+Generation average: -0.85735, best fitness:  -0.78066
+***Doing generation 37 of 50***
+Generation average: -0.85962, best fitness:  -0.78066
+***Doing generation 38 of 50***
+Generation average: -0.85887, best fitness:  -0.78066
+***Doing generation 39 of 50***
+Generation average: -0.85508, best fitness:  -0.78066
+***Doing generation 40 of 50***
+Generation average: -0.85969, best fitness:  -0.78066
+***Doing generation 41 of 50***
+Generation average: -0.85917, best fitness:  -0.77699
+***Doing generation 42 of 50***
+Generation average: -0.85776, best fitness:  -0.77699
+***Doing generation 43 of 50***
+Generation average: -0.85807, best fitness:  -0.77699
+***Doing generation 44 of 50***
+Generation average: -0.85837, best fitness:  -0.77699
+***Doing generation 45 of 50***
+Generation average: -0.85970, best fitness:  -0.77699
+***Doing generation 46 of 50***
+Generation average: -0.86004, best fitness:  -0.77699
+***Doing generation 47 of 50***
+Generation average: -0.86030, best fitness:  -0.77699
+***Doing generation 48 of 50***
+Generation average: -0.85674, best fitness:  -0.77699
+***Doing generation 49 of 50***
+Generation average: -0.85851, best fitness:  -0.77699
+***Doing generation 50 of 50***
+Generation average: -0.86229, best fitness:  -0.77699
+***Doing perturbation 0.010000 ***
+***Doing generation 1 of 50***
+Generation average: -0.88045, best fitness:  -0.82815
+***Doing generation 2 of 50***
+Generation average: -0.88682, best fitness:  -0.82560
+***Doing generation 3 of 50***
+Generation average: -0.89248, best fitness:  -0.82331
+***Doing generation 4 of 50***
+Generation average: -0.89353, best fitness:  -0.82331
+***Doing generation 5 of 50***
+Generation average: -0.89070, best fitness:  -0.82331
+***Doing generation 6 of 50***
+Generation average: -0.88556, best fitness:  -0.82331
+***Doing generation 7 of 50***
+Generation average: -0.88425, best fitness:  -0.82331
+***Doing generation 8 of 50***
+Generation average: -0.88774, best fitness:  -0.82331
+***Doing generation 9 of 50***
+Generation average: -0.88784, best fitness:  -0.82331
+***Doing generation 10 of 50***
+Generation average: -0.88814, best fitness:  -0.82331
+***Doing generation 11 of 50***
+Generation average: -0.88654, best fitness:  -0.82331
+***Doing generation 12 of 50***
+Generation average: -0.88669, best fitness:  -0.82331
+***Doing generation 13 of 50***
+Generation average: -0.88689, best fitness:  -0.82331
+***Doing generation 14 of 50***
+Generation average: -0.88698, best fitness:  -0.81163
+***Doing generation 15 of 50***
+Generation average: -0.88274, best fitness:  -0.81163
+***Doing generation 16 of 50***
+Generation average: -0.88358, best fitness:  -0.81163
+***Doing generation 17 of 50***
+Generation average: -0.88248, best fitness:  -0.81163
+***Doing generation 18 of 50***
+Generation average: -0.87948, best fitness:  -0.81163
+***Doing generation 19 of 50***
+Generation average: -0.88051, best fitness:  -0.81163
+***Doing generation 20 of 50***
+Generation average: -0.88213, best fitness:  -0.81163
+***Doing generation 21 of 50***
+Generation average: -0.88177, best fitness:  -0.81163
+***Doing generation 22 of 50***
+Generation average: -0.88284, best fitness:  -0.81099
+***Doing generation 23 of 50***
+Generation average: -0.88305, best fitness:  -0.81099
+***Doing generation 24 of 50***
+Generation average: -0.88447, best fitness:  -0.81099
+***Doing generation 25 of 50***
+Generation average: -0.88116, best fitness:  -0.81099
+***Doing generation 26 of 50***
+Generation average: -0.88341, best fitness:  -0.81099
+***Doing generation 27 of 50***
+Generation average: -0.88543, best fitness:  -0.81099
+***Doing generation 28 of 50***
+Generation average: -0.88465, best fitness:  -0.81099
+***Doing generation 29 of 50***
+Generation average: -0.88239, best fitness:  -0.81099
+***Doing generation 30 of 50***
+Generation average: -0.88135, best fitness:  -0.81099
+***Doing generation 31 of 50***
+Generation average: -0.88198, best fitness:  -0.81099
+***Doing generation 32 of 50***
+Generation average: -0.88006, best fitness:  -0.81099
+***Doing generation 33 of 50***
+Generation average: -0.88148, best fitness:  -0.81099
+***Doing generation 34 of 50***
+Generation average: -0.88245, best fitness:  -0.81099
+***Doing generation 35 of 50***
+Generation average: -0.87344, best fitness:  -0.81099
+***Doing generation 36 of 50***
+Generation average: -0.87862, best fitness:  -0.81099
+***Doing generation 37 of 50***
+Generation average: -0.88025, best fitness:  -0.81099
+***Doing generation 38 of 50***
+Generation average: -0.87923, best fitness:  -0.81099
+***Doing generation 39 of 50***
+Generation average: -0.87871, best fitness:  -0.81099
+***Doing generation 40 of 50***
+Generation average: -0.87714, best fitness:  -0.81099
+***Doing generation 41 of 50***
+Generation average: -0.87960, best fitness:  -0.81099
+***Doing generation 42 of 50***
+Generation average: -0.87863, best fitness:  -0.81099
+***Doing generation 43 of 50***
+Generation average: -0.87867, best fitness:  -0.81099
+***Doing generation 44 of 50***
+Generation average: -0.88025, best fitness:  -0.81099
+***Doing generation 45 of 50***
+Generation average: -0.87844, best fitness:  -0.81099
+***Doing generation 46 of 50***
+Generation average: -0.88397, best fitness:  -0.81099
+***Doing generation 47 of 50***
+Generation average: -0.88330, best fitness:  -0.81099
+***Doing generation 48 of 50***
+Generation average: -0.88140, best fitness:  -0.81099
+***Doing generation 49 of 50***
+Generation average: -0.88214, best fitness:  -0.81099
+***Doing generation 50 of 50***
+Generation average: -0.88226, best fitness:  -0.81099
+***Doing perturbation 0.020000 ***
+***Doing generation 1 of 50***
+Generation average: -0.88111, best fitness:  -0.83082
+***Doing generation 2 of 50***
+Generation average: -0.90138, best fitness:  -0.83082
+***Doing generation 3 of 50***
+Generation average: -0.89899, best fitness:  -0.83082
+***Doing generation 4 of 50***
+Generation average: -0.89802, best fitness:  -0.83082
+***Doing generation 5 of 50***
+Generation average: -0.89790, best fitness:  -0.82949
+***Doing generation 6 of 50***
+Generation average: -0.89887, best fitness:  -0.82949
+***Doing generation 7 of 50***
+Generation average: -0.89903, best fitness:  -0.82949
+***Doing generation 8 of 50***
+Generation average: -0.89803, best fitness:  -0.82949
+***Doing generation 9 of 50***
+Generation average: -0.89622, best fitness:  -0.82949
+***Doing generation 10 of 50***
+Generation average: -0.89653, best fitness:  -0.82949
+***Doing generation 11 of 50***
+Generation average: -0.89552, best fitness:  -0.82949
+***Doing generation 12 of 50***
+Generation average: -0.89286, best fitness:  -0.82949
+***Doing generation 13 of 50***
+Generation average: -0.89375, best fitness:  -0.82949
+***Doing generation 14 of 50***
+Generation average: -0.89401, best fitness:  -0.82949
+***Doing generation 15 of 50***
+Generation average: -0.89536, best fitness:  -0.82949
+***Doing generation 16 of 50***
+Generation average: -0.89631, best fitness:  -0.82949
+***Doing generation 17 of 50***
+Generation average: -0.89496, best fitness:  -0.82949
+***Doing generation 18 of 50***
+Generation average: -0.89459, best fitness:  -0.82949
+***Doing generation 19 of 50***
+Generation average: -0.89371, best fitness:  -0.82949
+***Doing generation 20 of 50***
+Generation average: -0.89500, best fitness:  -0.82949
+***Doing generation 21 of 50***
+Generation average: -0.89394, best fitness:  -0.82949
+***Doing generation 22 of 50***
+Generation average: -0.89711, best fitness:  -0.82949
+***Doing generation 23 of 50***
+Generation average: -0.89720, best fitness:  -0.82949
+***Doing generation 24 of 50***
+Generation average: -0.89545, best fitness:  -0.82949
+***Doing generation 25 of 50***
+Generation average: -0.89512, best fitness:  -0.82753
+***Doing generation 26 of 50***
+Generation average: -0.89537, best fitness:  -0.82753
+***Doing generation 27 of 50***
+Generation average: -0.89860, best fitness:  -0.82753
+***Doing generation 28 of 50***
+Generation average: -0.89867, best fitness:  -0.82753
+***Doing generation 29 of 50***
+Generation average: -0.89828, best fitness:  -0.82753
+***Doing generation 30 of 50***
+Generation average: -0.89672, best fitness:  -0.82753
+***Doing generation 31 of 50***
+Generation average: -0.89728, best fitness:  -0.82753
+***Doing generation 32 of 50***
+Generation average: -0.89813, best fitness:  -0.82753
+***Doing generation 33 of 50***
+Generation average: -0.89675, best fitness:  -0.82753
+***Doing generation 34 of 50***
+Generation average: -0.89628, best fitness:  -0.82753
+***Doing generation 35 of 50***
+Generation average: -0.89783, best fitness:  -0.82753
+***Doing generation 36 of 50***
+Generation average: -0.89576, best fitness:  -0.82753
+***Doing generation 37 of 50***
+Generation average: -0.89635, best fitness:  -0.82753
+***Doing generation 38 of 50***
+Generation average: -0.89500, best fitness:  -0.82753
+***Doing generation 39 of 50***
+Generation average: -0.89467, best fitness:  -0.82753
+***Doing generation 40 of 50***
+Generation average: -0.89612, best fitness:  -0.82753
+***Doing generation 41 of 50***
+Generation average: -0.89630, best fitness:  -0.82753
+***Doing generation 42 of 50***
+Generation average: -0.89616, best fitness:  -0.82753
+***Doing generation 43 of 50***
+Generation average: -0.89722, best fitness:  -0.82753
+***Doing generation 44 of 50***
+Generation average: -0.89698, best fitness:  -0.82753
+***Doing generation 45 of 50***
+Generation average: -0.89424, best fitness:  -0.82753
+***Doing generation 46 of 50***
+Generation average: -0.89455, best fitness:  -0.82753
+***Doing generation 47 of 50***
+Generation average: -0.89604, best fitness:  -0.82753
+***Doing generation 48 of 50***
+Generation average: -0.89707, best fitness:  -0.82753
+***Doing generation 49 of 50***
+Generation average: -0.89678, best fitness:  -0.82753
+***Doing generation 50 of 50***
+Generation average: -0.89678, best fitness:  -0.82753
+***Doing perturbation 0.030000 ***
+***Doing generation 1 of 50***
+Generation average: -0.88133, best fitness:  -0.82264
+***Doing generation 2 of 50***
+Generation average: -0.89825, best fitness:  -0.82264
+***Doing generation 3 of 50***
+Generation average: -0.89953, best fitness:  -0.82264
+***Doing generation 4 of 50***
+Generation average: -0.90183, best fitness:  -0.82264
+***Doing generation 5 of 50***
+Generation average: -0.90323, best fitness:  -0.82264
+***Doing generation 6 of 50***
+Generation average: -0.90121, best fitness:  -0.82264
+***Doing generation 7 of 50***
+Generation average: -0.90473, best fitness:  -0.82264
+***Doing generation 8 of 50***
+Generation average: -0.90116, best fitness:  -0.82264
+***Doing generation 9 of 50***
+Generation average: -0.90142, best fitness:  -0.82264
+***Doing generation 10 of 50***
+Generation average: -0.90187, best fitness:  -0.82264
+***Doing generation 11 of 50***
+Generation average: -0.89847, best fitness:  -0.82264
+***Doing generation 12 of 50***
+Generation average: -0.90101, best fitness:  -0.82264
+***Doing generation 13 of 50***
+Generation average: -0.90134, best fitness:  -0.82264
+***Doing generation 14 of 50***
+Generation average: -0.90130, best fitness:  -0.82264
+***Doing generation 15 of 50***
+Generation average: -0.90141, best fitness:  -0.82264
+***Doing generation 16 of 50***
+Generation average: -0.90196, best fitness:  -0.82264
+***Doing generation 17 of 50***
+Generation average: -0.90093, best fitness:  -0.82264
+***Doing generation 18 of 50***
+Generation average: -0.89868, best fitness:  -0.82264
+***Doing generation 19 of 50***
+Generation average: -0.89926, best fitness:  -0.82264
+***Doing generation 20 of 50***
+Generation average: -0.90312, best fitness:  -0.82264
+***Doing generation 21 of 50***
+Generation average: -0.90424, best fitness:  -0.82264
+***Doing generation 22 of 50***
+Generation average: -0.89929, best fitness:  -0.82264
+***Doing generation 23 of 50***
+Generation average: -0.89917, best fitness:  -0.82264
+***Doing generation 24 of 50***
+Generation average: -0.90094, best fitness:  -0.82264
+***Doing generation 25 of 50***
+Generation average: -0.90023, best fitness:  -0.82264
+***Doing generation 26 of 50***
+Generation average: -0.90136, best fitness:  -0.82264
+***Doing generation 27 of 50***
+Generation average: -0.89957, best fitness:  -0.82264
+***Doing generation 28 of 50***
+Generation average: -0.90129, best fitness:  -0.82264
+***Doing generation 29 of 50***
+Generation average: -0.90141, best fitness:  -0.82264
+***Doing generation 30 of 50***
+Generation average: -0.90368, best fitness:  -0.82264
+***Doing generation 31 of 50***
+Generation average: -0.90248, best fitness:  -0.82264
+***Doing generation 32 of 50***
+Generation average: -0.90279, best fitness:  -0.82264
+***Doing generation 33 of 50***
+Generation average: -0.90372, best fitness:  -0.82264
+***Doing generation 34 of 50***
+Generation average: -0.89940, best fitness:  -0.82264
+***Doing generation 35 of 50***
+Generation average: -0.90164, best fitness:  -0.82264
+***Doing generation 36 of 50***
+Generation average: -0.90213, best fitness:  -0.82264
+***Doing generation 37 of 50***
+Generation average: -0.90157, best fitness:  -0.82264
+***Doing generation 38 of 50***
+Generation average: -0.90328, best fitness:  -0.82264
+***Doing generation 39 of 50***
+Generation average: -0.90050, best fitness:  -0.82264
+***Doing generation 40 of 50***
+Generation average: -0.90017, best fitness:  -0.82264
+***Doing generation 41 of 50***
+Generation average: -0.90107, best fitness:  -0.82264
+***Doing generation 42 of 50***
+Generation average: -0.90136, best fitness:  -0.82264
+***Doing generation 43 of 50***
+Generation average: -0.90389, best fitness:  -0.82264
+***Doing generation 44 of 50***
+Generation average: -0.90500, best fitness:  -0.82264
+***Doing generation 45 of 50***
+Generation average: -0.90247, best fitness:  -0.82264
+***Doing generation 46 of 50***
+Generation average: -0.90296, best fitness:  -0.82264
+***Doing generation 47 of 50***
+Generation average: -0.90199, best fitness:  -0.82264
+***Doing generation 48 of 50***
+Generation average: -0.90313, best fitness:  -0.82264
+***Doing generation 49 of 50***
+Generation average: -0.90147, best fitness:  -0.82264
+***Doing generation 50 of 50***
+Generation average: -0.90559, best fitness:  -0.82264

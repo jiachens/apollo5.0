@@ -196,8 +196,8 @@ def cluster(category, confidence, height_pt,instance,class_score):
         obs[-1].append(cluster_class)
         obs[-1].append(cluster_height)
 
-    for idx,obs in enumerate(filtered_obs):
-        print idx
-        print obs, '\n'
-    return filtered_obs, label_map
+    # for idx,obs in enumerate(filtered_obs):
+    #     print idx
+    #     print obs, '\n'
+    # return filtered_obs, label_map
     ##### LACK HEADING, MAYBE NOT USEFUL ######

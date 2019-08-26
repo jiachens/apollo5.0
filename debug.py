@@ -24,7 +24,7 @@ from xyz2grid import *
 import loss
 import c2p_segmentation
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '2'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 height_ = 672
 width_ = 672
@@ -49,7 +49,7 @@ if __name__ == '__main__':
     i_var = torch.cuda.FloatTensor(target_car[:,3])
 
     #scale = torch.ones_like(i_var).cuda()
-    scale = torch.cuda.FloatTensor(np.fromfile('./genetic_best_scale_multicross_1000_7_18_cyl.bin',dtype=np.float32))
+    scale = torch.cuda.FloatTensor(np.fromfile('./genetic_best_scale_multicross_1000_7_18_cyl_09_11.bin',dtype=np.float32))
 
     #print(scale)
 
@@ -71,9 +71,14 @@ if __name__ == '__main__':
     PCLConverted = c2p_segmentation.mapPointToGrid(PCL)
     featureM = c2p_segmentation.generateFM(PCL, PCLConverted)
     featureM = np.array(featureM).astype('float32')
-    featureM.tofile('./featureM_og.bin')
+    #featureM.tofile('./featureM_og.bin')
     featureM = torch.cuda.FloatTensor(featureM)
     featureM = featureM.view(1,6,672,672)
+    FM = featureM
+    grid = xyzi2grid(x_final,y_final,z_final,i_final)
+    featureM = gridi2feature(grid)
+    #featureM[0,[3,4],:,:] = FM[0,[3,4],:,:]
+
     featureM.requires_grad = True
     with torch.no_grad():
         featureM_og = featureM.clone()
@@ -138,9 +143,9 @@ if __name__ == '__main__':
         bestout[3].data.cpu().numpy(),bestout[0].data.cpu().numpy(),
         bestout[5].data.cpu().numpy())
 
-    bestfm.data.cpu().numpy().tofile('./featureM.bin')
-    bestout[2].data.cpu().numpy().tofile('./objectiveness.bin')
-    bestout[1].data.cpu().numpy().tofile('./categoryness.bin')
+    # bestfm.data.cpu().numpy().tofile('./featureM.bin')
+    # bestout[2].data.cpu().numpy().tofile('./objectiveness.bin')
+    # bestout[1].data.cpu().numpy().tofile('./categoryness.bin')
 
     obstacle, cluster_id_list = c2p_segmentation.twod2threed(obj, label_map, PCL, PCLConverted)
 

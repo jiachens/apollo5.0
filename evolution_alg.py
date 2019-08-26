@@ -7,6 +7,8 @@ import torch.distributions as tdist
 import loss
 import numpy as np
 import os
+import time
+from xyz2grid import *
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 
@@ -27,7 +29,7 @@ class Optimizer():
     """Class that implements genetic algorithm."""
 
     def __init__(self, length, retain=0.01,
-                 random_select=0.1, mutate_chance=0.1):
+                 random_select=0.01, mutate_chance=0.1):
         """Create an optimizer.
         Args:
             nn_param_choices (dict): Possible network paremters
@@ -52,7 +54,7 @@ class Optimizer():
             (list): Population of scale objects
         """
         #n = tdist.Normal(torch.tensor([1.0]), torch.tensor([0.03]))
-        n = tdist.uniform.Uniform(torch.Tensor([0.9]),torch.Tensor([1.1]))
+        n = tdist.uniform.Uniform(torch.Tensor([0.95]),torch.Tensor([1.05]))
 
         pop = []
         for _ in range(0, count):
@@ -66,6 +68,7 @@ class Optimizer():
 
     @staticmethod
     def fitness(scale):
+
         scale = scale.cuda()
         x_var = torch.mul(scale,torch.cuda.FloatTensor(target_obs[:,0]))
         y_var = torch.mul(scale,torch.cuda.FloatTensor(target_obs[:,1]))
@@ -82,17 +85,24 @@ class Optimizer():
         z_final = torch.cat([z_final,z_var],dim = 0)
         i_final = torch.cat([i_final,i_var],dim = 0)
 
-        PCL = torch.stack([x_final,y_final,z_final,i_final]).permute(1,0).cpu().detach().numpy()
-        PCLConverted = c2p_segmentation.mapPointToGrid(PCL)
-        featureM = c2p_segmentation.generateFM(PCL, PCLConverted)
-        featureM = np.array(featureM).astype('float32')
-        featureM = torch.cuda.FloatTensor(featureM)
-        featureM = featureM.view(1,6,672,672)
+        # PCL = torch.stack([x_final,y_final,z_final,i_final]).permute(1,0).cpu().detach().numpy()
+
+        # PCLConverted = c2p_segmentation.mapPointToGrid(PCL)
+        # featureM = c2p_segmentation.generateFM(PCL, PCLConverted)
+
+        # featureM = np.array(featureM).astype('float32')
+        # featureM = torch.cuda.FloatTensor(featureM)
+        # featureM = featureM.view(1,6,672,672)
+
+        grids = xyzi2grid(x_final, y_final, z_final, i_final)
+        FM = gridi2feature(grids)
+
+
         with torch.no_grad():
-            outputPytorch = pytorchModels(featureM)
+            outputPytorch = pytorchModels(FM)
         lossValue,loss_object,loss_distance = loss.lossPassiveAttack(outputPytorch,x_var,y_var,z_var,scale)
 
-        del x_var,y_var,z_var,i_var,x_final,y_final,z_final,i_final,PCL,PCLConverted,featureM,outputPytorch
+        del x_var,y_var,z_var,i_var,x_final,y_final,z_final,i_final,outputPytorch
         torch.cuda.empty_cache()
 
         return -lossValue
@@ -112,12 +122,12 @@ class Optimizer():
 
         return sum(summed) / float((len(pop))), fitlist
 
-    def breed(self, parent, generation):
+    def breed(self, parent, generation,perturbation):
 
 
         child = torch.zeros(self.len)
 
-        n1 = tdist.Normal(torch.tensor([0.0]), torch.tensor([0.05-generation/1500]))
+        n1 = tdist.Normal(torch.tensor([0.0]), torch.tensor([perturbation]))
         # print n1.sample((self.len,)).reshape(1,-1).squeeze().cuda()
         # Loop through the DNA and pick for the kid.
         child = parent + n1.sample((self.len,)).reshape(1,-1).squeeze().cuda()
@@ -148,7 +158,7 @@ class Optimizer():
 
         return scale
 
-    def evolve(self, pop, fitlist, generation):
+    def evolve(self, pop, fitlist, generation, perturbation):
         """Evolve a population of networks.
         Args:
             pop (list): A list of network parameters
@@ -183,11 +193,9 @@ class Optimizer():
             # Get a random mom and dad.
             parent = random.randint(0, parents_length-1)
 
-            # Assuming they aren't the same network...
-
             # Breed them.
             parent = parents[parent]
-            baby = self.breed(parent,generation)
+            baby = self.breed(parent,generation,perturbation)
 
             if len(children) < desired_length:
                 children.append(baby)
@@ -201,23 +209,29 @@ if __name__ == '__main__':
 
     generations = 50
     population = 1000
-    optimizer = Optimizer(target_obs.shape[0])
-    scales = optimizer.create_population(population)
+    
 
-    for i in range(generations):
+    for perturbation in [0.005,0.01,0.02,0.03]:
+        optimizer = Optimizer(target_obs.shape[0])
+        scales = optimizer.create_population(population)
+        print "***Doing perturbation %f ***" % (perturbation)
 
-        print "***Doing generation %d of %d***" % (i + 1, generations)
+        for i in range(generations):
+
+            print "***Doing generation %d of %d***" % (i + 1, generations)
 
 
-        # Get the average accuracy for this generation.
-        average_fitness, fitlist = optimizer.grade(scales)
-        rank = [x for x in sorted(fitlist, key=lambda x: x[0], reverse=True)]
+            # Get the average accuracy for this generation.
+            average_fitness, fitlist = optimizer.grade(scales)
+            rank = [x for x in sorted(fitlist, key=lambda x: x[0], reverse=True)]
 
-        # Print out the average accuracy each generation.
-        print "Generation average: %.5f, best fitness:  %.5f" % (average_fitness,rank[0][0])
-        # Evolve, except on the last iteration.
-        if i != generations - 1:
-            # Do the evolution.
-            scales = optimizer.evolve(scales,fitlist,i)
+            # Print out the average accuracy each generation.
+            print "Generation average: %.5f, best fitness:  %.5f" % (average_fitness,rank[0][0])
+            # Evolve, except on the last iteration.
+            if i != generations - 1:
+                # Do the evolution.
+                scales = optimizer.evolve(scales,fitlist,i,perturbation)
 
-        rank[0][1].cpu().numpy().tofile('evolution_best_scale_multicross_1000_7_18_cyl_09_11.bin')
+
+
+            rank[0][1].cpu().numpy().tofile('./evolution/%f_7_18_cyl_09_11.bin'%(perturbation))
