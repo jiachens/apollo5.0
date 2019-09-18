@@ -199,5 +199,5 @@ def cluster(category, confidence, height_pt,instance,class_score):
     # for idx,obs in enumerate(filtered_obs):
     #     print idx
     #     print obs, '\n'
-    # return filtered_obs, label_map
+    return filtered_obs, label_map
     ##### LACK HEADING, MAYBE NOT USEFUL ######

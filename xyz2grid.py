@@ -14,7 +14,7 @@ class flexibleMul(torch.autograd.Function):
 
     @staticmethod
     def backward(ctx, grad_output):
-        grad_input = 20 * grad_output 
+        grad_input = 100 * grad_output 
         return grad_input
 
 
@@ -153,9 +153,9 @@ def xyzi2grid(x_var, y_var, z_var, i_var, X_RES=672, Y_RES=672, H_RES=120):
     # gamma = 0.5 + 0.5*tf.tanh(mu*(k_float - k_smallerf-0.5))
 
     fmul = flexibleMul.apply
-    alpha = 0.5 + 0.5*torch.tanh(1e5*(i_float - i_smallerf - 1))
-    beta = 0.5 + 0.5*torch.tanh(1e5*(j_float - j_smallerf - 1))
-    gamma = 0.5 + 0.5*torch.tanh(1e5*(k_float - k_smallerf - 1))
+    alpha = 0.5 + 0.5*torch.tanh(fmul(i_float - i_smallerf - 1))
+    beta = 0.5 + 0.5*torch.tanh(fmul(j_float - j_smallerf - 1))
+    gamma = 0.5 + 0.5*torch.tanh(fmul(k_float - k_smallerf - 1))
 
     # alpha = tf.tanh(i_float - i_smallerf)
     # beta = tf.tanh(j_float - j_smallerf)

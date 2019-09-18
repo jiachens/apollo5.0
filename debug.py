@@ -24,7 +24,7 @@ from xyz2grid import *
 import loss
 import c2p_segmentation
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 
 height_ = 672
 width_ = 672
@@ -48,8 +48,8 @@ if __name__ == '__main__':
 
     i_var = torch.cuda.FloatTensor(target_car[:,3])
 
-    #scale = torch.ones_like(i_var).cuda()
-    scale = torch.cuda.FloatTensor(np.fromfile('./genetic_best_scale_multicross_1000_7_18_cyl_09_11.bin',dtype=np.float32))
+    scale = torch.ones_like(i_var).cuda()
+    #scale = torch.cuda.FloatTensor(np.fromfile('./genetic_best_scale_multicross_1000_7_18_cyl_09_11.bin',dtype=np.float32))
 
     #print(scale)
 
@@ -74,9 +74,9 @@ if __name__ == '__main__':
     #featureM.tofile('./featureM_og.bin')
     featureM = torch.cuda.FloatTensor(featureM)
     featureM = featureM.view(1,6,672,672)
-    FM = featureM
-    grid = xyzi2grid(x_final,y_final,z_final,i_final)
-    featureM = gridi2feature(grid)
+    # FM = featureM
+    # grid = xyzi2grid(x_final,y_final,z_final,i_final)
+    # featureM = gridi2feature(grid)
     #featureM[0,[3,4],:,:] = FM[0,[3,4],:,:]
 
     featureM.requires_grad = True
@@ -85,7 +85,7 @@ if __name__ == '__main__':
 
     # PGD attack
     bestLoss = 1e5
-    for i in range(1):
+    for i in range(2):
 
         # featureM[0,0,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] = -2.
         # featureM[0,1,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] = -2.
@@ -107,7 +107,7 @@ if __name__ == '__main__':
         pytorchModels_hard.zero_grad()
         outputPytorch_hard = pytorchModels_hard(featureM)
 
-        lossValue,loss_object,loss_distance = loss.lossPassiveAttack(outputPytorch_hard,x_var,y_var,z_var,scale)
+        lossValue,loss_object,loss_distance = loss.lossFeatureAttack(outputPytorch_hard,x_var,y_var,z_var,featureM_og,featureM)
         print('{} {} {}'.format(lossValue,loss_object,loss_distance))
         if lossValue < bestLoss:
             bestLoss = lossValue
@@ -124,20 +124,20 @@ if __name__ == '__main__':
         mask = torch.zeros((672,672)).cuda().index_put((fx,fy),torch.ones(fx.shape).cuda())
 
         with torch.no_grad():
-            featureM[0,0,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] -= 1e-4 * torch.sign(data_grad[0,0,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]])
-            featureM[0,1,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] -= 1e-4 * torch.sign(data_grad[0,1,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]])
+            featureM[0,0,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] -= 1e-2 * torch.sign(data_grad[0,0,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]])
+            featureM[0,1,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] -= 1e-2 * torch.sign(data_grad[0,1,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]])
             
             featureM[0,3,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] = 0.5#0.01 * torch.sign(data_grad[0,3,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]])
             featureM[0,4,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] = 0.5#0.01 * torch.sign(data_grad[0,4,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]])
             
-            featureM[0,0,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] = torch.clamp(featureM[0,0,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]],-1.2,1.2)
-            featureM[0,1,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] = torch.clamp(featureM[0,1,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]],min=-1.6)
+            #featureM[0,0,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] = torch.clamp(featureM[0,0,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]],-1.2,0.5)
+            #featureM[0,1,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] = torch.clamp(featureM[0,1,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]],min=-1.6)
 
-            condition = torch.gt(featureM[0,0,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]],featureM[0,1,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]])
-            featureM[0,1,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] = torch.where(condition,featureM[0,1,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]],featureM[0,0,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]])
+            #condition = torch.gt(featureM[0,0,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]],featureM[0,1,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]])
+            #featureM[0,1,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] = torch.where(condition,featureM[0,1,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]],featureM[0,0,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]])
 
-            featureM[0,3,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] = torch.clamp(featureM[0,3,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]],0.,1)
-            featureM[0,4,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] = torch.clamp(featureM[0,3,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]],0.,1)
+            #featureM[0,3,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] = torch.clamp(featureM[0,3,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]],0.,1)
+            #featureM[0,4,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]] = torch.clamp(featureM[0,3,torch.nonzero(mask)[:,0],torch.nonzero(mask)[:,1]],0.,1)
 
     obj, label_map = cluster.cluster(bestout[1].data.cpu().numpy(), bestout[2].data.cpu().numpy(), 
         bestout[3].data.cpu().numpy(),bestout[0].data.cpu().numpy(),

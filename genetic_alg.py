@@ -9,17 +9,17 @@ import numpy as np
 import os
 from xyz2grid import *
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 root_path = './cnnseg/velodyne64/'
 pclpath = '/home/jiachens/Kitti/object/training/velodyne/'
 protofile = root_path + 'deploy.prototxt'
 weightfile = root_path + 'deploy.caffemodel'
 pytorchModels = c2p_segmentation.generatePytorch(protofile, weightfile)
-dataIdx = 7
+dataIdx = 101
 pclfile = '%06d.bin'%(dataIdx)
 PCL_path = pclpath + pclfile
-_, PCL_except_car,target_obs = c2p_segmentation.preProcess(PCL_path,'./7/18_obs.bin')
+_, PCL_except_car,target_obs = c2p_segmentation.preProcess(PCL_path,'./101/37_obs.bin')
 
 # scale_og = torch.cuda.FloatTensor(np.fromfile('./genetic_best_scale_multicross_1000_1_4.bin',dtype=np.float32))
 
@@ -52,7 +52,7 @@ class Optimizer():
         Returns:
             (list): Population of scale objects
         """
-        n = tdist.uniform.Uniform(torch.Tensor([0.9]),torch.Tensor([1.1]))
+        n = tdist.uniform.Uniform(torch.Tensor([0.9]),torch.Tensor([1.0]))
 
         pop = []
         for _ in range(0, count):
@@ -242,4 +242,4 @@ if __name__ == '__main__':
 
                 # os.mkdir('./genetic/%d'%(dataIdx))
 
-                rank[0][1].cpu().numpy().tofile('./genetic/%f_%f_2000_7_18_cyl_09_11.bin'%(retain,rand))
+                rank[0][1].cpu().numpy().tofile('./genetic/%f_%f_2000_101_37_car_09_10.bin'%(retain,rand))

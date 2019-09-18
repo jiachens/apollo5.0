@@ -1,0 +1,1465 @@
+Using TensorFlow backend.
+Loading caffemodel:  ./cnnseg/velodyne64/deploy.caffemodel
+Iteration 0 of 500: loss=0.681834459305 object_loss=0.681834459305 distance_loss=4.84586600447e-14
+Iteration 1 of 500: loss=0.662303626537 object_loss=0.662084519863 distance_loss=0.219089180231
+Iteration 2 of 500: loss=0.66891181469 object_loss=0.668395280838 distance_loss=0.516558945179
+Iteration 3 of 500: loss=0.678695619106 object_loss=0.678051352501 distance_loss=0.644240498543
+Iteration 4 of 500: loss=0.677497565746 object_loss=0.676954686642 distance_loss=0.542878866196
+Iteration 5 of 500: loss=0.677310287952 object_loss=0.676954507828 distance_loss=0.355764210224
+Iteration 6 of 500: loss=0.666290342808 object_loss=0.666078269482 distance_loss=0.212050899863
+Iteration 7 of 500: loss=0.660165846348 object_loss=0.659708499908 distance_loss=0.457338064909
+Iteration 8 of 500: loss=0.628613054752 object_loss=0.627895832062 distance_loss=0.71720713377
+Iteration 9 of 500: loss=0.656735241413 object_loss=0.655808091164 distance_loss=0.927141785622
+Iteration 10 of 500: loss=0.604074299335 object_loss=0.602994084358 distance_loss=1.0802359581
+Iteration 11 of 500: loss=0.554329872131 object_loss=0.553152680397 distance_loss=1.1771851778
+Iteration 12 of 500: loss=0.526000916958 object_loss=0.524787783623 distance_loss=1.21312642097
+Iteration 13 of 500: loss=0.486898809671 object_loss=0.485713779926 distance_loss=1.1850181818
+Iteration 14 of 500: loss=0.485555946827 object_loss=0.484453171492 distance_loss=1.10277509689
+Iteration 15 of 500: loss=0.517740786076 object_loss=0.516771912575 distance_loss=0.96889936924
+Iteration 16 of 500: loss=0.520705103874 object_loss=0.519692957401 distance_loss=1.0121307373
+Iteration 17 of 500: loss=0.530642151833 object_loss=0.529369294643 distance_loss=1.27287912369
+Iteration 18 of 500: loss=0.5376547575 object_loss=0.536107599735 distance_loss=1.5471688509
+Iteration 19 of 500: loss=0.545195877552 object_loss=0.543366372585 distance_loss=1.82948446274
+Iteration 20 of 500: loss=0.583826899529 object_loss=0.581703424454 distance_loss=2.12349557877
+Iteration 21 of 500: loss=0.585417032242 object_loss=0.582989096642 distance_loss=2.42790746689
+Iteration 22 of 500: loss=0.608574032784 object_loss=0.605837166309 distance_loss=2.73688292503
+Iteration 23 of 500: loss=0.629239559174 object_loss=0.626207888126 distance_loss=3.03166818619
+Iteration 24 of 500: loss=0.609376311302 object_loss=0.606076478958 distance_loss=3.29985499382
+Iteration 25 of 500: loss=0.60039293766 object_loss=0.596863687038 distance_loss=3.52925443649
+Iteration 26 of 500: loss=0.567599594593 object_loss=0.563890635967 distance_loss=3.70896553993
+Iteration 27 of 500: loss=0.516219198704 object_loss=0.512388944626 distance_loss=3.83025503159
+Iteration 28 of 500: loss=0.502373278141 object_loss=0.498481065035 distance_loss=3.89221835136
+Iteration 29 of 500: loss=0.502318441868 object_loss=0.498422980309 distance_loss=3.89544677734
+Iteration 30 of 500: loss=0.496239751577 object_loss=0.49239552021 distance_loss=3.84424471855
+Iteration 31 of 500: loss=0.495580971241 object_loss=0.491835325956 distance_loss=3.74563598633
+Iteration 32 of 500: loss=0.495706796646 object_loss=0.492098540068 distance_loss=3.60827112198
+Iteration 33 of 500: loss=0.476068645716 object_loss=0.472628802061 distance_loss=3.43984651566
+Iteration 34 of 500: loss=0.45533272624 object_loss=0.452085345984 distance_loss=3.24736785889
+Iteration 35 of 500: loss=0.444380134344 object_loss=0.4413395226 distance_loss=3.04062533379
+Iteration 36 of 500: loss=0.434942901134 object_loss=0.432119399309 distance_loss=2.8234910965
+Iteration 37 of 500: loss=0.43689379096 object_loss=0.434290915728 distance_loss=2.60287094116
+Iteration 38 of 500: loss=0.505389332771 object_loss=0.502998650074 distance_loss=2.3906993866
+Iteration 39 of 500: loss=0.497000843287 object_loss=0.494803786278 distance_loss=2.197057724
+Iteration 40 of 500: loss=0.493751943111 object_loss=0.491727828979 distance_loss=2.02412414551
+Iteration 41 of 500: loss=0.500253021717 object_loss=0.498217940331 distance_loss=2.03507471085
+Iteration 42 of 500: loss=0.518852233887 object_loss=0.516434252262 distance_loss=2.41796183586
+Iteration 43 of 500: loss=0.483566254377 object_loss=0.480760216713 distance_loss=2.80603742599
+Iteration 44 of 500: loss=0.444095253944 object_loss=0.440901488066 distance_loss=3.19375419617
+Iteration 45 of 500: loss=0.464993178844 object_loss=0.461417078972 distance_loss=3.57609558105
+Iteration 46 of 500: loss=0.462789475918 object_loss=0.458840817213 distance_loss=3.94864344597
+Iteration 47 of 500: loss=0.473481148481 object_loss=0.469173908234 distance_loss=4.3072347641
+Iteration 48 of 500: loss=0.448526352644 object_loss=0.44387793541 distance_loss=4.6484079361
+Iteration 49 of 500: loss=0.447593212128 object_loss=0.442620396614 distance_loss=4.97281551361
+Iteration 50 of 500: loss=0.451773285866 object_loss=0.446492880583 distance_loss=5.28041362762
+Iteration 51 of 500: loss=0.451311677694 object_loss=0.445746392012 distance_loss=5.5652885437
+Iteration 52 of 500: loss=0.465542644262 object_loss=0.459717780352 distance_loss=5.8248500824
+Iteration 53 of 500: loss=0.466648310423 object_loss=0.460592716932 distance_loss=6.05559110641
+Iteration 54 of 500: loss=0.450286984444 object_loss=0.444031953812 distance_loss=6.25501823425
+Iteration 55 of 500: loss=0.45116853714 object_loss=0.444746822119 distance_loss=6.42172622681
+Iteration 56 of 500: loss=0.452074408531 object_loss=0.445520043373 distance_loss=6.55437707901
+Iteration 57 of 500: loss=0.450353235006 object_loss=0.44370123744 distance_loss=6.6519947052
+Iteration 58 of 500: loss=0.422545641661 object_loss=0.415833294392 distance_loss=6.7123374939
+Iteration 59 of 500: loss=0.414994359016 object_loss=0.408264905214 distance_loss=6.72943925858
+Iteration 60 of 500: loss=0.415398657322 object_loss=0.40869063139 distance_loss=6.70804071426
+Iteration 61 of 500: loss=0.443388670683 object_loss=0.436739951372 distance_loss=6.6487121582
+Iteration 62 of 500: loss=0.492431104183 object_loss=0.485880047083 distance_loss=6.55104923248
+Iteration 63 of 500: loss=0.466497570276 object_loss=0.460081964731 distance_loss=6.4155960083
+Iteration 64 of 500: loss=0.452729612589 object_loss=0.446479827166 distance_loss=6.24978113174
+Iteration 65 of 500: loss=0.481366634369 object_loss=0.475036859512 distance_loss=6.32977581024
+Iteration 66 of 500: loss=0.508256077766 object_loss=0.501418113708 distance_loss=6.83793973923
+Iteration 67 of 500: loss=0.470132708549 object_loss=0.46277141571 distance_loss=7.36129617691
+Iteration 68 of 500: loss=0.488428294659 object_loss=0.480534136295 distance_loss=7.89415645599
+Iteration 69 of 500: loss=0.541143894196 object_loss=0.532713413239 distance_loss=8.43047332764
+Iteration 70 of 500: loss=0.547555565834 object_loss=0.538591682911 distance_loss=8.96387672424
+Iteration 71 of 500: loss=0.548174023628 object_loss=0.538686275482 distance_loss=9.48777580261
+Iteration 72 of 500: loss=0.588030993938 object_loss=0.578035593033 distance_loss=9.99537181854
+Iteration 73 of 500: loss=0.558118581772 object_loss=0.547640442848 distance_loss=10.4781351089
+Iteration 74 of 500: loss=0.58879160881 object_loss=0.57786232233 distance_loss=10.9292869568
+Iteration 75 of 500: loss=0.621331632137 object_loss=0.609989285469 distance_loss=11.3423528671
+Iteration 76 of 500: loss=0.607881903648 object_loss=0.596171677113 distance_loss=11.710234642
+Iteration 77 of 500: loss=0.636713564396 object_loss=0.624684929848 distance_loss=12.0286273956
+Iteration 78 of 500: loss=0.620564460754 object_loss=0.608269751072 distance_loss=12.2947301865
+Iteration 79 of 500: loss=0.596316456795 object_loss=0.583810448647 distance_loss=12.5060377121
+Iteration 80 of 500: loss=0.597973644733 object_loss=0.585312306881 distance_loss=12.6613349915
+Iteration 81 of 500: loss=0.563438713551 object_loss=0.550677061081 distance_loss=12.7616682053
+Iteration 82 of 500: loss=0.538580477238 object_loss=0.52577227354 distance_loss=12.8082294464
+Iteration 83 of 500: loss=0.549637258053 object_loss=0.536833822727 distance_loss=12.8034610748
+Iteration 84 of 500: loss=0.573575675488 object_loss=0.560825109482 distance_loss=12.7505369186
+Iteration 85 of 500: loss=0.578016519547 object_loss=0.565363049507 distance_loss=12.65346241
+Iteration 86 of 500: loss=0.5684902668 object_loss=0.555973052979 distance_loss=12.5172224045
+Iteration 87 of 500: loss=0.615082085133 object_loss=0.6027354002 distance_loss=12.3466567993
+Iteration 88 of 500: loss=0.578868091106 object_loss=0.566721200943 distance_loss=12.1469097137
+Iteration 89 of 500: loss=0.53557664156 object_loss=0.523653447628 distance_loss=11.9231929779
+Iteration 90 of 500: loss=0.532558858395 object_loss=0.520878016949 distance_loss=11.680814743
+Iteration 91 of 500: loss=0.558265089989 object_loss=0.546839952469 distance_loss=11.4251489639
+Iteration 92 of 500: loss=0.62386059761 object_loss=0.612698674202 distance_loss=11.1619253159
+Iteration 93 of 500: loss=0.569970428944 object_loss=0.559073865414 distance_loss=10.8965482712
+Iteration 94 of 500: loss=0.582518935204 object_loss=0.571884810925 distance_loss=10.634141922
+Iteration 95 of 500: loss=0.529259741306 object_loss=0.518879830837 distance_loss=10.3798809052
+Iteration 96 of 500: loss=0.589106500149 object_loss=0.578967094421 distance_loss=10.1394271851
+Iteration 97 of 500: loss=0.59205955267 object_loss=0.582141697407 distance_loss=9.91787528992
+Iteration 98 of 500: loss=0.60542845726 object_loss=0.595710515976 distance_loss=9.71796989441
+Iteration 99 of 500: loss=0.580119073391 object_loss=0.570575833321 distance_loss=9.54325580597
+Iteration 100 of 500: loss=0.566111087799 object_loss=0.556714296341 distance_loss=9.39681148529
+Iteration 101 of 500: loss=0.530866622925 object_loss=0.521585166454 distance_loss=9.28145885468
+Iteration 102 of 500: loss=0.495007455349 object_loss=0.48580801487 distance_loss=9.19943523407
+Iteration 103 of 500: loss=0.496330857277 object_loss=0.487178117037 distance_loss=9.15273666382
+Iteration 104 of 500: loss=0.499137431383 object_loss=0.489994078875 distance_loss=9.14334869385
+Iteration 105 of 500: loss=0.501074671745 object_loss=0.491900235415 distance_loss=9.17441082001
+Iteration 106 of 500: loss=0.513359129429 object_loss=0.504109740257 distance_loss=9.24938583374
+Iteration 107 of 500: loss=0.515731036663 object_loss=0.506363034248 distance_loss=9.36800956726
+Iteration 108 of 500: loss=0.484446376562 object_loss=0.474916368723 distance_loss=9.53000545502
+Iteration 109 of 500: loss=0.489117830992 object_loss=0.479382842779 distance_loss=9.73498821259
+Iteration 110 of 500: loss=0.548020541668 object_loss=0.538038372993 distance_loss=9.98216342926
+Iteration 111 of 500: loss=0.527284085751 object_loss=0.517013847828 distance_loss=10.2702236176
+Iteration 112 of 500: loss=0.519632399082 object_loss=0.509035527706 distance_loss=10.5968503952
+Iteration 113 of 500: loss=0.563276231289 object_loss=0.552316129208 distance_loss=10.9600915909
+Iteration 114 of 500: loss=0.558541834354 object_loss=0.547183156013 distance_loss=11.3586997986
+Iteration 115 of 500: loss=0.533591091633 object_loss=0.521807253361 distance_loss=11.7838382721
+Iteration 116 of 500: loss=0.490378826857 object_loss=0.478147566319 distance_loss=12.231259346
+Iteration 117 of 500: loss=0.53492552042 object_loss=0.522228956223 distance_loss=12.6965894699
+Iteration 118 of 500: loss=0.545110881329 object_loss=0.531935214996 distance_loss=13.175693512
+Iteration 119 of 500: loss=0.554151773453 object_loss=0.540487170219 distance_loss=13.664607048
+Iteration 120 of 500: loss=0.569856345654 object_loss=0.555696904659 distance_loss=14.1594247818
+Iteration 121 of 500: loss=0.567388534546 object_loss=0.552732169628 distance_loss=14.6563529968
+Iteration 122 of 500: loss=0.562260210514 object_loss=0.54710829258 distance_loss=15.1519060135
+Iteration 123 of 500: loss=0.550135016441 object_loss=0.534493207932 distance_loss=15.641787529
+Iteration 124 of 500: loss=0.532710909843 object_loss=0.516586780548 distance_loss=16.1241283417
+Iteration 125 of 500: loss=0.533115267754 object_loss=0.516518712044 distance_loss=16.5965805054
+Iteration 126 of 500: loss=0.499961227179 object_loss=0.482904583216 distance_loss=17.0566329956
+Iteration 127 of 500: loss=0.520870804787 object_loss=0.503368914127 distance_loss=17.5019073486
+Iteration 128 of 500: loss=0.521328508854 object_loss=0.503398120403 distance_loss=17.9303760529
+Iteration 129 of 500: loss=0.522552728653 object_loss=0.504212319851 distance_loss=18.3404083252
+Iteration 130 of 500: loss=0.530287384987 object_loss=0.511555731297 distance_loss=18.73163414
+Iteration 131 of 500: loss=0.544424951077 object_loss=0.525321125984 distance_loss=19.1037998199
+Iteration 132 of 500: loss=0.518005609512 object_loss=0.498550444841 distance_loss=19.4551353455
+Iteration 133 of 500: loss=0.464983940125 object_loss=0.445199549198 distance_loss=19.7843742371
+Iteration 134 of 500: loss=0.493016183376 object_loss=0.472925692797 distance_loss=20.0904998779
+Iteration 135 of 500: loss=0.489623904228 object_loss=0.469250828028 distance_loss=20.3730659485
+Iteration 136 of 500: loss=0.519584298134 object_loss=0.498952925205 distance_loss=20.6313591003
+Iteration 137 of 500: loss=0.550505518913 object_loss=0.529640078545 distance_loss=20.8654575348
+Iteration 138 of 500: loss=0.553376734257 object_loss=0.532301008701 distance_loss=21.075712204
+Iteration 139 of 500: loss=0.555410385132 object_loss=0.534147620201 distance_loss=21.2627773285
+Iteration 140 of 500: loss=0.545146763325 object_loss=0.523719549179 distance_loss=21.4272003174
+Iteration 141 of 500: loss=0.526506841183 object_loss=0.504936993122 distance_loss=21.5698471069
+Iteration 142 of 500: loss=0.491140663624 object_loss=0.469448894262 distance_loss=21.6917533875
+Iteration 143 of 500: loss=0.490891605616 object_loss=0.469097405672 distance_loss=21.7941856384
+Iteration 144 of 500: loss=0.515017688274 object_loss=0.493138968945 distance_loss=21.878692627
+Iteration 145 of 500: loss=0.509483873844 object_loss=0.487536936998 distance_loss=21.9469490051
+Iteration 146 of 500: loss=0.49248149991 object_loss=0.470481038094 distance_loss=22.0004501343
+Iteration 147 of 500: loss=0.492159307003 object_loss=0.470119416714 distance_loss=22.0398769379
+Iteration 148 of 500: loss=0.501279175282 object_loss=0.47921320796 distance_loss=22.0659809113
+Iteration 149 of 500: loss=0.501963019371 object_loss=0.479883313179 distance_loss=22.0797328949
+Iteration 150 of 500: loss=0.500855147839 object_loss=0.478772521019 distance_loss=22.0826301575
+Iteration 151 of 500: loss=0.463565051556 object_loss=0.441486895084 distance_loss=22.0781707764
+Iteration 152 of 500: loss=0.496498465538 object_loss=0.474431395531 distance_loss=22.0670700073
+Iteration 153 of 500: loss=0.496480762959 object_loss=0.474430680275 distance_loss=22.0500907898
+Iteration 154 of 500: loss=0.509857356548 object_loss=0.487829238176 distance_loss=22.0280952454
+Iteration 155 of 500: loss=0.506823420525 object_loss=0.484821468592 distance_loss=22.001958847
+Iteration 156 of 500: loss=0.512739419937 object_loss=0.490766882896 distance_loss=21.9725494385
+Iteration 157 of 500: loss=0.516538619995 object_loss=0.494598031044 distance_loss=21.9406051636
+Iteration 158 of 500: loss=0.557065367699 object_loss=0.535158097744 distance_loss=21.9072418213
+Iteration 159 of 500: loss=0.544996738434 object_loss=0.52312296629 distance_loss=21.8737640381
+Iteration 160 of 500: loss=0.543668627739 object_loss=0.52182674408 distance_loss=21.8418579102
+Iteration 161 of 500: loss=0.546380460262 object_loss=0.524566113949 distance_loss=21.8143348694
+Iteration 162 of 500: loss=0.547326564789 object_loss=0.525532305241 distance_loss=21.7942504883
+Iteration 163 of 500: loss=0.552333772182 object_loss=0.530552506447 distance_loss=21.7812385559
+Iteration 164 of 500: loss=0.54907399416 object_loss=0.527299642563 distance_loss=21.7743415833
+Iteration 165 of 500: loss=0.548545777798 object_loss=0.526772320271 distance_loss=21.7734680176
+Iteration 166 of 500: loss=0.547549903393 object_loss=0.52577072382 distance_loss=21.7792053223
+Iteration 167 of 500: loss=0.547933876514 object_loss=0.526141524315 distance_loss=21.7923755646
+Iteration 168 of 500: loss=0.541860222816 object_loss=0.520045816898 distance_loss=21.8143901825
+Iteration 169 of 500: loss=0.545124411583 object_loss=0.523277103901 distance_loss=21.8473091125
+Iteration 170 of 500: loss=0.549331843853 object_loss=0.527438819408 distance_loss=21.8930358887
+Iteration 171 of 500: loss=0.519739091396 object_loss=0.497787237167 distance_loss=21.9518432617
+Iteration 172 of 500: loss=0.559298455715 object_loss=0.53727543354 distance_loss=22.0230140686
+Iteration 173 of 500: loss=0.55680513382 object_loss=0.534695088863 distance_loss=22.1100597382
+Iteration 174 of 500: loss=0.555148005486 object_loss=0.532935202122 distance_loss=22.2127971649
+Iteration 175 of 500: loss=0.510630369186 object_loss=0.488298624754 distance_loss=22.3317604065
+Iteration 176 of 500: loss=0.512753307819 object_loss=0.490285664797 distance_loss=22.4676361084
+Iteration 177 of 500: loss=0.518859803677 object_loss=0.496238976717 distance_loss=22.62084198
+Iteration 178 of 500: loss=0.545234620571 object_loss=0.522443592548 distance_loss=22.7910118103
+Iteration 179 of 500: loss=0.551209509373 object_loss=0.528232574463 distance_loss=22.9769592285
+Iteration 180 of 500: loss=0.557267427444 object_loss=0.534090220928 distance_loss=23.1771907806
+Iteration 181 of 500: loss=0.547395944595 object_loss=0.52400547266 distance_loss=23.3904628754
+Iteration 182 of 500: loss=0.547356188297 object_loss=0.523737728596 distance_loss=23.6184406281
+Iteration 183 of 500: loss=0.548029184341 object_loss=0.524169266224 distance_loss=23.8599300385
+Iteration 184 of 500: loss=0.551215946674 object_loss=0.527102351189 distance_loss=24.1136169434
+Iteration 185 of 500: loss=0.550984501839 object_loss=0.526606917381 distance_loss=24.3776054382
+Iteration 186 of 500: loss=0.595358371735 object_loss=0.57070851326 distance_loss=24.6498374939
+Iteration 187 of 500: loss=0.58991509676 object_loss=0.564986288548 distance_loss=24.9287891388
+Iteration 188 of 500: loss=0.61930668354 object_loss=0.59409314394 distance_loss=25.2135391235
+Iteration 189 of 500: loss=0.650497198105 object_loss=0.624993622303 distance_loss=25.503578186
+Iteration 190 of 500: loss=0.651598095894 object_loss=0.625800073147 distance_loss=25.7980480194
+Iteration 191 of 500: loss=0.673674046993 object_loss=0.647578537464 distance_loss=26.0955200195
+Iteration 192 of 500: loss=0.670500636101 object_loss=0.644105553627 distance_loss=26.3950519562
+Iteration 193 of 500: loss=0.670798897743 object_loss=0.644102752209 distance_loss=26.6961688995
+Iteration 194 of 500: loss=0.651580691338 object_loss=0.624581933022 distance_loss=26.9987812042
+Iteration 195 of 500: loss=0.652312517166 object_loss=0.625009655952 distance_loss=27.3028621674
+Iteration 196 of 500: loss=0.65590018034 object_loss=0.62829220295 distance_loss=27.6079959869
+Iteration 197 of 500: loss=0.653254985809 object_loss=0.625341713428 distance_loss=27.9132766724
+Iteration 198 of 500: loss=0.654035270214 object_loss=0.625817596912 distance_loss=28.2176704407
+Iteration 199 of 500: loss=0.657009720802 object_loss=0.628489732742 distance_loss=28.5199928284
+Iteration 200 of 500: loss=0.656855523586 object_loss=0.628036439419 distance_loss=28.8190975189
+Iteration 201 of 500: loss=0.657272934914 object_loss=0.628158926964 distance_loss=29.1139774323
+Iteration 202 of 500: loss=0.614848077297 object_loss=0.585444331169 distance_loss=29.4037513733
+Iteration 203 of 500: loss=0.618774831295 object_loss=0.589087307453 distance_loss=29.6875228882
+Iteration 204 of 500: loss=0.622386217117 object_loss=0.592421650887 distance_loss=29.9645729065
+Iteration 205 of 500: loss=0.648052334785 object_loss=0.617817997932 distance_loss=30.2343616486
+Iteration 206 of 500: loss=0.643345832825 object_loss=0.612849354744 distance_loss=30.4964847565
+Iteration 207 of 500: loss=0.619479775429 object_loss=0.588729083538 distance_loss=30.7506828308
+Iteration 208 of 500: loss=0.616941154003 object_loss=0.585944473743 distance_loss=30.9966812134
+Iteration 209 of 500: loss=0.614093840122 object_loss=0.582859516144 distance_loss=31.2342948914
+Iteration 210 of 500: loss=0.620137453079 object_loss=0.588674128056 distance_loss=31.4633235931
+Iteration 211 of 500: loss=0.620315670967 object_loss=0.588631927967 distance_loss=31.6837615967
+Iteration 212 of 500: loss=0.62414342165 object_loss=0.592247605324 distance_loss=31.8958129883
+Iteration 213 of 500: loss=0.624241113663 object_loss=0.592141151428 distance_loss=32.0999832153
+Iteration 214 of 500: loss=0.627682507038 object_loss=0.595385611057 distance_loss=32.2968788147
+Iteration 215 of 500: loss=0.629665613174 object_loss=0.597178578377 distance_loss=32.4870452881
+Iteration 216 of 500: loss=0.625032365322 object_loss=0.592361629009 distance_loss=32.6707191467
+Iteration 217 of 500: loss=0.619603931904 object_loss=0.586755931377 distance_loss=32.8480224609
+Iteration 218 of 500: loss=0.615098595619 object_loss=0.582079589367 distance_loss=33.0190124512
+Iteration 219 of 500: loss=0.615727484226 object_loss=0.582543730736 distance_loss=33.1837272644
+Iteration 220 of 500: loss=0.60784715414 object_loss=0.574504852295 distance_loss=33.3423271179
+Iteration 221 of 500: loss=0.607088804245 object_loss=0.573593914509 distance_loss=33.4948577881
+Iteration 222 of 500: loss=0.64811950922 object_loss=0.614478111267 distance_loss=33.641368866
+Iteration 223 of 500: loss=0.609446465969 object_loss=0.575664520264 distance_loss=33.781955719
+Iteration 224 of 500: loss=0.607731997967 object_loss=0.573815047741 distance_loss=33.9169578552
+Iteration 225 of 500: loss=0.594306528568 object_loss=0.560259282589 distance_loss=34.0472640991
+Iteration 226 of 500: loss=0.612392187119 object_loss=0.578218281269 distance_loss=34.1739120483
+Iteration 227 of 500: loss=0.611356854439 object_loss=0.577059149742 distance_loss=34.297706604
+Iteration 228 of 500: loss=0.6079428792 object_loss=0.573524475098 distance_loss=34.4184036255
+Iteration 229 of 500: loss=0.583615601063 object_loss=0.549080193043 distance_loss=34.5354194641
+Iteration 230 of 500: loss=0.582887947559 object_loss=0.548239290714 distance_loss=34.6486778259
+Iteration 231 of 500: loss=0.597286880016 object_loss=0.562528431416 distance_loss=34.7584266663
+Iteration 232 of 500: loss=0.634734272957 object_loss=0.599869310856 distance_loss=34.8649291992
+Iteration 233 of 500: loss=0.642586171627 object_loss=0.607617974281 distance_loss=34.968208313
+Iteration 234 of 500: loss=0.634223759174 object_loss=0.599154531956 distance_loss=35.0692367554
+Iteration 235 of 500: loss=0.637097477913 object_loss=0.601929485798 distance_loss=35.168006897
+Iteration 236 of 500: loss=0.686659872532 object_loss=0.651395440102 distance_loss=35.2644386292
+Iteration 237 of 500: loss=0.684886336327 object_loss=0.649527847767 distance_loss=35.358505249
+Iteration 238 of 500: loss=0.643107354641 object_loss=0.607657134533 distance_loss=35.4502220154
+Iteration 239 of 500: loss=0.677228927612 object_loss=0.641689121723 distance_loss=35.5398254395
+Iteration 240 of 500: loss=0.681233942509 object_loss=0.645606100559 distance_loss=35.627822876
+Iteration 241 of 500: loss=0.645235776901 object_loss=0.609520554543 distance_loss=35.7152023315
+Iteration 242 of 500: loss=0.653112888336 object_loss=0.617309689522 distance_loss=35.8031845093
+Iteration 243 of 500: loss=0.652312099934 object_loss=0.616419911385 distance_loss=35.8921890259
+Iteration 244 of 500: loss=0.634211063385 object_loss=0.598228812218 distance_loss=35.9822540283
+Iteration 245 of 500: loss=0.657148361206 object_loss=0.6210744977 distance_loss=36.0738449097
+Iteration 246 of 500: loss=0.654155015945 object_loss=0.617987930775 distance_loss=36.1670608521
+Iteration 247 of 500: loss=0.666304111481 object_loss=0.630041897297 distance_loss=36.2621917725
+Iteration 248 of 500: loss=0.667365670204 object_loss=0.631005108356 distance_loss=36.3605880737
+Iteration 249 of 500: loss=0.673098862171 object_loss=0.636633992195 distance_loss=36.4648628235
+Iteration 250 of 500: loss=0.720135748386 object_loss=0.683561563492 distance_loss=36.5742034912
+Iteration 251 of 500: loss=0.726584374905 object_loss=0.689894735813 distance_loss=36.6896514893
+Iteration 252 of 500: loss=0.721349775791 object_loss=0.684539854527 distance_loss=36.8099441528
+Iteration 253 of 500: loss=0.725177645683 object_loss=0.688243746758 distance_loss=36.9338912964
+Iteration 254 of 500: loss=0.719069480896 object_loss=0.682009100914 distance_loss=37.0604019165
+Iteration 255 of 500: loss=0.714170098305 object_loss=0.676981389523 distance_loss=37.1886825562
+Iteration 256 of 500: loss=0.712285995483 object_loss=0.674967885017 distance_loss=37.3181228638
+Iteration 257 of 500: loss=0.730166137218 object_loss=0.692718446255 distance_loss=37.4476852417
+Iteration 258 of 500: loss=0.722018957138 object_loss=0.684441626072 distance_loss=37.5773353577
+Iteration 259 of 500: loss=0.724699556828 object_loss=0.686992049217 distance_loss=37.7075004578
+Iteration 260 of 500: loss=0.737329006195 object_loss=0.699489176273 distance_loss=37.8398246765
+Iteration 261 of 500: loss=0.764640510082 object_loss=0.726665437222 distance_loss=37.9750518799
+Iteration 262 of 500: loss=0.763604521751 object_loss=0.725492179394 distance_loss=38.1123504639
+Iteration 263 of 500: loss=0.756226420403 object_loss=0.717975378036 distance_loss=38.2510147095
+Iteration 264 of 500: loss=0.757635772228 object_loss=0.719244778156 distance_loss=38.391002655
+Iteration 265 of 500: loss=0.77371275425 object_loss=0.735180258751 distance_loss=38.5324707031
+Iteration 266 of 500: loss=0.752599358559 object_loss=0.713923752308 distance_loss=38.6756134033
+Iteration 267 of 500: loss=0.731389403343 object_loss=0.692568719387 distance_loss=38.8207092285
+Iteration 268 of 500: loss=0.736910700798 object_loss=0.697942733765 distance_loss=38.9679641724
+Iteration 269 of 500: loss=0.734829425812 object_loss=0.695711731911 distance_loss=39.1176986694
+Iteration 270 of 500: loss=0.740173816681 object_loss=0.700903892517 distance_loss=39.269947052
+Iteration 271 of 500: loss=0.751558899879 object_loss=0.712133765221 distance_loss=39.4251060486
+Iteration 272 of 500: loss=0.776466488838 object_loss=0.736882984638 distance_loss=39.5834846497
+Iteration 273 of 500: loss=0.773901998997 object_loss=0.734156668186 distance_loss=39.7453231812
+Iteration 274 of 500: loss=0.759421527386 object_loss=0.719510674477 distance_loss=39.910861969
+Iteration 275 of 500: loss=0.767209708691 object_loss=0.727129518986 distance_loss=40.08020401
+Iteration 276 of 500: loss=0.748834013939 object_loss=0.708580553532 distance_loss=40.253452301
+Iteration 277 of 500: loss=0.750788986683 object_loss=0.710358500481 distance_loss=40.4304962158
+Iteration 278 of 500: loss=0.771063506603 object_loss=0.730452239513 distance_loss=40.6112518311
+Iteration 279 of 500: loss=0.793335080147 object_loss=0.752538084984 distance_loss=40.7969741821
+Iteration 280 of 500: loss=0.807740747929 object_loss=0.766752898693 distance_loss=40.9878730774
+Iteration 281 of 500: loss=0.806412160397 object_loss=0.765227079391 distance_loss=41.1850585938
+Iteration 282 of 500: loss=0.793745398521 object_loss=0.752356350422 distance_loss=41.3890724182
+Iteration 283 of 500: loss=0.810456097126 object_loss=0.768857002258 distance_loss=41.5990753174
+Iteration 284 of 500: loss=0.815816044807 object_loss=0.774001300335 distance_loss=41.8147659302
+Iteration 285 of 500: loss=0.813176751137 object_loss=0.771140873432 distance_loss=42.0358505249
+Iteration 286 of 500: loss=0.818902373314 object_loss=0.776640951633 distance_loss=42.2613983154
+Iteration 287 of 500: loss=0.826294958591 object_loss=0.783804416656 distance_loss=42.4905166626
+Iteration 288 of 500: loss=0.86845934391 object_loss=0.825736880302 distance_loss=42.7224502563
+Iteration 289 of 500: loss=0.868538677692 object_loss=0.825581908226 distance_loss=42.9567718506
+Iteration 290 of 500: loss=0.78852981329 object_loss=0.745337069035 distance_loss=43.1927375793
+Iteration 291 of 500: loss=0.768980741501 object_loss=0.725551128387 distance_loss=43.4296417236
+Iteration 292 of 500: loss=0.739501714706 object_loss=0.695835053921 distance_loss=43.6666297913
+Iteration 293 of 500: loss=0.721899330616 object_loss=0.677996635437 distance_loss=43.9026985168
+Iteration 294 of 500: loss=0.722667217255 object_loss=0.678530454636 distance_loss=44.1367378235
+Iteration 295 of 500: loss=0.735516548157 object_loss=0.691148817539 distance_loss=44.3676986694
+Iteration 296 of 500: loss=0.746291458607 object_loss=0.701696753502 distance_loss=44.5947151184
+Iteration 297 of 500: loss=0.742118537426 object_loss=0.697301268578 distance_loss=44.8172874451
+Iteration 298 of 500: loss=0.726180195808 object_loss=0.681144952774 distance_loss=45.0352210999
+Iteration 299 of 500: loss=0.738960087299 object_loss=0.693711519241 distance_loss=45.2485847473
+Iteration 300 of 500: loss=0.755666613579 object_loss=0.710209071636 distance_loss=45.4575119019
+Iteration 301 of 500: loss=0.753834366798 object_loss=0.708172440529 distance_loss=45.6618995667
+Iteration 302 of 500: loss=0.780772268772 object_loss=0.734910547733 distance_loss=45.8617210388
+Iteration 303 of 500: loss=0.782150089741 object_loss=0.736092925072 distance_loss=46.057182312
+Iteration 304 of 500: loss=0.783122479916 object_loss=0.736873924732 distance_loss=46.2485694885
+Iteration 305 of 500: loss=0.794692933559 object_loss=0.748256146908 distance_loss=46.4367980957
+Iteration 306 of 500: loss=0.802012205124 object_loss=0.755389273167 distance_loss=46.6229019165
+Iteration 307 of 500: loss=0.810205280781 object_loss=0.763399899006 distance_loss=46.8053665161
+Iteration 308 of 500: loss=0.790164530277 object_loss=0.743182182312 distance_loss=46.9823379517
+Iteration 309 of 500: loss=0.795245707035 object_loss=0.748092472553 distance_loss=47.1532478333
+Iteration 310 of 500: loss=0.799325406551 object_loss=0.752007365227 distance_loss=47.3180541992
+Iteration 311 of 500: loss=0.80450874567 object_loss=0.757031798363 distance_loss=47.4769363403
+Iteration 312 of 500: loss=0.807063162327 object_loss=0.759432792664 distance_loss=47.6303710938
+Iteration 313 of 500: loss=0.817086696625 object_loss=0.769307911396 distance_loss=47.7788047791
+Iteration 314 of 500: loss=0.861466467381 object_loss=0.813543796539 distance_loss=47.9226837158
+Iteration 315 of 500: loss=0.859739720821 object_loss=0.811676442623 distance_loss=48.063293457
+Iteration 316 of 500: loss=0.859539926052 object_loss=0.811339080334 distance_loss=48.2008705139
+Iteration 317 of 500: loss=0.855211079121 object_loss=0.806875407696 distance_loss=48.3356895447
+Iteration 318 of 500: loss=0.813778221607 object_loss=0.765310168266 distance_loss=48.4680328369
+Iteration 319 of 500: loss=0.820021986961 object_loss=0.771423578262 distance_loss=48.5983963013
+Iteration 320 of 500: loss=0.81044626236 object_loss=0.761718928814 distance_loss=48.7273368835
+Iteration 321 of 500: loss=0.819395184517 object_loss=0.770540177822 distance_loss=48.8550338745
+Iteration 322 of 500: loss=0.818516969681 object_loss=0.769536674023 distance_loss=48.9802703857
+Iteration 323 of 500: loss=0.828915596008 object_loss=0.779812633991 distance_loss=49.102973938
+Iteration 324 of 500: loss=0.826391935349 object_loss=0.777168750763 distance_loss=49.2231750488
+Iteration 325 of 500: loss=0.83345001936 object_loss=0.784109294415 distance_loss=49.3407363892
+Iteration 326 of 500: loss=0.847772717476 object_loss=0.798317372799 distance_loss=49.455368042
+Iteration 327 of 500: loss=0.847286224365 object_loss=0.797718822956 distance_loss=49.5673675537
+Iteration 328 of 500: loss=0.850896477699 object_loss=0.801219522953 distance_loss=49.6769218445
+Iteration 329 of 500: loss=0.838996529579 object_loss=0.789212465286 distance_loss=49.7840499878
+Iteration 330 of 500: loss=0.832028150558 object_loss=0.782139539719 distance_loss=49.8886032104
+Iteration 331 of 500: loss=0.835343301296 object_loss=0.785352706909 distance_loss=49.9905891418
+Iteration 332 of 500: loss=0.841152369976 object_loss=0.791062235832 distance_loss=50.0901145935
+Iteration 333 of 500: loss=0.837660849094 object_loss=0.787473320961 distance_loss=50.1875534058
+Iteration 334 of 500: loss=0.830732345581 object_loss=0.78044885397 distance_loss=50.2834739685
+Iteration 335 of 500: loss=0.878664314747 object_loss=0.828285634518 distance_loss=50.3787002563
+Iteration 336 of 500: loss=0.884874939919 object_loss=0.834401011467 distance_loss=50.4739303589
+Iteration 337 of 500: loss=0.885227441788 object_loss=0.834657728672 distance_loss=50.5697135925
+Iteration 338 of 500: loss=0.858498513699 object_loss=0.807832360268 distance_loss=50.6661758423
+Iteration 339 of 500: loss=0.8564645648 object_loss=0.80570179224 distance_loss=50.7627601624
+Iteration 340 of 500: loss=0.85819709301 object_loss=0.807337880135 distance_loss=50.8592376709
+Iteration 341 of 500: loss=0.855030715466 object_loss=0.804075241089 distance_loss=50.9554595947
+Iteration 342 of 500: loss=0.828666567802 object_loss=0.777614712715 distance_loss=51.0518722534
+Iteration 343 of 500: loss=0.821338236332 object_loss=0.770189106464 distance_loss=51.1491241455
+Iteration 344 of 500: loss=0.828452765942 object_loss=0.777204871178 distance_loss=51.2479019165
+Iteration 345 of 500: loss=0.745870471001 object_loss=0.694520652294 distance_loss=51.3497924805
+Iteration 346 of 500: loss=0.764181733131 object_loss=0.712725222111 distance_loss=51.4565086365
+Iteration 347 of 500: loss=0.812442958355 object_loss=0.760877609253 distance_loss=51.5653572083
+Iteration 348 of 500: loss=0.822697937489 object_loss=0.771023035049 distance_loss=51.6749038696
+Iteration 349 of 500: loss=0.817869365215 object_loss=0.766084253788 distance_loss=51.7851219177
+Iteration 350 of 500: loss=0.828478395939 object_loss=0.776582181454 distance_loss=51.896194458
+Iteration 351 of 500: loss=0.828617155552 object_loss=0.776609003544 distance_loss=52.0081710815
+Iteration 352 of 500: loss=0.826769590378 object_loss=0.774648666382 distance_loss=52.1209259033
+Iteration 353 of 500: loss=0.832755327225 object_loss=0.780521154404 distance_loss=52.2341537476
+Iteration 354 of 500: loss=0.838186442852 object_loss=0.785838961601 distance_loss=52.3474693298
+Iteration 355 of 500: loss=0.892556130886 object_loss=0.840095639229 distance_loss=52.4605026245
+Iteration 356 of 500: loss=0.89468640089 object_loss=0.842113435268 distance_loss=52.5729484558
+Iteration 357 of 500: loss=0.900339484215 object_loss=0.847654759884 distance_loss=52.6846923828
+Iteration 358 of 500: loss=0.900154292583 object_loss=0.847358644009 distance_loss=52.7956619263
+Iteration 359 of 500: loss=0.898016691208 object_loss=0.84511089325 distance_loss=52.9057884216
+Iteration 360 of 500: loss=0.921036064625 object_loss=0.86802148819 distance_loss=53.0145797729
+Iteration 361 of 500: loss=0.855404257774 object_loss=0.802282750607 distance_loss=53.1214790344
+Iteration 362 of 500: loss=0.835662126541 object_loss=0.782436192036 distance_loss=53.2259521484
+Iteration 363 of 500: loss=0.82669365406 object_loss=0.773366034031 distance_loss=53.3275909424
+Iteration 364 of 500: loss=0.863890171051 object_loss=0.81046384573 distance_loss=53.4263038635
+Iteration 365 of 500: loss=0.82076895237 object_loss=0.767246901989 distance_loss=53.5220222473
+Iteration 366 of 500: loss=0.811848700047 object_loss=0.758234024048 distance_loss=53.6146965027
+Iteration 367 of 500: loss=0.800935268402 object_loss=0.747231125832 distance_loss=53.7041625977
+Iteration 368 of 500: loss=0.824924170971 object_loss=0.771134018898 distance_loss=53.7901229858
+Iteration 369 of 500: loss=0.795306921005 object_loss=0.741434752941 distance_loss=53.8721885681
+Iteration 370 of 500: loss=0.785325586796 object_loss=0.731375157833 distance_loss=53.9504394531
+Iteration 371 of 500: loss=0.812154889107 object_loss=0.758129954338 distance_loss=54.0249328613
+Iteration 372 of 500: loss=0.810633480549 object_loss=0.756537735462 distance_loss=54.0957641602
+Iteration 373 of 500: loss=0.79076051712 object_loss=0.73659747839 distance_loss=54.163066864
+Iteration 374 of 500: loss=0.79305177927 object_loss=0.738824725151 distance_loss=54.2270736694
+Iteration 375 of 500: loss=0.803973257542 object_loss=0.749684989452 distance_loss=54.2882385254
+Iteration 376 of 500: loss=0.809666275978 object_loss=0.755318522453 distance_loss=54.3477706909
+Iteration 377 of 500: loss=0.809748113155 object_loss=0.755340754986 distance_loss=54.4073562622
+Iteration 378 of 500: loss=0.816529929638 object_loss=0.762063086033 distance_loss=54.4668579102
+Iteration 379 of 500: loss=0.819411635399 object_loss=0.764886856079 distance_loss=54.5247879028
+Iteration 380 of 500: loss=0.818127572536 object_loss=0.763547062874 distance_loss=54.5804977417
+Iteration 381 of 500: loss=0.830838263035 object_loss=0.77620446682 distance_loss=54.6337890625
+Iteration 382 of 500: loss=0.827341079712 object_loss=0.772656321526 distance_loss=54.6847839355
+Iteration 383 of 500: loss=0.829998016357 object_loss=0.775264322758 distance_loss=54.7336654663
+Iteration 384 of 500: loss=0.829638838768 object_loss=0.774858117104 distance_loss=54.7807312012
+Iteration 385 of 500: loss=0.823119521141 object_loss=0.768293142319 distance_loss=54.8263778687
+Iteration 386 of 500: loss=0.8248873353 object_loss=0.770016252995 distance_loss=54.8710517883
+Iteration 387 of 500: loss=0.82673150301 object_loss=0.771816313267 distance_loss=54.9151725769
+Iteration 388 of 500: loss=0.82403087616 object_loss=0.769071757793 distance_loss=54.9591369629
+Iteration 389 of 500: loss=0.853314459324 object_loss=0.798311114311 distance_loss=55.0033226013
+Iteration 390 of 500: loss=0.839816093445 object_loss=0.784769177437 distance_loss=55.0469207764
+Iteration 391 of 500: loss=0.836174249649 object_loss=0.78108394146 distance_loss=55.0903358459
+Iteration 392 of 500: loss=0.798477768898 object_loss=0.743343710899 distance_loss=55.1340408325
+Iteration 393 of 500: loss=0.772536277771 object_loss=0.717357993126 distance_loss=55.1782913208
+Iteration 394 of 500: loss=0.769630432129 object_loss=0.714407145977 distance_loss=55.223274231
+Iteration 395 of 500: loss=0.770326972008 object_loss=0.715057790279 distance_loss=55.2691879272
+Iteration 396 of 500: loss=0.785169303417 object_loss=0.729853034019 distance_loss=55.3162841797
+Iteration 397 of 500: loss=0.814501881599 object_loss=0.759136974812 distance_loss=55.3649215698
+Iteration 398 of 500: loss=0.814270436764 object_loss=0.758854806423 distance_loss=55.4156036377
+Iteration 399 of 500: loss=0.834316790104 object_loss=0.778847932816 distance_loss=55.468837738
+Iteration 400 of 500: loss=0.832820773125 object_loss=0.777295827866 distance_loss=55.5249710083
+Iteration 401 of 500: loss=0.839144349098 object_loss=0.783560335636 distance_loss=55.5839920044
+Iteration 402 of 500: loss=0.834675192833 object_loss=0.779029488564 distance_loss=55.6457290649
+Iteration 403 of 500: loss=0.833758354187 object_loss=0.778048336506 distance_loss=55.7100448608
+Iteration 404 of 500: loss=0.838923573494 object_loss=0.783146560192 distance_loss=55.7769927979
+Iteration 405 of 500: loss=0.839848995209 object_loss=0.784002363682 distance_loss=55.8466415405
+Iteration 406 of 500: loss=0.852051794529 object_loss=0.796132683754 distance_loss=55.9191322327
+Iteration 407 of 500: loss=0.848081767559 object_loss=0.79208701849 distance_loss=55.9947471619
+Iteration 408 of 500: loss=0.840265870094 object_loss=0.784192025661 distance_loss=56.0738220215
+Iteration 409 of 500: loss=0.839543282986 object_loss=0.783386588097 distance_loss=56.1567001343
+Iteration 410 of 500: loss=0.842599749565 object_loss=0.786355912685 distance_loss=56.2438201904
+Iteration 411 of 500: loss=0.843075752258 object_loss=0.78674030304 distance_loss=56.3354492188
+Iteration 412 of 500: loss=0.798016607761 object_loss=0.741584837437 distance_loss=56.4317932129
+Iteration 413 of 500: loss=0.799718081951 object_loss=0.743185520172 distance_loss=56.5325469971
+Iteration 414 of 500: loss=0.778295457363 object_loss=0.721658706665 distance_loss=56.6367416382
+Iteration 415 of 500: loss=0.745207488537 object_loss=0.688463926315 distance_loss=56.7435455322
+Iteration 416 of 500: loss=0.733557999134 object_loss=0.676705598831 distance_loss=56.8523712158
+Iteration 417 of 500: loss=0.712509214878 object_loss=0.655546247959 distance_loss=56.9629669189
+Iteration 418 of 500: loss=0.727222084999 object_loss=0.670147061348 distance_loss=57.0750350952
+Iteration 419 of 500: loss=0.727832913399 object_loss=0.670644581318 distance_loss=57.1883010864
+Iteration 420 of 500: loss=0.692063570023 object_loss=0.634760975838 distance_loss=57.3025741577
+Iteration 421 of 500: loss=0.691350579262 object_loss=0.633932828903 distance_loss=57.4177780151
+Iteration 422 of 500: loss=0.696594119072 object_loss=0.639060080051 distance_loss=57.5340270996
+Iteration 423 of 500: loss=0.689781904221 object_loss=0.632130205631 distance_loss=57.6516876221
+Iteration 424 of 500: loss=0.682985603809 object_loss=0.625214278698 distance_loss=57.7713241577
+Iteration 425 of 500: loss=0.693147480488 object_loss=0.635253965855 distance_loss=57.8935127258
+Iteration 426 of 500: loss=0.69045573473 object_loss=0.63243752718 distance_loss=58.0181846619
+Iteration 427 of 500: loss=0.690532803535 object_loss=0.632388174534 distance_loss=58.1446533203
+Iteration 428 of 500: loss=0.691749334335 object_loss=0.633477151394 distance_loss=58.2721710205
+Iteration 429 of 500: loss=0.698286354542 object_loss=0.639886081219 distance_loss=58.4002571106
+Iteration 430 of 500: loss=0.698696434498 object_loss=0.64016777277 distance_loss=58.528678894
+Iteration 431 of 500: loss=0.674701869488 object_loss=0.616044580936 distance_loss=58.6572952271
+Iteration 432 of 500: loss=0.687013208866 object_loss=0.628227114677 distance_loss=58.7860641479
+Iteration 433 of 500: loss=0.658817887306 object_loss=0.599902927876 distance_loss=58.9149703979
+Iteration 434 of 500: loss=0.653607070446 object_loss=0.594563066959 distance_loss=59.0439987183
+Iteration 435 of 500: loss=0.649330198765 object_loss=0.590157032013 distance_loss=59.1731719971
+Iteration 436 of 500: loss=0.641998887062 object_loss=0.582696378231 distance_loss=59.3025283813
+Iteration 437 of 500: loss=0.635561227798 object_loss=0.57612913847 distance_loss=59.4320755005
+Iteration 438 of 500: loss=0.630305290222 object_loss=0.570743381977 distance_loss=59.5618896484
+Iteration 439 of 500: loss=0.62560236454 object_loss=0.565910279751 distance_loss=59.6920661926
+Iteration 440 of 500: loss=0.658837378025 object_loss=0.599014639854 distance_loss=59.8227081299
+Iteration 441 of 500: loss=0.634366810322 object_loss=0.574413001537 distance_loss=59.9537887573
+Iteration 442 of 500: loss=0.645408928394 object_loss=0.585323631763 distance_loss=60.0852737427
+Iteration 443 of 500: loss=0.642581939697 object_loss=0.582364857197 distance_loss=60.2170715332
+Iteration 444 of 500: loss=0.642799258232 object_loss=0.58244997263 distance_loss=60.3492546082
+Iteration 445 of 500: loss=0.645990669727 object_loss=0.585508704185 distance_loss=60.4819526672
+Iteration 446 of 500: loss=0.641437709332 object_loss=0.580822467804 distance_loss=60.6152191162
+Iteration 447 of 500: loss=0.627591192722 object_loss=0.56684243679 distance_loss=60.7487335205
+Iteration 448 of 500: loss=0.625056147575 object_loss=0.564173460007 distance_loss=60.8826789856
+Iteration 449 of 500: loss=0.623300969601 object_loss=0.562284111977 distance_loss=61.0168609619
+Iteration 450 of 500: loss=0.617572069168 object_loss=0.556420922279 distance_loss=61.1511421204
+Iteration 451 of 500: loss=0.620597064495 object_loss=0.559311747551 distance_loss=61.2853355408
+Iteration 452 of 500: loss=0.61729580164 object_loss=0.555876433849 distance_loss=61.419380188
+Iteration 453 of 500: loss=0.630654633045 object_loss=0.569101393223 distance_loss=61.5532341003
+Iteration 454 of 500: loss=0.629000902176 object_loss=0.56731402874 distance_loss=61.6868553162
+Iteration 455 of 500: loss=0.624485015869 object_loss=0.562664806843 distance_loss=61.8202056885
+Iteration 456 of 500: loss=0.621151447296 object_loss=0.559198200703 distance_loss=61.953212738
+Iteration 457 of 500: loss=0.621661007404 object_loss=0.559575200081 distance_loss=62.0858230591
+Iteration 458 of 500: loss=0.622522473335 object_loss=0.560304403305 distance_loss=62.2180404663
+Iteration 459 of 500: loss=0.605016291142 object_loss=0.542666554451 distance_loss=62.3497123718
+Iteration 460 of 500: loss=0.60110026598 object_loss=0.538619875908 distance_loss=62.4803924561
+Iteration 461 of 500: loss=0.605991721153 object_loss=0.543382167816 distance_loss=62.6095314026
+Iteration 462 of 500: loss=0.588299572468 object_loss=0.525563001633 distance_loss=62.7365875244
+Iteration 463 of 500: loss=0.597847402096 object_loss=0.534986257553 distance_loss=62.8611221313
+Iteration 464 of 500: loss=0.598354458809 object_loss=0.535371541977 distance_loss=62.9828834534
+Iteration 465 of 500: loss=0.608807265759 object_loss=0.545705497265 distance_loss=63.1017799377
+Iteration 466 of 500: loss=0.608269095421 object_loss=0.545051276684 distance_loss=63.2178192139
+Iteration 467 of 500: loss=0.606657683849 object_loss=0.543326497078 distance_loss=63.3311958313
+Iteration 468 of 500: loss=0.593488812447 object_loss=0.530046224594 distance_loss=63.4425964355
+Iteration 469 of 500: loss=0.591692447662 object_loss=0.52813911438 distance_loss=63.5533065796
+Iteration 470 of 500: loss=0.607686460018 object_loss=0.544020414352 distance_loss=63.6660346985
+Iteration 471 of 500: loss=0.612897515297 object_loss=0.549117803574 distance_loss=63.7796936035
+Iteration 472 of 500: loss=0.67046970129 object_loss=0.606576025486 distance_loss=63.8936805725
+Iteration 473 of 500: loss=0.672418177128 object_loss=0.60841012001 distance_loss=64.0080413818
+Iteration 474 of 500: loss=0.638738334179 object_loss=0.574615597725 distance_loss=64.122718811
+Iteration 475 of 500: loss=0.629916369915 object_loss=0.565679371357 distance_loss=64.2369842529
+Iteration 476 of 500: loss=0.63475048542 object_loss=0.570398926735 distance_loss=64.3515319824
+Iteration 477 of 500: loss=0.641725897789 object_loss=0.577259063721 distance_loss=64.4668045044
+Iteration 478 of 500: loss=0.693096220493 object_loss=0.628513038158 distance_loss=64.5831985474
+Iteration 479 of 500: loss=0.681652486324 object_loss=0.616951346397 distance_loss=64.7011184692
+Iteration 480 of 500: loss=0.6733096838 object_loss=0.608488619328 distance_loss=64.8210601807
+Iteration 481 of 500: loss=0.679209530354 object_loss=0.614266335964 distance_loss=64.9431991577
+Iteration 482 of 500: loss=0.678801715374 object_loss=0.613734126091 distance_loss=65.0676116943
+Iteration 483 of 500: loss=0.689209461212 object_loss=0.624015212059 distance_loss=65.1942749023
+Iteration 484 of 500: loss=0.673946142197 object_loss=0.608622848988 distance_loss=65.3232727051
+Iteration 485 of 500: loss=0.681435883045 object_loss=0.615981340408 distance_loss=65.4545593262
+Iteration 486 of 500: loss=0.670326650143 object_loss=0.604738175869 distance_loss=65.5884552002
+Iteration 487 of 500: loss=0.657509684563 object_loss=0.591784536839 distance_loss=65.725151062
+Iteration 488 of 500: loss=0.649231612682 object_loss=0.58336687088 distance_loss=65.8647613525
+Iteration 489 of 500: loss=0.634617388248 object_loss=0.568610072136 distance_loss=66.00730896
+Iteration 490 of 500: loss=0.664336562157 object_loss=0.598183691502 distance_loss=66.15284729
+Iteration 491 of 500: loss=0.682337522507 object_loss=0.616036057472 distance_loss=66.3014297485
+Iteration 492 of 500: loss=0.612261176109 object_loss=0.545808136463 distance_loss=66.4530181885
+Iteration 493 of 500: loss=0.629312217236 object_loss=0.562704563141 distance_loss=66.6076660156
+Iteration 494 of 500: loss=0.643946886063 object_loss=0.577181577682 distance_loss=66.7652740479
+Iteration 495 of 500: loss=0.644481480122 object_loss=0.57755535841 distance_loss=66.9261245728
+Iteration 496 of 500: loss=0.644149184227 object_loss=0.577059030533 distance_loss=67.0901184082
+Iteration 497 of 500: loss=0.651899337769 object_loss=0.58464217186 distance_loss=67.2571716309
+Iteration 498 of 500: loss=0.640570878983 object_loss=0.573143541813 distance_loss=67.4273071289
+Iteration 499 of 500: loss=0.648118853569 object_loss=0.580518245697 distance_loss=67.6005859375
+learning rate: 0.001, mu: 0.001, best_loss: 0.414994359016
+0
+[(114, 124), (114, 125), (115, 111), (115, 124), (115, 125), (116, 120), (116, 123), (116, 124), (117, 119), (117, 121), (117, 122), (117, 123), (118, 119), (118, 120), (118, 121), (118, 122), (119, 120), (119, 121), (120, 118), (120, 119), (120, 120), (121, 117), (121, 118), (121, 119), (122, 116), (122, 117), (122, 118), (123, 117), [0.47056823543139864, 2, array([7.95878062e-03, 5.16246896e-02, 9.24280341e-01, 6.77308091e-04,
+       8.81074631e-04]), 1.7787340794290816]] 
+
+1
+[(197, 86), (197, 87), (198, 85), (198, 86), (199, 84), (199, 85), [0.39177286128203076, 17, array([0.41328521, 0.42664646, 0.00343128, 0.05827536, 0.06608801]), -0.9674915671348572]] 
+
+2
+[(214, 74), (214, 75), (215, 75), (216, 74), (216, 75), (216, 76), (218, 77), [0.512978617634092, 25, array([0.12184645, 0.16682594, 0.00308705, 0.61916643, 0.05138579]), -0.39057545576776775]] 
+
+3
+[(232, 63), (233, 55), (233, 58), (233, 61), (233, 62), (234, 55), (234, 57), (234, 59), (235, 54), (236, 54), (236, 57), (236, 58), (236, 59), (236, 60), (236, 61), (237, 53), (237, 55), (237, 56), (237, 57), (237, 58), (237, 59), (238, 53), (238, 54), (238, 56), (238, 57), (239, 54), (239, 55), (239, 57), (240, 55), (241, 55), [0.11, 38, array([0.05761329, 0.84951698, 0.08439389, 0.0172073 , 0.00903984]), -0.17561222811539967]] 
+
+4
+[(247, 51), (247, 54), (248, 54), (249, 53), (251, 54), (251, 58), (251, 59), (252, 51), (252, 60), (253, 56), (253, 57), (257, 55), (257, 62), (261, 42), (261, 45), (263, 52), (263, 56), (263, 57), (264, 45), (264, 47), (265, 45), (265, 58), [0.11, 63, array([0.03680529, 0.84915208, 0.08257982, 0.01244556, 0.01737586]), -0.6821136420423334]] 
+
+5
+[(308, 340), (309, 338), (309, 339), (309, 340), (310, 338), (310, 339), (310, 340), (310, 341), (311, 339), (311, 340), [0.7894270628690719, 123, array([1.71939628e-03, 3.20987508e-04, 1.54140282e-04, 4.85735654e-03,
+       9.93963504e-01]), -0.12879111468791962]] 
+
+6
+[(312, 312), (312, 313), (313, 312), (313, 313), [0.9432228058576584, 127, array([9.99369517e-01, 1.54936075e-05, 5.21727517e-08, 2.57554775e-05,
+       2.51756799e-04]), -1.1058725118637085]] 
+
+7
+[(327, 334), (329, 339), (334, 342), (334, 343), (334, 344), (335, 342), [0.11676156520843506, 144, array([9.53878065e-01, 3.94185120e-02, 5.52685665e-04, 1.17402642e-02,
+       7.99132173e-03]), -0.5591062108675638]] 
+
+8
+[(342, 334), (342, 335), (343, 335), (344, 335), [0.10058926232159138, 157, array([9.92513984e-01, 6.98910211e-04, 1.95954676e-05, 4.35299258e-03,
+       8.77773855e-03]), -0.5804100334644318]] 
+
+9
+[(363, 371), (364, 370), (364, 371), (364, 372), (364, 373), (365, 369), (365, 370), (365, 371), (365, 372), (365, 373), (365, 374), (365, 375), (366, 368), (366, 369), (366, 370), (366, 371), (366, 372), (366, 373), (366, 374), (366, 375), (367, 367), (367, 368), (367, 369), (367, 370), (367, 371), (367, 372), (367, 373), (367, 374), (367, 375), (367, 376), (367, 377), (368, 367), (368, 368), (368, 369), (368, 370), (368, 371), (368, 372), (368, 373), (368, 375), (368, 376), (369, 366), (369, 367), (369, 368), (369, 369), (369, 370), (369, 371), (369, 372), (369, 375), (369, 376), (369, 377), (370, 367), (370, 368), (370, 369), (370, 370), (370, 371), (370, 373), (370, 374), (370, 375), (370, 378), (371, 369), (371, 370), (371, 371), (371, 373), (371, 374), (371, 375), (371, 376), (371, 377), (371, 378), (371, 379), (372, 370), (372, 371), (372, 372), (372, 373), (372, 374), (372, 375), (372, 376), (372, 377), (372, 378), (372, 379), (372, 380), (373, 371), (373, 372), (373, 373), (373, 374), (373, 375), (373, 376), (374, 372), (374, 375), (374, 376), (374, 379), (374, 380), (374, 381), (374, 382), (375, 373), (375, 374), (375, 375), (375, 376), (375, 379), (375, 380), (375, 381), (376, 377), (376, 378), (376, 379), (376, 381), (377, 377), (377, 378), (377, 379), (377, 381), (378, 378), (378, 379), [0.9885695855725896, 182, array([1.15738056e-04, 9.99767572e-01, 5.62345139e-05, 1.51358909e-05,
+       7.02336335e-06]), -0.37430697137659247]] 
+
+10
+[(498, 561), (498, 562), (498, 563), (499, 562), (499, 563), (500, 563), [0.11, 280, array([0.16072529, 0.09330864, 0.00079997, 0.13818618, 0.59135105]), -1.3016379078229268]] 
+
+11
+[(506, 570), (506, 571), (507, 570), (507, 571), (508, 569), (508, 570), [0.11, 288, array([0.01704951, 0.03698457, 0.004003  , 0.02209656, 0.91083278]), -0.8273769815762838]] 
+
+12
+[(523, 592), (524, 592), (525, 592), (525, 593), (525, 594), (526, 591), (526, 593), (527, 592), (527, 594), (528, 590), (528, 592), (528, 593), (528, 594), (529, 593), [0.11, 299, array([0.33952942, 0.3781506 , 0.04603258, 0.23330753, 0.10973705]), -0.6727909786360604]] 
+
+13
+[(530, 595), (530, 596), (531, 595), (532, 594), [0.11, 304, array([0.24666877, 0.46217217, 0.14606801, 0.13293395, 0.14760185]), -0.577542245388031]] 
+
+14
+[(533, 596), (534, 597), (535, 597), [0.11, 309, array([0.11043996, 0.31732356, 0.13283374, 0.06922432, 0.29613564]), -0.9358563820521036]] 
+
+15
+[(535, 600), (536, 600), (537, 601), (539, 603), (539, 605), [0.11, 311, array([0.11675966, 0.42539923, 0.23972958, 0.07433099, 0.12521812]), -0.8951700448989868]] 
+
+16
+[(558, 626), (559, 624), (559, 625), (559, 627), (560, 625), (560, 627), (561, 627), (562, 626), (562, 627), (562, 628), (564, 627), (564, 629), (565, 626), (566, 628), (566, 630), (567, 633), (570, 626), (570, 632), (571, 626), (573, 636), [0.11, 318, array([0.03724968, 0.20494372, 0.56546708, 0.01555409, 0.0583337 ]), 0.04165697172284126]] 
+
+17
+[(566, 420), (566, 421), (566, 423), (567, 420), (567, 421), (567, 422), (567, 423), (567, 424), (568, 421), (568, 422), (568, 423), (568, 424), [0.40628620237112045, 319, array([1.24665645e-01, 2.37683932e-02, 1.11821038e-04, 5.79530944e-01,
+       1.71701153e-01]), -2.060251752535502]] 
+
+18
+[(571, 482), (571, 483), (572, 484), [0.11, 320, array([9.43862478e-01, 7.83719619e-02, 2.49024651e-03, 7.97757180e-04,
+       5.51962488e-05]), -2.577054500579834]] 
+
+19
+[(579, 490), [0.11, 321, array([5.37140489e-01, 4.96092707e-01, 2.68161809e-03, 1.36853149e-03,
+       4.14827700e-05]), -2.4681031703948975]] 
+
+20
+[(580, 477), (580, 478), (581, 476), (581, 477), (582, 474), (582, 481), (583, 474), (584, 473), (584, 474), [0.9619403150346544, 322, array([4.36425951e-01, 5.34308331e-01, 7.45625892e-04, 1.64581974e-03,
+       1.05677693e-04]), -2.224354346593221]] 
+
+21
+[(581, 492), (589, 500), (589, 503), [0.11, 323, array([4.23451533e-01, 6.00715548e-01, 5.37334986e-02, 1.72510107e-03,
+       9.32778955e-05]), -2.353549003601074]] 
+
+22
+[(590, 450), [0.11, 326, array([9.27110910e-01, 1.19636565e-01, 1.26329223e-02, 3.76648735e-03,
+       2.02333249e-04]), -2.776745319366455]] 
+
+23
+[(591, 452), [0.11, 327, array([9.24158812e-01, 1.37300000e-01, 1.16944583e-02, 2.20528734e-03,
+       6.46000262e-05]), -2.888016939163208]] 
+
+24
+[(612, 462), [0.11, 329, array([0.09047596, 0.14112665, 0.1800665 , 0.03763193, 0.45180848]), -1.5868812799453735]] 
+
+25
+[(616, 412), (616, 413), [0.19525151699781418, 330, array([4.22043465e-02, 2.64551060e-03, 4.63803144e-05, 1.93295637e-02,
+       9.22432780e-01]), -2.5308066606521606]] 
+
+26
+[(625, 417), (626, 414), (626, 417), (626, 418), [0.11, 331, array([0.38048573, 0.55290012, 0.02348606, 0.03138842, 0.01995011]), -2.816444516181946]] 
+
+27
+[(626, 408), (630, 404), (631, 406), (632, 404), (632, 406), (632, 410), (633, 403), (635, 400), (635, 401), (635, 402), (635, 403), (635, 412), (637, 399), (638, 414), (640, 409), (640, 415), (642, 398), [0.11, 332, array([0.09774522, 0.8485653 , 0.04695521, 0.00558947, 0.00201911]), -2.796267874100629]] 
+
+28
+[(631, 481), (631, 489), (632, 479), (632, 480), (632, 481), (632, 488), (632, 489), (633, 478), (633, 479), (633, 480), (633, 481), (633, 485), (633, 486), (633, 487), (633, 488), (633, 489), (633, 491), [0.11, 333, array([0.14218097, 0.36808868, 0.39366155, 0.00484307, 0.00439541]), -1.6023383280810188]] 
+
+29
+[(633, 540), (635, 543), (640, 549), [0.11, 334, array([0.34333539, 0.50988947, 0.09240776, 0.0068672 , 0.0027668 ]), -2.1321164766947427]] 
+
+30
+[(636, 494), (637, 494), (637, 495), (637, 496), (638, 494), (638, 496), (639, 494), (640, 499), (642, 501), (645, 503), (646, 505), [0.11, 335, array([1.19794105e-01, 7.10664625e-01, 1.87382903e-01, 6.62504204e-03,
+       6.30776065e-04]), -2.048119219866666]] 
+
+31
+[(642, 322), (642, 323), (644, 319), (645, 320), (645, 321), (646, 319), [0.11, 336, array([0.46302974, 0.53076421, 0.0520601 , 0.03137841, 0.00278354]), -3.0135255654652915]] 
+
+32
+[(668, 378), [0.11, 337, array([0.33039522, 0.2833949 , 0.02807392, 0.11683556, 0.07969658]), -2.395857095718384]] 
+
+33
+[(668, 380), [0.11, 338, array([0.38751128, 0.25776613, 0.02372052, 0.12332996, 0.02616351]), -2.68001389503479]] 
+
+('first_line_filtered number.', (69310, 3), (120268, 3))
+('took iterations:', 60, 'best model:', array([ -1.063921 ,   0.5823953, 103.44249  , 177.2539   ], dtype=float32), 'explains:', 50906)
+Iteration 0 of 500: loss=0.681834459305 object_loss=0.681834459305 distance_loss=4.84586600447e-14
+Iteration 1 of 500: loss=0.662522912025 object_loss=0.662084579468 distance_loss=0.219159662724
+Iteration 2 of 500: loss=0.66307169199 object_loss=0.662038683891 distance_loss=0.516515791416
+Iteration 3 of 500: loss=0.675683021545 object_loss=0.674402177334 distance_loss=0.640428304672
+Iteration 4 of 500: loss=0.673931360245 object_loss=0.672860264778 distance_loss=0.535551846027
+Iteration 5 of 500: loss=0.673704087734 object_loss=0.673013627529 distance_loss=0.345216065645
+Iteration 6 of 500: loss=0.660290241241 object_loss=0.65988868475 distance_loss=0.200783967972
+Iteration 7 of 500: loss=0.667155385017 object_loss=0.666258275509 distance_loss=0.448545575142
+Iteration 8 of 500: loss=0.637530267239 object_loss=0.636099398136 distance_loss=0.715446591377
+Iteration 9 of 500: loss=0.651087701321 object_loss=0.649217545986 distance_loss=0.935075283051
+Iteration 10 of 500: loss=0.631330430508 object_loss=0.629133164883 distance_loss=1.0986354351
+Iteration 11 of 500: loss=0.557205021381 object_loss=0.554789245129 distance_loss=1.20788264275
+Iteration 12 of 500: loss=0.549797534943 object_loss=0.54728281498 distance_loss=1.25736367702
+Iteration 13 of 500: loss=0.508592009544 object_loss=0.506103694439 distance_loss=1.24415421486
+Iteration 14 of 500: loss=0.508270859718 object_loss=0.505916595459 distance_loss=1.17711925507
+Iteration 15 of 500: loss=0.544347941875 object_loss=0.542234301567 distance_loss=1.05681908131
+Iteration 16 of 500: loss=0.543562710285 object_loss=0.541667401791 distance_loss=0.947668135166
+Iteration 17 of 500: loss=0.556746542454 object_loss=0.554339647293 distance_loss=1.20345211029
+Iteration 18 of 500: loss=0.561643898487 object_loss=0.558698952198 distance_loss=1.47248005867
+Iteration 19 of 500: loss=0.556032717228 object_loss=0.552535772324 distance_loss=1.74847996235
+Iteration 20 of 500: loss=0.607950329781 object_loss=0.603884100914 distance_loss=2.03312206268
+Iteration 21 of 500: loss=0.610304892063 object_loss=0.605655729771 distance_loss=2.3245780468
+Iteration 22 of 500: loss=0.630944132805 object_loss=0.625705301762 distance_loss=2.61941099167
+Iteration 23 of 500: loss=0.633341252804 object_loss=0.627539277077 distance_loss=2.90100049973
+Iteration 24 of 500: loss=0.612955927849 object_loss=0.606641590595 distance_loss=3.15716505051
+Iteration 25 of 500: loss=0.609918773174 object_loss=0.603171885014 distance_loss=3.3734433651
+Iteration 26 of 500: loss=0.60335534811 object_loss=0.596276164055 distance_loss=3.53958654404
+Iteration 27 of 500: loss=0.569589138031 object_loss=0.562292337418 distance_loss=3.64840006828
+Iteration 28 of 500: loss=0.523466527462 object_loss=0.516073346138 distance_loss=3.69659042358
+Iteration 29 of 500: loss=0.553958594799 object_loss=0.546588480473 distance_loss=3.68505096436
+Iteration 30 of 500: loss=0.568714082241 object_loss=0.561477303505 distance_loss=3.61837983131
+Iteration 31 of 500: loss=0.545200645924 object_loss=0.538189053535 distance_loss=3.50578832626
+Iteration 32 of 500: loss=0.549643456936 object_loss=0.542932391167 distance_loss=3.35553240776
+Iteration 33 of 500: loss=0.51900690794 object_loss=0.512656271458 distance_loss=3.17531347275
+Iteration 34 of 500: loss=0.518596231937 object_loss=0.512652873993 distance_loss=2.97169327736
+Iteration 35 of 500: loss=0.518028914928 object_loss=0.512527823448 distance_loss=2.75053930283
+Iteration 36 of 500: loss=0.513712882996 object_loss=0.508676290512 distance_loss=2.51829719543
+Iteration 37 of 500: loss=0.523094952106 object_loss=0.518525719643 distance_loss=2.28460407257
+Iteration 38 of 500: loss=0.612404644489 object_loss=0.608277082443 distance_loss=2.06379365921
+Iteration 39 of 500: loss=0.580574274063 object_loss=0.576848745346 distance_loss=1.86277210712
+Iteration 40 of 500: loss=0.587274670601 object_loss=0.583448410034 distance_loss=1.9131360054
+Iteration 41 of 500: loss=0.588059663773 object_loss=0.583488285542 distance_loss=2.28569936752
+Iteration 42 of 500: loss=0.621807217598 object_loss=0.616473019123 distance_loss=2.66710948944
+Iteration 43 of 500: loss=0.590626299381 object_loss=0.584522366524 distance_loss=3.05196666718
+Iteration 44 of 500: loss=0.571960747242 object_loss=0.56508409977 distance_loss=3.43832159042
+Iteration 45 of 500: loss=0.546409368515 object_loss=0.53878480196 distance_loss=3.81229448318
+Iteration 46 of 500: loss=0.547132670879 object_loss=0.538784682751 distance_loss=4.17397975922
+Iteration 47 of 500: loss=0.551412522793 object_loss=0.542371690273 distance_loss=4.52042627335
+Iteration 48 of 500: loss=0.559939324856 object_loss=0.550241589546 distance_loss=4.84885501862
+Iteration 49 of 500: loss=0.571675717831 object_loss=0.561359167099 distance_loss=5.15827035904
+Iteration 50 of 500: loss=0.571971595287 object_loss=0.561069190502 distance_loss=5.45119857788
+Iteration 51 of 500: loss=0.571925461292 object_loss=0.560483515263 distance_loss=5.7209815979
+Iteration 52 of 500: loss=0.582328498363 object_loss=0.570397675037 distance_loss=5.96542453766
+Iteration 53 of 500: loss=0.584370195866 object_loss=0.572008252144 distance_loss=6.18096828461
+Iteration 54 of 500: loss=0.596075296402 object_loss=0.583345711231 distance_loss=6.36479139328
+Iteration 55 of 500: loss=0.558130383492 object_loss=0.545099973679 distance_loss=6.51519012451
+Iteration 56 of 500: loss=0.558361649513 object_loss=0.545099616051 distance_loss=6.63100337982
+Iteration 57 of 500: loss=0.55847120285 object_loss=0.545048415661 distance_loss=6.71140670776
+Iteration 58 of 500: loss=0.594935357571 object_loss=0.581423640251 distance_loss=6.7558555603
+Iteration 59 of 500: loss=0.593466103077 object_loss=0.57993799448 distance_loss=6.76404619217
+Iteration 60 of 500: loss=0.596160173416 object_loss=0.582688391209 distance_loss=6.7358956337
+Iteration 61 of 500: loss=0.595228672028 object_loss=0.581885635853 distance_loss=6.67150831223
+Iteration 62 of 500: loss=0.58238863945 object_loss=0.569246709347 distance_loss=6.57096195221
+Iteration 63 of 500: loss=0.596007108688 object_loss=0.58313781023 distance_loss=6.43464899063
+Iteration 64 of 500: loss=0.59551346302 object_loss=0.582987129688 distance_loss=6.2631778717
+Iteration 65 of 500: loss=0.607129335403 object_loss=0.594785749912 distance_loss=6.17179489136
+Iteration 66 of 500: loss=0.609286010265 object_loss=0.595895707607 distance_loss=6.69515228271
+Iteration 67 of 500: loss=0.589339971542 object_loss=0.574873566628 distance_loss=7.23319625854
+Iteration 68 of 500: loss=0.588531017303 object_loss=0.572973608971 distance_loss=7.77871417999
+Iteration 69 of 500: loss=0.593191683292 object_loss=0.576540529728 distance_loss=8.32557010651
+Iteration 70 of 500: loss=0.600014507771 object_loss=0.582281112671 distance_loss=8.86668777466
+Iteration 71 of 500: loss=0.652245938778 object_loss=0.633456587791 distance_loss=9.3946685791
+Iteration 72 of 500: loss=0.653783798218 object_loss=0.633980333805 distance_loss=9.90172290802
+Iteration 73 of 500: loss=0.648522675037 object_loss=0.627763092518 distance_loss=10.3797912598
+Iteration 74 of 500: loss=0.60564738512 object_loss=0.58400541544 distance_loss=10.8209867477
+Iteration 75 of 500: loss=0.575672447681 object_loss=0.553235292435 distance_loss=11.2185764313
+Iteration 76 of 500: loss=0.587088942528 object_loss=0.563956081867 distance_loss=11.5664434433
+Iteration 77 of 500: loss=0.561809718609 object_loss=0.538090884686 distance_loss=11.8594284058
+Iteration 78 of 500: loss=0.575476765633 object_loss=0.55128967762 distance_loss=12.0935535431
+Iteration 79 of 500: loss=0.575838923454 object_loss=0.551306307316 distance_loss=12.2663211823
+Iteration 80 of 500: loss=0.576156258583 object_loss=0.551402807236 distance_loss=12.3767127991
+Iteration 81 of 500: loss=0.544986069202 object_loss=0.520136058331 distance_loss=12.4249916077
+Iteration 82 of 500: loss=0.514112353325 object_loss=0.489285856485 distance_loss=12.4132461548
+Iteration 83 of 500: loss=0.515543699265 object_loss=0.49085471034 distance_loss=12.3445014954
+Iteration 84 of 500: loss=0.5139529109 object_loss=0.48950818181 distance_loss=12.222360611
+Iteration 85 of 500: loss=0.522318005562 object_loss=0.498215854168 distance_loss=12.0510816574
+Iteration 86 of 500: loss=0.524686098099 object_loss=0.501015067101 distance_loss=11.8355226517
+Iteration 87 of 500: loss=0.535176694393 object_loss=0.512014508247 distance_loss=11.5810956955
+Iteration 88 of 500: loss=0.529415309429 object_loss=0.506828546524 distance_loss=11.2933826447
+Iteration 89 of 500: loss=0.546439945698 object_loss=0.524483680725 distance_loss=10.9781284332
+Iteration 90 of 500: loss=0.542944788933 object_loss=0.521662354469 distance_loss=10.6412315369
+Iteration 91 of 500: loss=0.558105528355 object_loss=0.537522375584 distance_loss=10.2915754318
+Iteration 92 of 500: loss=0.576886355877 object_loss=0.557016670704 distance_loss=9.93485450745
+Iteration 93 of 500: loss=0.569699823856 object_loss=0.550546228886 distance_loss=9.57680702209
+Iteration 94 of 500: loss=0.609076142311 object_loss=0.5906291008 distance_loss=9.22351455688
+Iteration 95 of 500: loss=0.630055904388 object_loss=0.612294495106 distance_loss=8.8807144165
+Iteration 96 of 500: loss=0.647439241409 object_loss=0.630330622196 distance_loss=8.55431079865
+Iteration 97 of 500: loss=0.626941919327 object_loss=0.610441565514 distance_loss=8.2501783371
+Iteration 98 of 500: loss=0.622587203979 object_loss=0.606639564037 distance_loss=7.97380924225
+Iteration 99 of 500: loss=0.621882617474 object_loss=0.606422305107 distance_loss=7.73015594482
+Iteration 100 of 500: loss=0.619747698307 object_loss=0.604700088501 distance_loss=7.52381229401
+Iteration 101 of 500: loss=0.619166910648 object_loss=0.604449927807 distance_loss=7.35848236084
+Iteration 102 of 500: loss=0.619057297707 object_loss=0.604587614536 distance_loss=7.23485088348
+Iteration 103 of 500: loss=0.618432462215 object_loss=0.604124307632 distance_loss=7.15406894684
+Iteration 104 of 500: loss=0.620023012161 object_loss=0.60578930378 distance_loss=7.1168680191
+Iteration 105 of 500: loss=0.581666707993 object_loss=0.567419171333 distance_loss=7.12376451492
+Iteration 106 of 500: loss=0.578199386597 object_loss=0.56384909153 distance_loss=7.17513799667
+Iteration 107 of 500: loss=0.578449964523 object_loss=0.563908040524 distance_loss=7.27095127106
+Iteration 108 of 500: loss=0.577751815319 object_loss=0.56293118 distance_loss=7.41032218933
+Iteration 109 of 500: loss=0.591592311859 object_loss=0.576410472393 distance_loss=7.59091854095
+Iteration 110 of 500: loss=0.60942274332 object_loss=0.593801796436 distance_loss=7.81046485901
+Iteration 111 of 500: loss=0.610755681992 object_loss=0.594619870186 distance_loss=8.06791496277
+Iteration 112 of 500: loss=0.612346589565 object_loss=0.595623910427 distance_loss=8.36133956909
+Iteration 113 of 500: loss=0.587471544743 object_loss=0.570098757744 distance_loss=8.68639564514
+Iteration 114 of 500: loss=0.586613893509 object_loss=0.56853634119 distance_loss=9.03876781464
+Iteration 115 of 500: loss=0.578440368176 object_loss=0.559610962868 distance_loss=9.41470241547
+Iteration 116 of 500: loss=0.57511895895 object_loss=0.555499732494 distance_loss=9.8096075058
+Iteration 117 of 500: loss=0.57645457983 object_loss=0.556016623974 distance_loss=10.2189769745
+Iteration 118 of 500: loss=0.577097713947 object_loss=0.555819988251 distance_loss=10.6388511658
+Iteration 119 of 500: loss=0.575056135654 object_loss=0.552924573421 distance_loss=11.0657787323
+Iteration 120 of 500: loss=0.573302149773 object_loss=0.550308704376 distance_loss=11.4967269897
+Iteration 121 of 500: loss=0.577474117279 object_loss=0.553616583347 distance_loss=11.92877388
+Iteration 122 of 500: loss=0.603814184666 object_loss=0.579094707966 distance_loss=12.3597307205
+Iteration 123 of 500: loss=0.596763074398 object_loss=0.571189761162 distance_loss=12.7866687775
+Iteration 124 of 500: loss=0.595113158226 object_loss=0.568701088428 distance_loss=13.206035614
+Iteration 125 of 500: loss=0.597711503506 object_loss=0.570482254028 distance_loss=13.614613533
+Iteration 126 of 500: loss=0.597006857395 object_loss=0.568987429142 distance_loss=14.0097007751
+Iteration 127 of 500: loss=0.597474813461 object_loss=0.568696916103 distance_loss=14.3889627457
+Iteration 128 of 500: loss=0.597877681255 object_loss=0.56837695837 distance_loss=14.7503547668
+Iteration 129 of 500: loss=0.601413607597 object_loss=0.571229338646 distance_loss=15.092130661
+Iteration 130 of 500: loss=0.598094403744 object_loss=0.567268669605 distance_loss=15.4128675461
+Iteration 131 of 500: loss=0.589999735355 object_loss=0.558576822281 distance_loss=15.7114620209
+Iteration 132 of 500: loss=0.589619934559 object_loss=0.557645618916 distance_loss=15.9871587753
+Iteration 133 of 500: loss=0.590924620628 object_loss=0.558445632458 distance_loss=16.2395057678
+Iteration 134 of 500: loss=0.591007769108 object_loss=0.558071553707 distance_loss=16.4681129456
+Iteration 135 of 500: loss=0.593652129173 object_loss=0.560307145119 distance_loss=16.6724853516
+Iteration 136 of 500: loss=0.594278991222 object_loss=0.560574412346 distance_loss=16.8522796631
+Iteration 137 of 500: loss=0.594452440739 object_loss=0.560437500477 distance_loss=17.0074577332
+Iteration 138 of 500: loss=0.594694018364 object_loss=0.56041765213 distance_loss=17.1381912231
+Iteration 139 of 500: loss=0.595319092274 object_loss=0.560829520226 distance_loss=17.2447834015
+Iteration 140 of 500: loss=0.595807611942 object_loss=0.561152219772 distance_loss=17.3276824951
+Iteration 141 of 500: loss=0.596195995808 object_loss=0.561420738697 distance_loss=17.3876304626
+Iteration 142 of 500: loss=0.590082228184 object_loss=0.555230915546 distance_loss=17.4256668091
+Iteration 143 of 500: loss=0.649397671223 object_loss=0.614511489868 distance_loss=17.4430961609
+Iteration 144 of 500: loss=0.63117480278 object_loss=0.596291780472 distance_loss=17.4415168762
+Iteration 145 of 500: loss=0.625205874443 object_loss=0.590360403061 distance_loss=17.4227485657
+Iteration 146 of 500: loss=0.62505877018 object_loss=0.590281188488 distance_loss=17.3888034821
+Iteration 147 of 500: loss=0.62299400568 object_loss=0.588310241699 distance_loss=17.3418750763
+Iteration 148 of 500: loss=0.680903553963 object_loss=0.64633500576 distance_loss=17.2842750549
+Iteration 149 of 500: loss=0.679578363895 object_loss=0.645141720772 distance_loss=17.2183113098
+Iteration 150 of 500: loss=0.679437398911 object_loss=0.645144820213 distance_loss=17.1462860107
+Iteration 151 of 500: loss=0.72946614027 object_loss=0.695325314999 distance_loss=17.0704116821
+Iteration 152 of 500: loss=0.684440672398 object_loss=0.650455355644 distance_loss=16.9926643372
+Iteration 153 of 500: loss=0.686234116554 object_loss=0.652405440807 distance_loss=16.9143409729
+Iteration 154 of 500: loss=0.726926624775 object_loss=0.693252921104 distance_loss=16.8368492126
+Iteration 155 of 500: loss=0.669229269028 object_loss=0.635706245899 distance_loss=16.7614994049
+Iteration 156 of 500: loss=0.730734109879 object_loss=0.697355031967 distance_loss=16.689540863
+Iteration 157 of 500: loss=0.73272806406 object_loss=0.699483513832 distance_loss=16.6222705841
+Iteration 158 of 500: loss=0.658918857574 object_loss=0.625796616077 distance_loss=16.5611114502
+Iteration 159 of 500: loss=0.657168269157 object_loss=0.624152898788 distance_loss=16.5076751709
+Iteration 160 of 500: loss=0.658411443233 object_loss=0.625483632088 distance_loss=16.4639148712
+Iteration 161 of 500: loss=0.677913725376 object_loss=0.645051896572 distance_loss=16.4309196472
+Iteration 162 of 500: loss=0.659966647625 object_loss=0.627150058746 distance_loss=16.4082984924
+Iteration 163 of 500: loss=0.728116631508 object_loss=0.695325195789 distance_loss=16.3957176208
+Iteration 164 of 500: loss=0.749832630157 object_loss=0.717045783997 distance_loss=16.3934307098
+Iteration 165 of 500: loss=0.753799498081 object_loss=0.720992803574 distance_loss=16.4033470154
+Iteration 166 of 500: loss=0.754159808159 object_loss=0.721301972866 distance_loss=16.4289207458
+Iteration 167 of 500: loss=0.754191160202 object_loss=0.721252202988 distance_loss=16.4694786072
+Iteration 168 of 500: loss=0.753674983978 object_loss=0.720629155636 distance_loss=16.5229053497
+Iteration 169 of 500: loss=0.670064508915 object_loss=0.63688904047 distance_loss=16.5877456665
+Iteration 170 of 500: loss=0.670335650444 object_loss=0.637008786201 distance_loss=16.6634407043
+Iteration 171 of 500: loss=0.684951841831 object_loss=0.651451826096 distance_loss=16.7500171661
+Iteration 172 of 500: loss=0.670826256275 object_loss=0.637130498886 distance_loss=16.8478889465
+Iteration 173 of 500: loss=0.671613574028 object_loss=0.637697815895 distance_loss=16.9578704834
+Iteration 174 of 500: loss=0.672101438046 object_loss=0.637939572334 distance_loss=17.0809230804
+Iteration 175 of 500: loss=0.687181472778 object_loss=0.652746558189 distance_loss=17.2174701691
+Iteration 176 of 500: loss=0.687527477741 object_loss=0.652793049812 distance_loss=17.3672103882
+Iteration 177 of 500: loss=0.66007566452 object_loss=0.625016510487 distance_loss=17.529586792
+Iteration 178 of 500: loss=0.660332202911 object_loss=0.624925851822 distance_loss=17.7031879425
+Iteration 179 of 500: loss=0.652225792408 object_loss=0.616449713707 distance_loss=17.88804245
+Iteration 180 of 500: loss=0.645401895046 object_loss=0.609233796597 distance_loss=18.0840530396
+Iteration 181 of 500: loss=0.657202482224 object_loss=0.620625257492 distance_loss=18.288602829
+Iteration 182 of 500: loss=0.662837684155 object_loss=0.625836491585 distance_loss=18.5005874634
+Iteration 183 of 500: loss=0.683761239052 object_loss=0.646326124668 distance_loss=18.7175674438
+Iteration 184 of 500: loss=0.685018599033 object_loss=0.647143423557 distance_loss=18.9375801086
+Iteration 185 of 500: loss=0.685323774815 object_loss=0.647005617619 distance_loss=19.159072876
+Iteration 186 of 500: loss=0.68660569191 object_loss=0.647844612598 distance_loss=19.380531311
+Iteration 187 of 500: loss=0.686657965183 object_loss=0.647456943989 distance_loss=19.6005020142
+Iteration 188 of 500: loss=0.767540335655 object_loss=0.727904677391 distance_loss=19.8178348541
+Iteration 189 of 500: loss=0.764130234718 object_loss=0.724066913128 distance_loss=20.0316524506
+Iteration 190 of 500: loss=0.766003072262 object_loss=0.725520133972 distance_loss=20.2414550781
+Iteration 191 of 500: loss=0.761558592319 object_loss=0.720664381981 distance_loss=20.4471149445
+Iteration 192 of 500: loss=0.784250736237 object_loss=0.742952823639 distance_loss=20.6489448547
+Iteration 193 of 500: loss=0.750680804253 object_loss=0.708985686302 distance_loss=20.8475475311
+Iteration 194 of 500: loss=0.757799863815 object_loss=0.715712964535 distance_loss=21.0434379578
+Iteration 195 of 500: loss=0.759269595146 object_loss=0.716795921326 distance_loss=21.2368297577
+Iteration 196 of 500: loss=0.812551677227 object_loss=0.769696593285 distance_loss=21.4275512695
+Iteration 197 of 500: loss=0.812622666359 object_loss=0.769391715527 distance_loss=21.6154785156
+Iteration 198 of 500: loss=0.81273907423 object_loss=0.769137024879 distance_loss=21.8010253906
+Iteration 199 of 500: loss=0.810867905617 object_loss=0.766897678375 distance_loss=21.9851016998
+Iteration 200 of 500: loss=0.810462892056 object_loss=0.766126275063 distance_loss=22.1683044434
+Iteration 201 of 500: loss=0.746849417686 object_loss=0.702149868011 distance_loss=22.3497772217
+Iteration 202 of 500: loss=0.751665890217 object_loss=0.706610441208 distance_loss=22.5277118683
+Iteration 203 of 500: loss=0.759240090847 object_loss=0.713838458061 distance_loss=22.7008247375
+Iteration 204 of 500: loss=0.753987967968 object_loss=0.708250939846 distance_loss=22.8685112
+Iteration 205 of 500: loss=0.78881072998 object_loss=0.742749333382 distance_loss=23.030708313
+Iteration 206 of 500: loss=0.787071108818 object_loss=0.740695416927 distance_loss=23.1878356934
+Iteration 207 of 500: loss=0.786181867123 object_loss=0.739500164986 distance_loss=23.340839386
+Iteration 208 of 500: loss=0.7819699049 object_loss=0.734988510609 distance_loss=23.4906997681
+Iteration 209 of 500: loss=0.783292353153 object_loss=0.73601692915 distance_loss=23.6377182007
+Iteration 210 of 500: loss=0.778813123703 object_loss=0.731249570847 distance_loss=23.7817707062
+Iteration 211 of 500: loss=0.775979280472 object_loss=0.728133440018 distance_loss=23.9229164124
+Iteration 212 of 500: loss=0.787337362766 object_loss=0.739214897156 distance_loss=24.0612411499
+Iteration 213 of 500: loss=0.794510960579 object_loss=0.746117293835 distance_loss=24.1968460083
+Iteration 214 of 500: loss=0.884327113628 object_loss=0.835667610168 distance_loss=24.3297481537
+Iteration 215 of 500: loss=0.884295463562 object_loss=0.835375845432 distance_loss=24.4598121643
+Iteration 216 of 500: loss=0.874960362911 object_loss=0.825786590576 distance_loss=24.5868797302
+Iteration 217 of 500: loss=0.827775120735 object_loss=0.778353452682 distance_loss=24.7108192444
+Iteration 218 of 500: loss=0.819625973701 object_loss=0.769962608814 distance_loss=24.8316783905
+Iteration 219 of 500: loss=0.770605683327 object_loss=0.720705866814 distance_loss=24.9499053955
+Iteration 220 of 500: loss=0.771057069302 object_loss=0.720923602581 distance_loss=25.0667266846
+Iteration 221 of 500: loss=0.762100756168 object_loss=0.711732625961 distance_loss=25.1840591431
+Iteration 222 of 500: loss=0.764648497105 object_loss=0.714043974876 distance_loss=25.3022518158
+Iteration 223 of 500: loss=0.713514566422 object_loss=0.662673711777 distance_loss=25.4204139709
+Iteration 224 of 500: loss=0.71314316988 object_loss=0.662066400051 distance_loss=25.5383834839
+Iteration 225 of 500: loss=0.71420943737 object_loss=0.662895321846 distance_loss=25.6570529938
+Iteration 226 of 500: loss=0.713737249374 object_loss=0.66218149662 distance_loss=25.7778644562
+Iteration 227 of 500: loss=0.714889347553 object_loss=0.66308516264 distance_loss=25.9020843506
+Iteration 228 of 500: loss=0.715086758137 object_loss=0.663025796413 distance_loss=26.0304832458
+Iteration 229 of 500: loss=0.72249186039 object_loss=0.67016518116 distance_loss=26.1633377075
+Iteration 230 of 500: loss=0.722505688667 object_loss=0.669905602932 distance_loss=26.300037384
+Iteration 231 of 500: loss=0.718567728996 object_loss=0.665688991547 distance_loss=26.4393806458
+Iteration 232 of 500: loss=0.717582523823 object_loss=0.664422512054 distance_loss=26.5799980164
+Iteration 233 of 500: loss=0.718512713909 object_loss=0.665070950985 distance_loss=26.7208900452
+Iteration 234 of 500: loss=0.718399822712 object_loss=0.664676845074 distance_loss=26.8614768982
+Iteration 235 of 500: loss=0.720011591911 object_loss=0.666008353233 distance_loss=27.0016231537
+Iteration 236 of 500: loss=0.720213294029 object_loss=0.665930569172 distance_loss=27.1413536072
+Iteration 237 of 500: loss=0.759033620358 object_loss=0.704472661018 distance_loss=27.2804698944
+Iteration 238 of 500: loss=0.752850115299 object_loss=0.698012828827 distance_loss=27.4186325073
+Iteration 239 of 500: loss=0.759284615517 object_loss=0.704173326492 distance_loss=27.5556354523
+Iteration 240 of 500: loss=0.76176148653 object_loss=0.706379771233 distance_loss=27.6908550262
+Iteration 241 of 500: loss=0.753507554531 object_loss=0.697860121727 distance_loss=27.8237247467
+Iteration 242 of 500: loss=0.752111136913 object_loss=0.696204304695 distance_loss=27.9534034729
+Iteration 243 of 500: loss=0.828581571579 object_loss=0.772422492504 distance_loss=28.0795478821
+Iteration 244 of 500: loss=0.831423461437 object_loss=0.775019407272 distance_loss=28.2020225525
+Iteration 245 of 500: loss=0.793597996235 object_loss=0.736956357956 distance_loss=28.3208274841
+Iteration 246 of 500: loss=0.78430980444 object_loss=0.727437436581 distance_loss=28.4361953735
+Iteration 247 of 500: loss=0.788784682751 object_loss=0.731687068939 distance_loss=28.5488166809
+Iteration 248 of 500: loss=0.792185425758 object_loss=0.734865188599 distance_loss=28.6601276398
+Iteration 249 of 500: loss=0.784578084946 object_loss=0.727037608624 distance_loss=28.7702236176
+Iteration 250 of 500: loss=0.790707170963 object_loss=0.732952177525 distance_loss=28.8774852753
+Iteration 251 of 500: loss=0.790243148804 object_loss=0.73228096962 distance_loss=28.9810791016
+Iteration 252 of 500: loss=0.791247904301 object_loss=0.733086228371 distance_loss=29.0808429718
+Iteration 253 of 500: loss=0.791498839855 object_loss=0.733145952225 distance_loss=29.1764354706
+Iteration 254 of 500: loss=0.809973955154 object_loss=0.751437723637 distance_loss=29.2681159973
+Iteration 255 of 500: loss=0.809902250767 object_loss=0.751189887524 distance_loss=29.3561668396
+Iteration 256 of 500: loss=0.801018893719 object_loss=0.74213719368 distance_loss=29.4408607483
+Iteration 257 of 500: loss=0.799539804459 object_loss=0.740494728088 distance_loss=29.5225296021
+Iteration 258 of 500: loss=0.802919924259 object_loss=0.743716955185 distance_loss=29.6014881134
+Iteration 259 of 500: loss=0.804729223251 object_loss=0.745372951031 distance_loss=29.6781349182
+Iteration 260 of 500: loss=0.809688687325 object_loss=0.750182986259 distance_loss=29.7528495789
+Iteration 261 of 500: loss=0.808771133423 object_loss=0.74911904335 distance_loss=29.8260536194
+Iteration 262 of 500: loss=0.805396020412 object_loss=0.745599865913 distance_loss=29.8980770111
+Iteration 263 of 500: loss=0.803015530109 object_loss=0.743077099323 distance_loss=29.9692077637
+Iteration 264 of 500: loss=0.80700558424 object_loss=0.74692606926 distance_loss=30.0397434235
+Iteration 265 of 500: loss=0.790637612343 object_loss=0.730417847633 distance_loss=30.1098823547
+Iteration 266 of 500: loss=0.791166365147 object_loss=0.730806708336 distance_loss=30.1798305511
+Iteration 267 of 500: loss=0.790095090866 object_loss=0.729595303535 distance_loss=30.2498779297
+Iteration 268 of 500: loss=0.78271239996 object_loss=0.722071766853 distance_loss=30.3203239441
+Iteration 269 of 500: loss=0.840169847012 object_loss=0.7793866992 distance_loss=30.3915634155
+Iteration 270 of 500: loss=0.842590093613 object_loss=0.781662404537 distance_loss=30.4638404846
+Iteration 271 of 500: loss=0.844299554825 object_loss=0.783225059509 distance_loss=30.5372619629
+Iteration 272 of 500: loss=0.842128515244 object_loss=0.780904650688 distance_loss=30.6119194031
+Iteration 273 of 500: loss=0.84248393774 object_loss=0.78110820055 distance_loss=30.687877655
+Iteration 274 of 500: loss=0.85927683115 object_loss=0.797746777534 distance_loss=30.7650318146
+Iteration 275 of 500: loss=0.864277124405 object_loss=0.802591383457 distance_loss=30.8428688049
+Iteration 276 of 500: loss=0.879054784775 object_loss=0.817213058472 distance_loss=30.9208755493
+Iteration 277 of 500: loss=0.871929168701 object_loss=0.809931814671 distance_loss=30.9986763
+Iteration 278 of 500: loss=0.868951201439 object_loss=0.806799054146 distance_loss=31.0760746002
+Iteration 279 of 500: loss=0.870255053043 object_loss=0.807949125767 distance_loss=31.1529483795
+Iteration 280 of 500: loss=0.874818086624 object_loss=0.812359392643 distance_loss=31.2293319702
+Iteration 281 of 500: loss=0.87103843689 object_loss=0.808427810669 distance_loss=31.305316925
+Iteration 282 of 500: loss=0.857616186142 object_loss=0.794854402542 distance_loss=31.3808937073
+Iteration 283 of 500: loss=0.781157672405 object_loss=0.718244850636 distance_loss=31.4564056396
+Iteration 284 of 500: loss=0.790301978588 object_loss=0.727237462997 distance_loss=31.5322551727
+Iteration 285 of 500: loss=0.777732610703 object_loss=0.714514017105 distance_loss=31.6092948914
+Iteration 286 of 500: loss=0.765670239925 object_loss=0.70229434967 distance_loss=31.687953949
+Iteration 287 of 500: loss=0.766207873821 object_loss=0.702670395374 distance_loss=31.7687301636
+Iteration 288 of 500: loss=0.766100883484 object_loss=0.702396988869 distance_loss=31.8519458771
+Iteration 289 of 500: loss=0.777498006821 object_loss=0.713622331619 distance_loss=31.937828064
+Iteration 290 of 500: loss=0.773244142532 object_loss=0.709191083908 distance_loss=32.0265197754
+Iteration 291 of 500: loss=0.769610762596 object_loss=0.705373644829 distance_loss=32.1185455322
+Iteration 292 of 500: loss=0.765860378742 object_loss=0.701431810856 distance_loss=32.2142868042
+Iteration 293 of 500: loss=0.675525844097 object_loss=0.610895872116 distance_loss=32.3149833679
+Iteration 294 of 500: loss=0.673855781555 object_loss=0.609012961388 distance_loss=32.4214057922
+Iteration 295 of 500: loss=0.671228945255 object_loss=0.606164634228 distance_loss=32.5321502686
+Iteration 296 of 500: loss=0.671894192696 object_loss=0.606602370739 distance_loss=32.6459236145
+Iteration 297 of 500: loss=0.672519445419 object_loss=0.606994986534 distance_loss=32.7622184753
+Iteration 298 of 500: loss=0.666878640652 object_loss=0.601116597652 distance_loss=32.8810310364
+Iteration 299 of 500: loss=0.671843469143 object_loss=0.60583782196 distance_loss=33.0028190613
+Iteration 300 of 500: loss=0.671921432018 object_loss=0.605663239956 distance_loss=33.1291046143
+Iteration 301 of 500: loss=0.677259981632 object_loss=0.610737979412 distance_loss=33.2610054016
+Iteration 302 of 500: loss=0.680423557758 object_loss=0.613629996777 distance_loss=33.396774292
+Iteration 303 of 500: loss=0.681539475918 object_loss=0.614469707012 distance_loss=33.5348739624
+Iteration 304 of 500: loss=0.683221936226 object_loss=0.615872740746 distance_loss=33.6746101379
+Iteration 305 of 500: loss=0.672882914543 object_loss=0.605251669884 distance_loss=33.8156318665
+Iteration 306 of 500: loss=0.671482086182 object_loss=0.603566884995 distance_loss=33.9576072693
+Iteration 307 of 500: loss=0.656987667084 object_loss=0.588787078857 distance_loss=34.1002883911
+Iteration 308 of 500: loss=0.657693564892 object_loss=0.589206635952 distance_loss=34.2434692383
+Iteration 309 of 500: loss=0.673134386539 object_loss=0.604360461235 distance_loss=34.38697052
+Iteration 310 of 500: loss=0.756634950638 object_loss=0.687573492527 distance_loss=34.5307388306
+Iteration 311 of 500: loss=0.759414851665 object_loss=0.690064489841 distance_loss=34.6751785278
+Iteration 312 of 500: loss=0.698053121567 object_loss=0.628410995007 distance_loss=34.8210601807
+Iteration 313 of 500: loss=0.695700764656 object_loss=0.625762820244 distance_loss=34.9689559937
+Iteration 314 of 500: loss=0.690627932549 object_loss=0.620390355587 distance_loss=35.1187782288
+Iteration 315 of 500: loss=0.695160031319 object_loss=0.624620258808 distance_loss=35.2698822021
+Iteration 316 of 500: loss=0.699973344803 object_loss=0.629130005836 distance_loss=35.4216690063
+Iteration 317 of 500: loss=0.695329546928 object_loss=0.624182224274 distance_loss=35.5736503601
+Iteration 318 of 500: loss=0.689875245094 object_loss=0.618423819542 distance_loss=35.7257003784
+Iteration 319 of 500: loss=0.691736578941 object_loss=0.619980692863 distance_loss=35.8779335022
+Iteration 320 of 500: loss=0.683323562145 object_loss=0.611262321472 distance_loss=36.0306167603
+Iteration 321 of 500: loss=0.697182059288 object_loss=0.624813914299 distance_loss=36.1840667725
+Iteration 322 of 500: loss=0.698991835117 object_loss=0.626314759254 distance_loss=36.3385353088
+Iteration 323 of 500: loss=0.699565351009 object_loss=0.626576781273 distance_loss=36.4942932129
+Iteration 324 of 500: loss=0.70740544796 object_loss=0.634102523327 distance_loss=36.6514587402
+Iteration 325 of 500: loss=0.706909656525 object_loss=0.633289396763 distance_loss=36.8101425171
+Iteration 326 of 500: loss=0.70784920454 object_loss=0.63390827179 distance_loss=36.9704627991
+Iteration 327 of 500: loss=0.708066284657 object_loss=0.633801281452 distance_loss=37.1325073242
+Iteration 328 of 500: loss=0.70788538456 object_loss=0.633292675018 distance_loss=37.2963638306
+Iteration 329 of 500: loss=0.708596348763 object_loss=0.633671164513 distance_loss=37.4625740051
+Iteration 330 of 500: loss=0.716349303722 object_loss=0.641083836555 distance_loss=37.632724762
+Iteration 331 of 500: loss=0.719871520996 object_loss=0.644259035587 distance_loss=37.8062286377
+Iteration 332 of 500: loss=0.713444113731 object_loss=0.637478888035 distance_loss=37.9826126099
+Iteration 333 of 500: loss=0.710555672646 object_loss=0.634229063988 distance_loss=38.1633148193
+Iteration 334 of 500: loss=0.718972206116 object_loss=0.642279922962 distance_loss=38.3461265564
+Iteration 335 of 500: loss=0.698644995689 object_loss=0.621587157249 distance_loss=38.5289039612
+Iteration 336 of 500: loss=0.691592633724 object_loss=0.614170670509 distance_loss=38.7109909058
+Iteration 337 of 500: loss=0.693581283092 object_loss=0.615797042847 distance_loss=38.8921127319
+Iteration 338 of 500: loss=0.696262776852 object_loss=0.618118405342 distance_loss=39.0721893311
+Iteration 339 of 500: loss=0.706732571125 object_loss=0.628230214119 distance_loss=39.2511749268
+Iteration 340 of 500: loss=0.704936206341 object_loss=0.626078248024 distance_loss=39.4289703369
+Iteration 341 of 500: loss=0.709179520607 object_loss=0.629968762398 distance_loss=39.605381012
+Iteration 342 of 500: loss=0.707742393017 object_loss=0.628182888031 distance_loss=39.7797393799
+Iteration 343 of 500: loss=0.701939046383 object_loss=0.622036874294 distance_loss=39.9510765076
+Iteration 344 of 500: loss=0.698494374752 object_loss=0.618257522583 distance_loss=40.1184120178
+Iteration 345 of 500: loss=0.686111688614 object_loss=0.605549812317 distance_loss=40.280921936
+Iteration 346 of 500: loss=0.680116534233 object_loss=0.599240601063 distance_loss=40.4379653931
+Iteration 347 of 500: loss=0.682141244411 object_loss=0.600963234901 distance_loss=40.5890045166
+Iteration 348 of 500: loss=0.664436399937 object_loss=0.58296918869 distance_loss=40.7336158752
+Iteration 349 of 500: loss=0.663262009621 object_loss=0.581518650055 distance_loss=40.871673584
+Iteration 350 of 500: loss=0.690828323364 object_loss=0.608822524548 distance_loss=41.0028915405
+Iteration 351 of 500: loss=0.695073187351 object_loss=0.612819135189 distance_loss=41.1270217896
+Iteration 352 of 500: loss=0.692510783672 object_loss=0.610022842884 distance_loss=41.2439727783
+Iteration 353 of 500: loss=0.700264215469 object_loss=0.61755669117 distance_loss=41.353767395
+Iteration 354 of 500: loss=0.705013513565 object_loss=0.622100532055 distance_loss=41.4564971924
+Iteration 355 of 500: loss=0.694555640221 object_loss=0.611451089382 distance_loss=41.5522727966
+Iteration 356 of 500: loss=0.696781992912 object_loss=0.613499403 distance_loss=41.641292572
+Iteration 357 of 500: loss=0.69670188427 object_loss=0.613254189491 distance_loss=41.7238540649
+Iteration 358 of 500: loss=0.71047514677 object_loss=0.626874685287 distance_loss=41.800239563
+Iteration 359 of 500: loss=0.706364631653 object_loss=0.622623741627 distance_loss=41.8704528809
+Iteration 360 of 500: loss=0.710730135441 object_loss=0.626860499382 distance_loss=41.9348220825
+Iteration 361 of 500: loss=0.773303329945 object_loss=0.689315974712 distance_loss=41.9936676025
+Iteration 362 of 500: loss=0.76242852211 object_loss=0.678333759308 distance_loss=42.04737854
+Iteration 363 of 500: loss=0.772985756397 object_loss=0.688792943954 distance_loss=42.0963935852
+Iteration 364 of 500: loss=0.770250141621 object_loss=0.685967803001 distance_loss=42.1411628723
+Iteration 365 of 500: loss=0.770896434784 object_loss=0.68653190136 distance_loss=42.1822509766
+Iteration 366 of 500: loss=0.765092730522 object_loss=0.680651783943 distance_loss=42.2204589844
+Iteration 367 of 500: loss=0.767161130905 object_loss=0.682647764683 distance_loss=42.2566871643
+Iteration 368 of 500: loss=0.768486022949 object_loss=0.683902859688 distance_loss=42.2915763855
+Iteration 369 of 500: loss=0.768388450146 object_loss=0.683738231659 distance_loss=42.3251190186
+Iteration 370 of 500: loss=0.776686906815 object_loss=0.691972970963 distance_loss=42.3569641113
+Iteration 371 of 500: loss=0.716809511185 object_loss=0.63203561306 distance_loss=42.3869476318
+Iteration 372 of 500: loss=0.714015722275 object_loss=0.629185795784 distance_loss=42.4149513245
+Iteration 373 of 500: loss=0.713922083378 object_loss=0.629040300846 distance_loss=42.4408798218
+Iteration 374 of 500: loss=0.723674237728 object_loss=0.638744652271 distance_loss=42.4647827148
+Iteration 375 of 500: loss=0.719656288624 object_loss=0.634682714939 distance_loss=42.4867935181
+Iteration 376 of 500: loss=0.663657069206 object_loss=0.578642904758 distance_loss=42.507068634
+Iteration 377 of 500: loss=0.661961495876 object_loss=0.576909720898 distance_loss=42.5258827209
+Iteration 378 of 500: loss=0.65117585659 object_loss=0.566088855267 distance_loss=42.5434951782
+Iteration 379 of 500: loss=0.654713749886 object_loss=0.569592893124 distance_loss=42.5604324341
+Iteration 380 of 500: loss=0.653890609741 object_loss=0.56873613596 distance_loss=42.5772323608
+Iteration 381 of 500: loss=0.6543379426 object_loss=0.569149315357 distance_loss=42.5942993164
+Iteration 382 of 500: loss=0.670682966709 object_loss=0.585459291935 distance_loss=42.611831665
+Iteration 383 of 500: loss=0.677470505238 object_loss=0.592210948467 distance_loss=42.629776001
+Iteration 384 of 500: loss=0.675754308701 object_loss=0.590457975864 distance_loss=42.6481666565
+Iteration 385 of 500: loss=0.683824717999 object_loss=0.59849011898 distance_loss=42.6672935486
+Iteration 386 of 500: loss=0.684207737446 object_loss=0.598831832409 distance_loss=42.6879425049
+Iteration 387 of 500: loss=0.680690169334 object_loss=0.595268011093 distance_loss=42.711063385
+Iteration 388 of 500: loss=0.681459128857 object_loss=0.595986425877 distance_loss=42.7363624573
+Iteration 389 of 500: loss=0.676288664341 object_loss=0.590761601925 distance_loss=42.7635345459
+Iteration 390 of 500: loss=0.674775660038 object_loss=0.589190483093 distance_loss=42.7925796509
+Iteration 391 of 500: loss=0.677193701267 object_loss=0.591546297073 distance_loss=42.8236961365
+Iteration 392 of 500: loss=0.678781270981 object_loss=0.593066930771 distance_loss=42.857170105
+Iteration 393 of 500: loss=0.658667623997 object_loss=0.572880804539 distance_loss=42.8934020996
+Iteration 394 of 500: loss=0.659577548504 object_loss=0.573712170124 distance_loss=42.9326896667
+Iteration 395 of 500: loss=0.606984257698 object_loss=0.521034121513 distance_loss=42.9750595093
+Iteration 396 of 500: loss=0.595731019974 object_loss=0.509690582752 distance_loss=43.0202255249
+Iteration 397 of 500: loss=0.595198273659 object_loss=0.50906264782 distance_loss=43.0677947998
+Iteration 398 of 500: loss=0.614067673683 object_loss=0.527832686901 distance_loss=43.1174850464
+Iteration 399 of 500: loss=0.619430661201 object_loss=0.533092260361 distance_loss=43.1691818237
+Iteration 400 of 500: loss=0.61856842041 object_loss=0.532122552395 distance_loss=43.2229156494
+Iteration 401 of 500: loss=0.611857533455 object_loss=0.525300145149 distance_loss=43.2786827087
+Iteration 402 of 500: loss=0.612535536289 object_loss=0.525861740112 distance_loss=43.3369064331
+Iteration 403 of 500: loss=0.612295031548 object_loss=0.525498569012 distance_loss=43.3982162476
+Iteration 404 of 500: loss=0.656025528908 object_loss=0.569100320339 distance_loss=43.462600708
+Iteration 405 of 500: loss=0.658463001251 object_loss=0.571404159069 distance_loss=43.5294036865
+Iteration 406 of 500: loss=0.663079738617 object_loss=0.575883090496 distance_loss=43.5983200073
+Iteration 407 of 500: loss=0.655971169472 object_loss=0.568631291389 distance_loss=43.6699409485
+Iteration 408 of 500: loss=0.635570645332 object_loss=0.548078238964 distance_loss=43.7461891174
+Iteration 409 of 500: loss=0.637190043926 object_loss=0.549539268017 distance_loss=43.8253936768
+Iteration 410 of 500: loss=0.642111361027 object_loss=0.554299771786 distance_loss=43.9057998657
+Iteration 411 of 500: loss=0.687451422215 object_loss=0.599479079247 distance_loss=43.9861679077
+Iteration 412 of 500: loss=0.671568453312 object_loss=0.583436071873 distance_loss=44.0661888123
+Iteration 413 of 500: loss=0.622667014599 object_loss=0.534375429153 distance_loss=44.1457824707
+Iteration 414 of 500: loss=0.624925732613 object_loss=0.536476254463 distance_loss=44.2247428894
+Iteration 415 of 500: loss=0.629442334175 object_loss=0.540836513042 distance_loss=44.3029060364
+Iteration 416 of 500: loss=0.615416288376 object_loss=0.526657283306 distance_loss=44.3795166016
+Iteration 417 of 500: loss=0.620156049728 object_loss=0.531246602535 distance_loss=44.4547157288
+Iteration 418 of 500: loss=0.61893761158 object_loss=0.529880225658 distance_loss=44.5286827087
+Iteration 419 of 500: loss=0.617863535881 object_loss=0.52866011858 distance_loss=44.6016998291
+Iteration 420 of 500: loss=0.631442546844 object_loss=0.542094171047 distance_loss=44.6741943359
+Iteration 421 of 500: loss=0.635293602943 object_loss=0.545799791813 distance_loss=44.7468948364
+Iteration 422 of 500: loss=0.640888273716 object_loss=0.551247119904 distance_loss=44.82056427
+Iteration 423 of 500: loss=0.631841540337 object_loss=0.542051017284 distance_loss=44.8952445984
+Iteration 424 of 500: loss=0.62746733427 object_loss=0.537527441978 distance_loss=44.9699554443
+Iteration 425 of 500: loss=0.648244976997 object_loss=0.558155596256 distance_loss=45.0446777344
+Iteration 426 of 500: loss=0.651186466217 object_loss=0.560947239399 distance_loss=45.1195983887
+Iteration 427 of 500: loss=0.65043848753 object_loss=0.560048758984 distance_loss=45.1948738098
+Iteration 428 of 500: loss=0.649512469769 object_loss=0.558971643448 distance_loss=45.2704086304
+Iteration 429 of 500: loss=0.649360775948 object_loss=0.558668911457 distance_loss=45.3459281921
+Iteration 430 of 500: loss=0.651320099831 object_loss=0.560477793217 distance_loss=45.4211463928
+Iteration 431 of 500: loss=0.65288734436 object_loss=0.561895489693 distance_loss=45.4959259033
+Iteration 432 of 500: loss=0.6437972188 object_loss=0.552656710148 distance_loss=45.5702514648
+Iteration 433 of 500: loss=0.657273471355 object_loss=0.565984904766 distance_loss=45.6442718506
+Iteration 434 of 500: loss=0.661597192287 object_loss=0.570160925388 distance_loss=45.7181434631
+Iteration 435 of 500: loss=0.663521409035 object_loss=0.571937501431 distance_loss=45.7919464111
+Iteration 436 of 500: loss=0.659868836403 object_loss=0.568137705326 distance_loss=45.8655776978
+Iteration 437 of 500: loss=0.670350551605 object_loss=0.578472912312 distance_loss=45.9388198853
+Iteration 438 of 500: loss=0.676529705524 object_loss=0.58450704813 distance_loss=46.0113182068
+Iteration 439 of 500: loss=0.67631483078 object_loss=0.584149420261 distance_loss=46.0826950073
+Iteration 440 of 500: loss=0.677021086216 object_loss=0.58471596241 distance_loss=46.1525497437
+Iteration 441 of 500: loss=0.679621815681 object_loss=0.587180793285 distance_loss=46.2205200195
+Iteration 442 of 500: loss=0.66899228096 object_loss=0.576419770718 distance_loss=46.2862625122
+Iteration 443 of 500: loss=0.686172366142 object_loss=0.593473613262 distance_loss=46.349357605
+Iteration 444 of 500: loss=0.687827527523 object_loss=0.595007956028 distance_loss=46.4097747803
+Iteration 445 of 500: loss=0.683705210686 object_loss=0.590770661831 distance_loss=46.4672737122
+Iteration 446 of 500: loss=0.686056554317 object_loss=0.593013346195 distance_loss=46.5216140747
+Iteration 447 of 500: loss=0.707005143166 object_loss=0.613859832287 distance_loss=46.5726623535
+Iteration 448 of 500: loss=0.687220811844 object_loss=0.593979895115 distance_loss=46.6204452515
+Iteration 449 of 500: loss=0.68675339222 object_loss=0.593423426151 distance_loss=46.6649894714
+Iteration 450 of 500: loss=0.689355909824 object_loss=0.595943212509 distance_loss=46.7063522339
+Iteration 451 of 500: loss=0.688971877098 object_loss=0.59548252821 distance_loss=46.7446784973
+Iteration 452 of 500: loss=0.740768969059 object_loss=0.647208929062 distance_loss=46.7800292969
+Iteration 453 of 500: loss=0.743127286434 object_loss=0.649502336979 distance_loss=46.8124809265
+Iteration 454 of 500: loss=0.726496994495 object_loss=0.632812798023 distance_loss=46.8420906067
+Iteration 455 of 500: loss=0.719751000404 object_loss=0.626013219357 distance_loss=46.8688774109
+Iteration 456 of 500: loss=0.718913793564 object_loss=0.625127971172 distance_loss=46.8929214478
+Iteration 457 of 500: loss=0.714731156826 object_loss=0.62090241909 distance_loss=46.9143638611
+Iteration 458 of 500: loss=0.71116822958 object_loss=0.617301523685 distance_loss=46.9333496094
+Iteration 459 of 500: loss=0.773005366325 object_loss=0.679105460644 distance_loss=46.9499397278
+Iteration 460 of 500: loss=0.784203767776 object_loss=0.69027531147 distance_loss=46.9642410278
+Iteration 461 of 500: loss=0.777868807316 object_loss=0.683915913105 distance_loss=46.9764556885
+Iteration 462 of 500: loss=0.776241540909 object_loss=0.682267844677 distance_loss=46.9868545532
+Iteration 463 of 500: loss=0.778159439564 object_loss=0.684167325497 distance_loss=46.9960632324
+Iteration 464 of 500: loss=0.729393839836 object_loss=0.635383307934 distance_loss=47.0052566528
+Iteration 465 of 500: loss=0.730897128582 object_loss=0.636864900589 distance_loss=47.0161094666
+Iteration 466 of 500: loss=0.732386887074 object_loss=0.638326585293 distance_loss=47.0301361084
+Iteration 467 of 500: loss=0.72422939539 object_loss=0.63013458252 distance_loss=47.0474090576
+Iteration 468 of 500: loss=0.724183261395 object_loss=0.630049288273 distance_loss=47.0669784546
+Iteration 469 of 500: loss=0.729189157486 object_loss=0.635012388229 distance_loss=47.0883712769
+Iteration 470 of 500: loss=0.735335886478 object_loss=0.64111083746 distance_loss=47.1125106812
+Iteration 471 of 500: loss=0.736679136753 object_loss=0.64239692688 distance_loss=47.1410980225
+Iteration 472 of 500: loss=0.725715875626 object_loss=0.631367385387 distance_loss=47.1742286682
+Iteration 473 of 500: loss=0.676882088184 object_loss=0.582461118698 distance_loss=47.2104797363
+Iteration 474 of 500: loss=0.657642424107 object_loss=0.563143908978 distance_loss=47.2492446899
+Iteration 475 of 500: loss=0.657937169075 object_loss=0.563355565071 distance_loss=47.2907981873
+Iteration 476 of 500: loss=0.658179163933 object_loss=0.563507378101 distance_loss=47.335899353
+Iteration 477 of 500: loss=0.666063308716 object_loss=0.571292221546 distance_loss=47.3855323792
+Iteration 478 of 500: loss=0.676702737808 object_loss=0.581823050976 distance_loss=47.4398422241
+Iteration 479 of 500: loss=0.679403245449 object_loss=0.584406673908 distance_loss=47.4982795715
+Iteration 480 of 500: loss=0.680955648422 object_loss=0.585834681988 distance_loss=47.5604934692
+Iteration 481 of 500: loss=0.681863903999 object_loss=0.586610734463 distance_loss=47.6265830994
+Iteration 482 of 500: loss=0.680118262768 object_loss=0.584725618362 distance_loss=47.6963272095
+Iteration 483 of 500: loss=0.684339404106 object_loss=0.588801383972 distance_loss=47.7690048218
+Iteration 484 of 500: loss=0.701440989971 object_loss=0.605753779411 distance_loss=47.8436126709
+Iteration 485 of 500: loss=0.682055234909 object_loss=0.586216568947 distance_loss=47.9193458557
+Iteration 486 of 500: loss=0.683336257935 object_loss=0.587345182896 distance_loss=47.9955482483
+Iteration 487 of 500: loss=0.684083640575 object_loss=0.587940335274 distance_loss=48.071647644
+Iteration 488 of 500: loss=0.692788243294 object_loss=0.596493899822 distance_loss=48.1471633911
+Iteration 489 of 500: loss=0.691930055618 object_loss=0.595486700535 distance_loss=48.2216873169
+Iteration 490 of 500: loss=0.693403959274 object_loss=0.596814036369 distance_loss=48.2949714661
+Iteration 491 of 500: loss=0.693633139133 object_loss=0.596899449825 distance_loss=48.3668479919
+Iteration 492 of 500: loss=0.705486416817 object_loss=0.608611822128 distance_loss=48.4372940063
+Iteration 493 of 500: loss=0.702666282654 object_loss=0.60565340519 distance_loss=48.5064468384
+Iteration 494 of 500: loss=0.689930856228 object_loss=0.59278178215 distance_loss=48.5745239258
+Iteration 495 of 500: loss=0.70922011137 object_loss=0.611936032772 distance_loss=48.6420288086
+Iteration 496 of 500: loss=0.714680016041 object_loss=0.61726051569 distance_loss=48.7097396851
+Iteration 497 of 500: loss=0.72912800312 object_loss=0.63157081604 distance_loss=48.7785835266
+Iteration 498 of 500: loss=0.73315089941 object_loss=0.635453641415 distance_loss=48.8486213684
+Iteration 499 of 500: loss=0.731518387794 object_loss=0.633678972721 distance_loss=48.9196891785
+learning rate: 0.001, mu: 0.002, best_loss: 0.508270859718
+0
+[(114, 124), (114, 125), (115, 111), (115, 124), (115, 125), (116, 120), (116, 123), (116, 124), (117, 119), (117, 121), (117, 122), (117, 123), (118, 119), (118, 120), (118, 121), (118, 122), (119, 120), (119, 121), (120, 118), (120, 119), (120, 120), (121, 117), (121, 118), (121, 119), (122, 116), (122, 117), (122, 118), (123, 117), [0.4705690624458449, 2, array([7.95877125e-03, 5.16246191e-02, 9.24280456e-01, 6.77308041e-04,
+       8.81074164e-04]), 1.7787342412131173]] 
+
+1
+[(197, 86), (197, 87), (198, 85), (198, 86), (199, 84), (199, 85), [0.391772856314977, 17, array([0.41328522, 0.42664647, 0.00343128, 0.05827538, 0.06608803]), -0.9674915075302124]] 
+
+2
+[(214, 74), (214, 75), (215, 75), (216, 74), (216, 75), (216, 76), (218, 77), [0.5129785239696503, 25, array([0.12184646, 0.16682594, 0.00308705, 0.61916642, 0.05138576]), -0.3905754727976663]] 
+
+3
+[(232, 63), (233, 55), (233, 58), (233, 61), (233, 62), (234, 55), (234, 57), (234, 59), (235, 54), (236, 54), (236, 57), (236, 58), (236, 59), (236, 60), (236, 61), (237, 53), (237, 55), (237, 56), (237, 57), (237, 58), (237, 59), (238, 53), (238, 54), (238, 56), (238, 57), (239, 54), (239, 55), (239, 57), (240, 55), (241, 55), [0.11, 38, array([0.0576133 , 0.84951698, 0.0843939 , 0.0172073 , 0.00903984]), -0.17561225791772206]] 
+
+4
+[(247, 51), (247, 54), (248, 54), (249, 53), (251, 54), (251, 58), (251, 59), (252, 51), (252, 60), (253, 56), (253, 57), (257, 55), (257, 62), (261, 42), (261, 45), (263, 52), (263, 56), (263, 57), (264, 45), (264, 47), (265, 45), (265, 58), [0.11, 63, array([0.03680529, 0.84915207, 0.08257983, 0.01244556, 0.01737586]), -0.6821136203679171]] 
+
+5
+[(308, 340), (309, 338), (309, 339), (309, 340), (310, 338), (310, 339), (310, 340), (310, 341), (311, 339), (311, 340), [0.7914831936359406, 122, array([1.72218992e-03, 3.21980671e-04, 1.55280588e-04, 4.83168492e-03,
+       9.93973303e-01]), -0.12937285006046295]] 
+
+6
+[(312, 311), (312, 312), (312, 313), (313, 311), (313, 312), (313, 313), [0.8715872764587402, 126, array([9.99341329e-01, 2.99971163e-05, 1.41164832e-07, 4.31382938e-05,
+       3.87529588e-04]), -1.0953767697016399]] 
+
+7
+[(327, 334), (329, 339), (334, 342), (334, 343), (334, 344), (335, 342), [0.11743801521758239, 143, array([9.54743634e-01, 3.86936994e-02, 5.51251743e-04, 1.13319376e-02,
+       7.74741258e-03]), -0.5595779220263163]] 
+
+8
+[(342, 334), (342, 335), (343, 335), (344, 335), [0.10238057747483253, 156, array([9.92946431e-01, 6.95716575e-04, 1.97747149e-05, 4.21040802e-03,
+       8.24340095e-03]), -0.5802690386772156]] 
+
+9
+[(363, 371), (364, 370), (364, 371), (364, 372), (364, 373), (365, 369), (365, 370), (365, 371), (365, 372), (365, 373), (365, 374), (365, 375), (366, 368), (366, 369), (366, 370), (366, 371), (366, 372), (366, 373), (366, 374), (366, 375), (367, 367), (367, 368), (367, 369), (367, 370), (367, 371), (367, 372), (367, 373), (367, 374), (367, 375), (367, 376), (367, 377), (368, 367), (368, 368), (368, 369), (368, 370), (368, 371), (368, 372), (368, 373), (368, 375), (368, 376), (369, 366), (369, 367), (369, 368), (369, 369), (369, 370), (369, 371), (369, 372), (369, 375), (369, 376), (369, 377), (370, 367), (370, 368), (370, 369), (370, 370), (370, 371), (370, 373), (370, 374), (370, 375), (370, 378), (371, 369), (371, 370), (371, 371), (371, 373), (371, 374), (371, 375), (371, 376), (371, 377), (371, 378), (371, 379), (372, 370), (372, 371), (372, 372), (372, 373), (372, 374), (372, 375), (372, 376), (372, 377), (372, 378), (372, 379), (372, 380), (373, 371), (373, 372), (373, 373), (373, 374), (373, 375), (373, 376), (374, 372), (374, 375), (374, 376), (374, 379), (374, 380), (374, 381), (374, 382), (375, 373), (375, 374), (375, 375), (375, 376), (375, 379), (375, 380), (375, 381), (376, 377), (376, 378), (376, 379), (376, 381), (377, 377), (377, 378), (377, 379), (377, 381), (378, 378), (378, 379), [0.9885694200342352, 181, array([1.15806388e-04, 9.99767376e-01, 5.62918503e-05, 1.51553557e-05,
+       7.03051085e-06]), -0.3742787762121721]] 
+
+10
+[(498, 561), (498, 562), (498, 563), (499, 562), (499, 563), (500, 563), [0.11, 279, array([0.16072529, 0.09330868, 0.00079997, 0.13818613, 0.59135099]), -1.3016379276911418]] 
+
+11
+[(506, 570), (506, 571), (507, 570), (507, 571), (508, 569), (508, 570), [0.11, 287, array([0.01704951, 0.03698457, 0.00400299, 0.02209657, 0.91083278]), -0.8273770213127136]] 
+
+12
+[(523, 592), (524, 592), (525, 592), (525, 593), (525, 594), (526, 591), (526, 593), (527, 592), (527, 594), (528, 590), (528, 592), (528, 593), (528, 594), (529, 593), [0.11, 298, array([0.33952943, 0.37815055, 0.04603254, 0.23330769, 0.10973705]), -0.6727909956659589]] 
+
+13
+[(530, 595), (530, 596), (531, 595), (532, 594), [0.11, 303, array([0.24666879, 0.46217209, 0.14606804, 0.13293397, 0.14760187]), -0.5775423347949982]] 
+
+14
+[(533, 596), (534, 597), (535, 597), [0.11, 308, array([0.11043998, 0.31732365, 0.13283384, 0.06922436, 0.29613555]), -0.9358565409978231]] 
+
+15
+[(535, 600), (536, 600), (537, 601), (539, 603), (539, 605), [0.11, 310, array([0.11675967, 0.42539922, 0.23972955, 0.07433097, 0.12521814]), -0.8951701164245606]] 
+
+16
+[(558, 626), (559, 624), (559, 625), (559, 627), (560, 625), (560, 627), (561, 627), (562, 626), (562, 627), (562, 628), (564, 627), (564, 629), (565, 626), (566, 628), (566, 630), (567, 633), (570, 626), (570, 632), (571, 626), (573, 636), [0.11, 317, array([0.03724968, 0.20494372, 0.5654671 , 0.01555409, 0.0583337 ]), 0.041656989604234695]] 
+
+17
+[(566, 420), (566, 421), (566, 423), (567, 420), (567, 421), (567, 422), (567, 423), (567, 424), (568, 421), (568, 422), (568, 423), (568, 424), [0.4062861427664757, 318, array([1.24665635e-01, 2.37684062e-02, 1.11821088e-04, 5.79530939e-01,
+       1.71701113e-01]), -2.060251692930857]] 
+
+18
+[(571, 482), (571, 483), (572, 484), [0.11, 319, array([9.43862478e-01, 7.83720079e-02, 2.49024717e-03, 7.97757316e-04,
+       5.51963227e-05]), -2.577054738998413]] 
+
+19
+[(579, 490), [0.11, 320, array([5.37140489e-01, 4.96092707e-01, 2.68161809e-03, 1.36853207e-03,
+       4.14827700e-05]), -2.4681034088134766]] 
+
+20
+[(580, 477), (580, 478), (581, 476), (581, 477), (582, 474), (582, 481), (583, 474), (584, 473), (584, 474), [0.961940328280131, 321, array([4.36426060e-01, 5.34308248e-01, 7.45625335e-04, 1.64581951e-03,
+       1.05677730e-04]), -2.224354373084174]] 
+
+21
+[(581, 492), (589, 500), (589, 503), [0.11, 322, array([4.23451652e-01, 6.00715379e-01, 5.37334490e-02, 1.72510080e-03,
+       9.32779197e-05]), -2.3535489241282144]] 
+
+22
+[(590, 450), [0.11, 325, array([9.27110910e-01, 1.19636543e-01, 1.26329409e-02, 3.76648922e-03,
+       2.02333453e-04]), -2.776745080947876]] 
+
+23
+[(591, 452), [0.11, 326, array([9.24158812e-01, 1.37300074e-01, 1.16944760e-02, 2.20528618e-03,
+       6.46000262e-05]), -2.888016939163208]] 
+
+24
+[(612, 462), [0.11, 328, array([0.09047592, 0.14112656, 0.18006635, 0.03763196, 0.45180854]), -1.586881399154663]] 
+
+25
+[(616, 412), (616, 413), [0.1952514797449112, 329, array([4.22043502e-02, 2.64551269e-03, 4.63803435e-05, 1.93295591e-02,
+       9.22432780e-01]), -2.5308066606521606]] 
+
+26
+[(625, 417), (626, 414), (626, 417), (626, 418), [0.11, 330, array([0.38048561, 0.55290017, 0.02348607, 0.0313884 , 0.01995009]), -2.8164443373680115]] 
+
+27
+[(626, 408), (630, 404), (631, 406), (632, 404), (632, 406), (632, 410), (633, 403), (635, 400), (635, 401), (635, 402), (635, 403), (635, 412), (637, 399), (638, 414), (640, 409), (640, 415), (642, 398), [0.11, 331, array([0.09774522, 0.84856531, 0.04695522, 0.00558947, 0.00201911]), -2.796267775928273]] 
+
+28
+[(631, 481), (631, 489), (632, 479), (632, 480), (632, 481), (632, 488), (632, 489), (633, 478), (633, 479), (633, 480), (633, 481), (633, 485), (633, 486), (633, 487), (633, 488), (633, 489), (633, 491), [0.11, 332, array([0.14218101, 0.36808876, 0.39366144, 0.00484307, 0.00439542]), -1.6023384963764864]] 
+
+29
+[(633, 540), (635, 543), (640, 549), [0.11, 333, array([0.34333538, 0.5098894 , 0.09240781, 0.0068672 , 0.0027668 ]), -2.1321163177490234]] 
+
+30
+[(636, 494), (637, 494), (637, 495), (637, 496), (638, 494), (638, 496), (639, 494), (640, 499), (642, 501), (645, 503), (646, 505), [0.11, 334, array([1.19794114e-01, 7.10664587e-01, 1.87382915e-01, 6.62504336e-03,
+       6.30776128e-04]), -2.0481192848899146]] 
+
+31
+[(642, 322), (642, 323), (644, 319), (645, 320), (645, 321), (646, 319), [0.11, 335, array([0.4630298 , 0.53076418, 0.05206009, 0.03137844, 0.00278355]), -3.0135255654652915]] 
+
+32
+[(668, 378), [0.11, 336, array([0.3303954 , 0.28339472, 0.02807389, 0.11683553, 0.07969651]), -2.395857095718384]] 
+
+33
+[(668, 380), [0.11, 337, array([0.38751146, 0.25776601, 0.0237205 , 0.12332996, 0.02616349]), -2.680014133453369]] 
+
+('first_line_filtered number.', (69748, 3), (120268, 3))
+('took iterations:', 53, 'best model:', array([ -1.0195494,   1.5860659,  96.63238  , 165.3884   ], dtype=float32), 'explains:', 52831)
+Iteration 0 of 500: loss=0.681834459305 object_loss=0.681834459305 distance_loss=4.84586600447e-14
+Iteration 1 of 500: loss=0.662742137909 object_loss=0.662084579468 distance_loss=0.219178944826
+Iteration 2 of 500: loss=0.663586199284 object_loss=0.662038564682 distance_loss=0.515882134438
+Iteration 3 of 500: loss=0.676429212093 object_loss=0.674517154694 distance_loss=0.637349545956
+Iteration 4 of 500: loss=0.674701333046 object_loss=0.673111140728 distance_loss=0.530066728592
+Iteration 5 of 500: loss=0.674678504467 object_loss=0.673671782017 distance_loss=0.335573613644
+Iteration 6 of 500: loss=0.666872799397 object_loss=0.666250646114 distance_loss=0.207389473915
+Iteration 7 of 500: loss=0.667642116547 object_loss=0.666257560253 distance_loss=0.461521416903
+Iteration 8 of 500: loss=0.64051014185 object_loss=0.638299882412 distance_loss=0.73674762249
+Iteration 9 of 500: loss=0.646450519562 object_loss=0.643559873104 distance_loss=0.963545024395
+Iteration 10 of 500: loss=0.632748067379 object_loss=0.62934499979 distance_loss=1.13436222076
+Iteration 11 of 500: loss=0.588366150856 object_loss=0.584618389606 distance_loss=1.24925374985
+Iteration 12 of 500: loss=0.58474367857 object_loss=0.580836474895 distance_loss=1.30239748955
+Iteration 13 of 500: loss=0.547883629799 object_loss=0.544013142586 distance_loss=1.29015374184
+Iteration 14 of 500: loss=0.551732599735 object_loss=0.548066973686 distance_loss=1.22187685966
+Iteration 15 of 500: loss=0.578374922276 object_loss=0.575078129768 distance_loss=1.09894025326
+Iteration 16 of 500: loss=0.57938337326 object_loss=0.576585650444 distance_loss=0.93256509304
+Iteration 17 of 500: loss=0.580796420574 object_loss=0.577528834343 distance_loss=1.08919095993
+Iteration 18 of 500: loss=0.584269821644 object_loss=0.580162465572 distance_loss=1.36912512779
+Iteration 19 of 500: loss=0.584977805614 object_loss=0.579984903336 distance_loss=1.66430902481
+Iteration 20 of 500: loss=0.613629758358 object_loss=0.607697308064 distance_loss=1.97748732567
+Iteration 21 of 500: loss=0.630640745163 object_loss=0.62371724844 distance_loss=2.30782270432
+Iteration 22 of 500: loss=0.637028753757 object_loss=0.629077255726 distance_loss=2.65050768852
+Iteration 23 of 500: loss=0.640027761459 object_loss=0.631052613258 distance_loss=2.99172306061
+Iteration 24 of 500: loss=0.641320765018 object_loss=0.631362497807 distance_loss=3.31942081451
+Iteration 25 of 500: loss=0.642167747021 object_loss=0.631311118603 distance_loss=3.61887860298
+Iteration 26 of 500: loss=0.642133295536 object_loss=0.630500197411 distance_loss=3.87769269943
+Iteration 27 of 500: loss=0.638385295868 object_loss=0.62612760067 distance_loss=4.08589172363
+Iteration 28 of 500: loss=0.639030992985 object_loss=0.626322686672 distance_loss=4.23609256744
+Iteration 29 of 500: loss=0.638916015625 object_loss=0.625943601131 distance_loss=4.32413578033
+Iteration 30 of 500: loss=0.639378845692 object_loss=0.626330316067 distance_loss=4.34951257706
+Iteration 31 of 500: loss=0.639438509941 object_loss=0.626496315002 distance_loss=4.31406068802
+Iteration 32 of 500: loss=0.641817688942 object_loss=0.629151284695 distance_loss=4.22213602066
+Iteration 33 of 500: loss=0.631852030754 object_loss=0.619611442089 distance_loss=4.08020496368
+Iteration 34 of 500: loss=0.627898335457 object_loss=0.616210341454 distance_loss=3.8959980011
+Iteration 35 of 500: loss=0.610816538334 object_loss=0.599787473679 distance_loss=3.67635154724
+Iteration 36 of 500: loss=0.6190097332 object_loss=0.608733594418 distance_loss=3.42537069321
+Iteration 37 of 500: loss=0.620940506458 object_loss=0.611486196518 distance_loss=3.15142965317
+Iteration 38 of 500: loss=0.609659314156 object_loss=0.601073265076 distance_loss=2.86201715469
+Iteration 39 of 500: loss=0.59109556675 object_loss=0.583400189877 distance_loss=2.56512880325
+Iteration 40 of 500: loss=0.590830981731 object_loss=0.584013104439 distance_loss=2.27262854576
+Iteration 41 of 500: loss=0.687316775322 object_loss=0.681308865547 distance_loss=2.00264167786
+Iteration 42 of 500: loss=0.677595734596 object_loss=0.672163903713 distance_loss=1.81060683727
+Iteration 43 of 500: loss=0.693339526653 object_loss=0.686742722988 distance_loss=2.19893360138
+Iteration 44 of 500: loss=0.659194111824 object_loss=0.65138733387 distance_loss=2.60226106644
+Iteration 45 of 500: loss=0.650368928909 object_loss=0.641326963902 distance_loss=3.01398348808
+Iteration 46 of 500: loss=0.650385320187 object_loss=0.64009565115 distance_loss=3.42988920212
+Iteration 47 of 500: loss=0.637737989426 object_loss=0.626203477383 distance_loss=3.84483242035
+Iteration 48 of 500: loss=0.638656973839 object_loss=0.62589097023 distance_loss=4.25533008575
+Iteration 49 of 500: loss=0.639865100384 object_loss=0.625888764858 distance_loss=4.65878343582
+Iteration 50 of 500: loss=0.649205029011 object_loss=0.63405674696 distance_loss=5.04942703247
+Iteration 51 of 500: loss=0.650447487831 object_loss=0.63417673111 distance_loss=5.42359352112
+Iteration 52 of 500: loss=0.652975559235 object_loss=0.635638594627 distance_loss=5.77898836136
+Iteration 53 of 500: loss=0.633139431477 object_loss=0.614806354046 distance_loss=6.11102390289
+Iteration 54 of 500: loss=0.640971958637 object_loss=0.6217238307 distance_loss=6.41604042053
+Iteration 55 of 500: loss=0.646779596806 object_loss=0.626704752445 distance_loss=6.69162034988
+Iteration 56 of 500: loss=0.657458424568 object_loss=0.636651456356 distance_loss=6.93565940857
+Iteration 57 of 500: loss=0.664530754089 object_loss=0.643091022968 distance_loss=7.14656972885
+Iteration 58 of 500: loss=0.662502586842 object_loss=0.64053350687 distance_loss=7.32301950455
+Iteration 59 of 500: loss=0.671846449375 object_loss=0.649454712868 distance_loss=7.4639081955
+Iteration 60 of 500: loss=0.672106683254 object_loss=0.649401426315 distance_loss=7.56841564178
+Iteration 61 of 500: loss=0.678308486938 object_loss=0.655400931835 distance_loss=7.63585948944
+Iteration 62 of 500: loss=0.677680075169 object_loss=0.654682457447 distance_loss=7.66587352753
+Iteration 63 of 500: loss=0.67703551054 object_loss=0.65406113863 distance_loss=7.65811538696
+Iteration 64 of 500: loss=0.631329059601 object_loss=0.608491539955 distance_loss=7.61250305176
+Iteration 65 of 500: loss=0.631099164486 object_loss=0.608511984348 distance_loss=7.5290594101
+Iteration 66 of 500: loss=0.625859200954 object_loss=0.603635251522 distance_loss=7.4079914093
+Iteration 67 of 500: loss=0.624613344669 object_loss=0.602863788605 distance_loss=7.24984884262
+Iteration 68 of 500: loss=0.615325510502 object_loss=0.594159662724 distance_loss=7.05527877808
+Iteration 69 of 500: loss=0.613907694817 object_loss=0.593432366848 distance_loss=6.82511615753
+Iteration 70 of 500: loss=0.653909265995 object_loss=0.633978962898 distance_loss=6.64344358444
+Iteration 71 of 500: loss=0.655622005463 object_loss=0.633970558643 distance_loss=7.21715593338
+Iteration 72 of 500: loss=0.666101634502 object_loss=0.642680943012 distance_loss=7.8068985939
+Iteration 73 of 500: loss=0.670312047005 object_loss=0.645094811916 distance_loss=8.40574741364
+Iteration 74 of 500: loss=0.66773223877 object_loss=0.64071303606 distance_loss=9.00639820099
+Iteration 75 of 500: loss=0.663403213024 object_loss=0.634600400925 distance_loss=9.60094070435
+Iteration 76 of 500: loss=0.666614830494 object_loss=0.636070787907 distance_loss=10.1813440323
+Iteration 77 of 500: loss=0.669271290302 object_loss=0.637054622173 distance_loss=10.7388925552
+Iteration 78 of 500: loss=0.670727610588 object_loss=0.636932909489 distance_loss=11.2648944855
+Iteration 79 of 500: loss=0.672194063663 object_loss=0.636939525604 distance_loss=11.7515077591
+Iteration 80 of 500: loss=0.67328953743 object_loss=0.636715590954 distance_loss=12.1913127899
+Iteration 81 of 500: loss=0.673265516758 object_loss=0.63553237915 distance_loss=12.577709198
+Iteration 82 of 500: loss=0.676294982433 object_loss=0.637580037117 distance_loss=12.9049835205
+Iteration 83 of 500: loss=0.63316231966 object_loss=0.593656659126 distance_loss=13.168548584
+Iteration 84 of 500: loss=0.636624276638 object_loss=0.596528589725 distance_loss=13.3652219772
+Iteration 85 of 500: loss=0.636276423931 object_loss=0.595797002316 distance_loss=13.4931430817
+Iteration 86 of 500: loss=0.63664072752 object_loss=0.595985591412 distance_loss=13.5517206192
+Iteration 87 of 500: loss=0.632664978504 object_loss=0.592040002346 distance_loss=13.5416526794
+Iteration 88 of 500: loss=0.595428943634 object_loss=0.555034577847 distance_loss=13.4647789001
+Iteration 89 of 500: loss=0.595890939236 object_loss=0.555918872356 distance_loss=13.3240222931
+Iteration 90 of 500: loss=0.59552770853 object_loss=0.556157886982 distance_loss=13.1232738495
+Iteration 91 of 500: loss=0.595666468143 object_loss=0.557064473629 distance_loss=12.8673334122
+Iteration 92 of 500: loss=0.595511853695 object_loss=0.557826817036 distance_loss=12.5616817474
+Iteration 93 of 500: loss=0.594763875008 object_loss=0.558126747608 distance_loss=12.2123851776
+Iteration 94 of 500: loss=0.594067215919 object_loss=0.558589458466 distance_loss=11.825920105
+Iteration 95 of 500: loss=0.593725800514 object_loss=0.559498786926 distance_loss=11.4090137482
+Iteration 96 of 500: loss=0.634501695633 object_loss=0.601596057415 distance_loss=10.9685430527
+Iteration 97 of 500: loss=0.639402627945 object_loss=0.607868552208 distance_loss=10.5113630295
+Iteration 98 of 500: loss=0.635122537613 object_loss=0.604989647865 distance_loss=10.0443058014
+Iteration 99 of 500: loss=0.634898304939 object_loss=0.60617595911 distance_loss=9.57411670685
+Iteration 100 of 500: loss=0.633772611618 object_loss=0.606450498104 distance_loss=9.10736465454
+Iteration 101 of 500: loss=0.627160131931 object_loss=0.601208984852 distance_loss=8.65037536621
+Iteration 102 of 500: loss=0.677015542984 object_loss=0.652387976646 distance_loss=8.20917892456
+Iteration 103 of 500: loss=0.673096001148 object_loss=0.649727165699 distance_loss=7.7896194458
+Iteration 104 of 500: loss=0.67270886898 object_loss=0.650516688824 distance_loss=7.39740085602
+Iteration 105 of 500: loss=0.673155486584 object_loss=0.652042329311 distance_loss=7.03771972656
+Iteration 106 of 500: loss=0.661447882652 object_loss=0.64129781723 distance_loss=6.71669626236
+Iteration 107 of 500: loss=0.66753411293 object_loss=0.648220360279 distance_loss=6.43790817261
+Iteration 108 of 500: loss=0.670920729637 object_loss=0.652315437794 distance_loss=6.20176410675
+Iteration 109 of 500: loss=0.653668522835 object_loss=0.635640144348 distance_loss=6.00946426392
+Iteration 110 of 500: loss=0.64710021019 object_loss=0.629516065121 distance_loss=5.86139059067
+Iteration 111 of 500: loss=0.646719753742 object_loss=0.629446327686 distance_loss=5.7578125
+Iteration 112 of 500: loss=0.67578625679 object_loss=0.658689439297 distance_loss=5.69893121719
+Iteration 113 of 500: loss=0.679825663567 object_loss=0.662771105766 distance_loss=5.68485927582
+Iteration 114 of 500: loss=0.62420809269 object_loss=0.607061386108 distance_loss=5.71556377411
+Iteration 115 of 500: loss=0.625221729279 object_loss=0.607850492001 distance_loss=5.79040431976
+Iteration 116 of 500: loss=0.62713432312 object_loss=0.60941183567 distance_loss=5.90749788284
+Iteration 117 of 500: loss=0.628524303436 object_loss=0.610331475735 distance_loss=6.06427621841
+Iteration 118 of 500: loss=0.628224015236 object_loss=0.60944801569 distance_loss=6.25865840912
+Iteration 119 of 500: loss=0.628328025341 object_loss=0.608859658241 distance_loss=6.48945856094
+Iteration 120 of 500: loss=0.631147265434 object_loss=0.610880613327 distance_loss=6.75555896759
+Iteration 121 of 500: loss=0.634865224361 object_loss=0.613706231117 distance_loss=7.05300140381
+Iteration 122 of 500: loss=0.634459733963 object_loss=0.612327218056 distance_loss=7.3775100708
+Iteration 123 of 500: loss=0.634828925133 object_loss=0.611653447151 distance_loss=7.72515153885
+Iteration 124 of 500: loss=0.632983863354 object_loss=0.608707368374 distance_loss=8.09216117859
+Iteration 125 of 500: loss=0.641670107841 object_loss=0.616245210171 distance_loss=8.47496318817
+Iteration 126 of 500: loss=0.635502040386 object_loss=0.608892500401 distance_loss=8.86985397339
+Iteration 127 of 500: loss=0.638171315193 object_loss=0.610350489616 distance_loss=9.27360153198
+Iteration 128 of 500: loss=0.640442430973 object_loss=0.611393213272 distance_loss=9.68307113647
+Iteration 129 of 500: loss=0.64058727026 object_loss=0.610301375389 distance_loss=10.0953063965
+Iteration 130 of 500: loss=0.643258571625 object_loss=0.611735701561 distance_loss=10.5076227188
+Iteration 131 of 500: loss=0.649061381817 object_loss=0.616309821606 distance_loss=10.9171905518
+Iteration 132 of 500: loss=0.632538437843 object_loss=0.598575055599 distance_loss=11.3211240768
+Iteration 133 of 500: loss=0.634103357792 object_loss=0.598954439163 distance_loss=11.7163143158
+Iteration 134 of 500: loss=0.64035987854 object_loss=0.604060053825 distance_loss=12.099937439
+Iteration 135 of 500: loss=0.64159321785 object_loss=0.604185163975 distance_loss=12.4693508148
+Iteration 136 of 500: loss=0.645417928696 object_loss=0.606951475143 distance_loss=12.8221492767
+Iteration 137 of 500: loss=0.641548097134 object_loss=0.602078974247 distance_loss=13.1563796997
+Iteration 138 of 500: loss=0.63431596756 object_loss=0.593904674053 distance_loss=13.4704303741
+Iteration 139 of 500: loss=0.629316091537 object_loss=0.588026940823 distance_loss=13.76304245
+Iteration 140 of 500: loss=0.666094064713 object_loss=0.623994350433 distance_loss=14.0332479477
+Iteration 141 of 500: loss=0.646022737026 object_loss=0.603181838989 distance_loss=14.280298233
+Iteration 142 of 500: loss=0.646674394608 object_loss=0.603163540363 distance_loss=14.503610611
+Iteration 143 of 500: loss=0.66455411911 object_loss=0.620445549488 distance_loss=14.7028617859
+Iteration 144 of 500: loss=0.648464798927 object_loss=0.603831112385 distance_loss=14.877904892
+Iteration 145 of 500: loss=0.653286159039 object_loss=0.608199834824 distance_loss=15.0287780762
+Iteration 146 of 500: loss=0.642315030098 object_loss=0.596847951412 distance_loss=15.1556835175
+Iteration 147 of 500: loss=0.641109824181 object_loss=0.595333039761 distance_loss=15.2589321136
+Iteration 148 of 500: loss=0.628291487694 object_loss=0.582276582718 distance_loss=15.3383026123
+Iteration 149 of 500: loss=0.58484852314 object_loss=0.538664698601 distance_loss=15.394613266
+Iteration 150 of 500: loss=0.625985085964 object_loss=0.579698622227 distance_loss=15.4288196564
+Iteration 151 of 500: loss=0.650339245796 object_loss=0.604013025761 distance_loss=15.4420757294
+Iteration 152 of 500: loss=0.648911952972 object_loss=0.602604806423 distance_loss=15.435708046
+Iteration 153 of 500: loss=0.653457164764 object_loss=0.607223689556 distance_loss=15.411157608
+Iteration 154 of 500: loss=0.639568686485 object_loss=0.593458473682 distance_loss=15.3700714111
+Iteration 155 of 500: loss=0.641278922558 object_loss=0.59533649683 distance_loss=15.3141365051
+Iteration 156 of 500: loss=0.641102790833 object_loss=0.595367431641 distance_loss=15.2451210022
+Iteration 157 of 500: loss=0.654225230217 object_loss=0.608731329441 distance_loss=15.1646385193
+Iteration 158 of 500: loss=0.646659314632 object_loss=0.601437389851 distance_loss=15.0739679337
+Iteration 159 of 500: loss=0.656782388687 object_loss=0.611859858036 distance_loss=14.9741783142
+Iteration 160 of 500: loss=0.653575062752 object_loss=0.608976721764 distance_loss=14.8661174774
+Iteration 161 of 500: loss=0.69235086441 object_loss=0.648098886013 distance_loss=14.7506694794
+Iteration 162 of 500: loss=0.701381742954 object_loss=0.657494843006 distance_loss=14.6289663315
+Iteration 163 of 500: loss=0.702874958515 object_loss=0.659368753433 distance_loss=14.5020618439
+Iteration 164 of 500: loss=0.699130296707 object_loss=0.656016767025 distance_loss=14.3711795807
+Iteration 165 of 500: loss=0.617878556252 object_loss=0.575165271759 distance_loss=14.2377672195
+Iteration 166 of 500: loss=0.615803897381 object_loss=0.573494374752 distance_loss=14.1031780243
+Iteration 167 of 500: loss=0.603000581264 object_loss=0.561094939709 distance_loss=13.968542099
+Iteration 168 of 500: loss=0.601611316204 object_loss=0.560106992722 distance_loss=13.8347787857
+Iteration 169 of 500: loss=0.549575567245 object_loss=0.508467137814 distance_loss=13.7028169632
+Iteration 170 of 500: loss=0.526438057423 object_loss=0.485717147589 distance_loss=13.5736284256
+Iteration 171 of 500: loss=0.52911734581 object_loss=0.48877286911 distance_loss=13.4481544495
+Iteration 172 of 500: loss=0.544597387314 object_loss=0.504616439342 distance_loss=13.3269910812
+Iteration 173 of 500: loss=0.54771977663 object_loss=0.508088350296 distance_loss=13.21048069
+Iteration 174 of 500: loss=0.551625192165 object_loss=0.51232868433 distance_loss=13.0988445282
+Iteration 175 of 500: loss=0.553104758263 object_loss=0.514127552509 distance_loss=12.9924077988
+Iteration 176 of 500: loss=0.553480386734 object_loss=0.514805495739 distance_loss=12.8916368484
+Iteration 177 of 500: loss=0.552157998085 object_loss=0.513766646385 distance_loss=12.797118187
+Iteration 178 of 500: loss=0.548537909985 object_loss=0.510409295559 distance_loss=12.7095451355
+Iteration 179 of 500: loss=0.645639538765 object_loss=0.607750535011 distance_loss=12.6296644211
+Iteration 180 of 500: loss=0.637453198433 object_loss=0.59977799654 distance_loss=12.5584077835
+Iteration 181 of 500: loss=0.620641767979 object_loss=0.583150923252 distance_loss=12.4969539642
+Iteration 182 of 500: loss=0.615374863148 object_loss=0.578034520149 distance_loss=12.4467849731
+Iteration 183 of 500: loss=0.611173212528 object_loss=0.573944151402 distance_loss=12.409693718
+Iteration 184 of 500: loss=0.619173705578 object_loss=0.58201032877 distance_loss=12.387796402
+Iteration 185 of 500: loss=0.610804021358 object_loss=0.573653936386 distance_loss=12.3833599091
+Iteration 186 of 500: loss=0.608492314816 object_loss=0.571297347546 distance_loss=12.3983192444
+Iteration 187 of 500: loss=0.60853689909 object_loss=0.57123786211 distance_loss=12.4330062866
+Iteration 188 of 500: loss=0.604325175285 object_loss=0.566866278648 distance_loss=12.4863090515
+Iteration 189 of 500: loss=0.607274532318 object_loss=0.569602251053 distance_loss=12.5574188232
+Iteration 190 of 500: loss=0.590211093426 object_loss=0.55227291584 distance_loss=12.6460666656
+Iteration 191 of 500: loss=0.597284913063 object_loss=0.559030532837 distance_loss=12.7514591217
+Iteration 192 of 500: loss=0.664049446583 object_loss=0.62542784214 distance_loss=12.8738632202
+Iteration 193 of 500: loss=0.674784600735 object_loss=0.635743498802 distance_loss=13.0136947632
+Iteration 194 of 500: loss=0.641947805882 object_loss=0.602433085442 distance_loss=13.1715679169
+Iteration 195 of 500: loss=0.638443887234 object_loss=0.59839963913 distance_loss=13.3480873108
+Iteration 196 of 500: loss=0.633619189262 object_loss=0.592990398407 distance_loss=13.5429229736
+Iteration 197 of 500: loss=0.595149457455 object_loss=0.553887486458 distance_loss=13.7539978027
+Iteration 198 of 500: loss=0.598104059696 object_loss=0.556168973446 distance_loss=13.9783601761
+Iteration 199 of 500: loss=0.599524736404 object_loss=0.556884229183 distance_loss=14.2135047913
+Iteration 200 of 500: loss=0.606316268444 object_loss=0.562943100929 distance_loss=14.4577150345
+Iteration 201 of 500: loss=0.605455636978 object_loss=0.561327815056 distance_loss=14.7092761993
+Iteration 202 of 500: loss=0.59431129694 object_loss=0.549413204193 distance_loss=14.9660320282
+Iteration 203 of 500: loss=0.61469244957 object_loss=0.569013655186 distance_loss=15.2262611389
+Iteration 204 of 500: loss=0.66712886095 object_loss=0.620662331581 distance_loss=15.4888353348
+Iteration 205 of 500: loss=0.667045474052 object_loss=0.619786500931 distance_loss=15.7529983521
+Iteration 206 of 500: loss=0.665256202221 object_loss=0.617201209068 distance_loss=16.0183334351
+Iteration 207 of 500: loss=0.611571788788 object_loss=0.562718510628 distance_loss=16.2844219208
+Iteration 208 of 500: loss=0.613058269024 object_loss=0.563406050205 distance_loss=16.5507354736
+Iteration 209 of 500: loss=0.614239513874 object_loss=0.563788890839 distance_loss=16.8168678284
+Iteration 210 of 500: loss=0.642206668854 object_loss=0.590956628323 distance_loss=17.0833377838
+Iteration 211 of 500: loss=0.638010561466 object_loss=0.585953533649 distance_loss=17.3523445129
+Iteration 212 of 500: loss=0.653623104095 object_loss=0.600750803947 distance_loss=17.6240997314
+Iteration 213 of 500: loss=0.655329704285 object_loss=0.601635932922 distance_loss=17.89793396
+Iteration 214 of 500: loss=0.654872655869 object_loss=0.600352346897 distance_loss=18.1734352112
+Iteration 215 of 500: loss=0.653339266777 object_loss=0.597993433475 distance_loss=18.4486198425
+Iteration 216 of 500: loss=0.653641164303 object_loss=0.597476899624 distance_loss=18.7214202881
+Iteration 217 of 500: loss=0.655047297478 object_loss=0.598075330257 distance_loss=18.9906463623
+Iteration 218 of 500: loss=0.656147658825 object_loss=0.598379671574 distance_loss=19.2559871674
+Iteration 219 of 500: loss=0.673800766468 object_loss=0.615249872208 distance_loss=19.5169696808
+Iteration 220 of 500: loss=0.663999021053 object_loss=0.604681909084 distance_loss=19.7723789215
+Iteration 221 of 500: loss=0.664759814739 object_loss=0.60469520092 distance_loss=20.0215396881
+Iteration 222 of 500: loss=0.662366271019 object_loss=0.601574599743 distance_loss=20.2638893127

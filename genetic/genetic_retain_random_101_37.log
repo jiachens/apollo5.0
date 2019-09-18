@@ -1,0 +1,54 @@
+Using TensorFlow backend.
+Loading caffemodel:  ./cnnseg/velodyne64/deploy.caffemodel
+***Doing retain 0.100000, random 0.010000***
+***Doing generation 1 of 25***
+Generation average: -1.03721, best fitness:  -1.01947
+***Doing generation 2 of 25***
+Generation average: -1.03305, best fitness:  -1.01302
+***Doing generation 3 of 25***
+Generation average: -1.02922, best fitness:  -1.00751
+***Doing generation 4 of 25***
+Generation average: -1.02462, best fitness:  -0.99515
+***Doing generation 5 of 25***
+Generation average: -1.01792, best fitness:  -0.98519
+***Doing generation 6 of 25***
+Generation average: -1.01107, best fitness:  -0.97905
+***Doing generation 7 of 25***
+Generation average: -1.00582, best fitness:  -0.97212
+***Doing generation 8 of 25***
+Generation average: -1.00015, best fitness:  -0.96803
+***Doing generation 9 of 25***
+Generation average: -0.99201, best fitness:  -0.95848
+***Doing generation 10 of 25***
+Generation average: -0.98463, best fitness:  -0.93917
+***Doing generation 11 of 25***
+Generation average: -0.97749, best fitness:  -0.93831
+***Doing generation 12 of 25***
+Generation average: -0.97007, best fitness:  -0.92886
+***Doing generation 13 of 25***
+Generation average: -0.96140, best fitness:  -0.92160
+***Doing generation 14 of 25***
+Generation average: -0.95259, best fitness:  -0.91149
+***Doing generation 15 of 25***
+Generation average: -0.94523, best fitness:  -0.90550
+***Doing generation 16 of 25***
+Generation average: -0.93828, best fitness:  -0.89946
+***Doing generation 17 of 25***
+Generation average: -0.93215, best fitness:  -0.87382
+***Doing generation 18 of 25***
+Generation average: -0.92517, best fitness:  -0.87382
+***Doing generation 19 of 25***
+Generation average: -0.91826, best fitness:  -0.87382
+***Doing generation 20 of 25***
+Generation average: -0.91096, best fitness:  -0.87382
+***Doing generation 21 of 25***
+Traceback (most recent call last):
+  File "genetic_alg.py", line 232, in <module>
+    average_fitness, fitlist = optimizer.grade(scales)
+  File "genetic_alg.py", line 109, in grade
+    fitlist.append((self.fitness(scale),scale)) 
+  File "genetic_alg.py", line 86, in fitness
+    FM = gridi2feature(grids)
+  File "/home/jiachens/AML/apolloPytorch/xyz2grid.py", line 231, in gridi2feature
+    temp,idx = torch.max(torch.clamp(torch.sign(scale*(mix_input_cnt_3d-thresh_cnt)),0,1)*(height_map_full+5)-5,-1)
+RuntimeError: CUDA out of memory. Tried to allocate 208.00 MiB (GPU 0; 7.77 GiB total capacity; 1.58 GiB already allocated; 113.44 MiB free; 87.05 MiB cached)

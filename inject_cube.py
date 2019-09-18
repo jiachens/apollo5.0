@@ -62,7 +62,7 @@ def injectCube(PC,leng,x,y,z):
     cube_project = []
 
     for h in range(int(h_grids)):
-        for v in range(int(h_grids)):
+        for v in range(int(v_grids)):
             subset = totalsub
             subset = subset[subset[:,5] > min_v + v * v_granularity]
             subset = subset[subset[:,5] < min_v + (v + 1) * v_granularity]
@@ -121,7 +121,7 @@ def injectCylinder(PC,h,r,x,y,z):
     cylinder_project = []
 
     for h in range(int(h_grids)):
-        for v in range(int(h_grids)):
+        for v in range(int(v_grids)):
             subset = totalsub
             subset = subset[subset[:,5] > min_v + v * v_granularity]
             subset = subset[subset[:,5] < min_v + (v + 1) * v_granularity]
@@ -133,6 +133,71 @@ def injectCylinder(PC,h,r,x,y,z):
 
     cylinder_project = np.array(cylinder_project)
     total = np.concatenate((PC_wo,cylinder_project), axis=0)
+
+    return total
+
+
+def injectPyramid(PC,h,r1,r2,x,y,z):
+
+
+    PC = appendSpherical_np(PC)
+
+    C_og = np.linspace(0,2*np.pi,400)
+    Z_og = np.linspace(z,z+h,400)
+    R1_og = np.linspace(0,r1,400)
+    R2_og = np.linspace(0,r2,400)
+    R3_og = np.linspace(r1,r2,400)
+
+    C, Z = np.meshgrid(C_og, Z_og)
+    _,R3 = np.meshgrid(C_og, R3_og) 
+    surface_1 = np.array([R3.flatten(), C.flatten(), Z.flatten(), np.ones_like(C.flatten())*144./255.]).transpose()
+    
+    C, R1 = np.meshgrid(C_og, R1_og)
+    surface_2 = np.array([R1.flatten(), C.flatten(), np.ones_like(R1.flatten())*np.min(Z_og), np.ones_like(C.flatten())*144./255.]).transpose()
+    
+    C, R2 = np.meshgrid(C_og, R2_og)
+    surface_3 = np.array([R2.flatten(), C.flatten(), np.ones_like(R2.flatten())*np.max(Z_og), np.ones_like(C.flatten())*144./255.]).transpose()
+
+    
+    pyramid = np.concatenate((surface_1, surface_2, surface_3), axis=0)
+    pyramid = replaceCoord_np(pyramid)
+    pyramid[:,0] += x
+    pyramid[:,1] += y
+
+    pyramid = appendSpherical_np(pyramid)
+
+    h_granularity = 0.2 / 180 * np.pi
+    v_granularity = 26.8 / 63 / 180 * np.pi
+
+
+    min_h = np.min(pyramid[:,6])
+    max_h = np.max(pyramid[:,6])
+    min_v = np.min(pyramid[:,5])
+    max_v = np.max(pyramid[:,5])
+    
+
+    PC_w,PC_wo = processPC(PC,min_h,max_h,min_v,max_v)
+
+    totalsub = np.concatenate((PC_w,pyramid), axis=0)
+
+    h_grids = round((max_h - min_h) / h_granularity)
+    v_grids = round((max_v - min_v) / v_granularity)
+
+    pyramid_project = []
+
+    for h in range(int(h_grids)):
+        for v in range(int(v_grids)):
+            subset = totalsub
+            subset = subset[subset[:,5] > min_v + v * v_granularity]
+            subset = subset[subset[:,5] < min_v + (v + 1) * v_granularity]
+            subset = subset[subset[:,6] > min_h + h * h_granularity]
+            subset = subset[subset[:,6] < min_h + (h + 1) * h_granularity]
+            if subset.size != 0:
+                pyramid_project.append(subset[np.argmin(subset[:,4])])
+
+
+    pyramid_project = np.array(pyramid_project)
+    total = np.concatenate((PC_wo,pyramid_project), axis=0)
 
     return total
 

@@ -1,0 +1,89 @@
+Using TensorFlow backend.
+Loading caffemodel:  ./cnnseg/velodyne64/deploy.caffemodel
+***Doing perturbation 0.005000 ***
+***Doing generation 1 of 25***
+Generation average: -0.90746, best fitness:  -0.78099
+***Doing generation 2 of 25***
+Generation average: -0.87746, best fitness:  -0.76495
+***Doing generation 3 of 25***
+Generation average: -0.82711, best fitness:  -0.74827
+***Doing generation 4 of 25***
+Generation average: -0.80792, best fitness:  -0.74461
+***Doing generation 5 of 25***
+Generation average: -0.80569, best fitness:  -0.74382
+***Doing generation 6 of 25***
+Generation average: -0.79954, best fitness:  -0.71926
+***Doing generation 7 of 25***
+Generation average: -0.79668, best fitness:  -0.71926
+***Doing generation 8 of 25***
+Generation average: -0.79015, best fitness:  -0.71926
+***Doing generation 9 of 25***
+Generation average: -0.79300, best fitness:  -0.71926
+***Doing generation 10 of 25***
+Generation average: -0.78680, best fitness:  -0.71926
+***Doing generation 11 of 25***
+Generation average: -0.78742, best fitness:  -0.71926
+***Doing generation 12 of 25***
+Generation average: -0.78376, best fitness:  -0.71825
+***Doing generation 13 of 25***
+Generation average: -0.78446, best fitness:  -0.71355
+***Doing generation 14 of 25***
+Generation average: -0.78542, best fitness:  -0.71338
+***Doing generation 15 of 25***
+Generation average: -0.78011, best fitness:  -0.70469
+***Doing generation 16 of 25***
+Generation average: -0.77693, best fitness:  -0.70347
+***Doing generation 17 of 25***
+Generation average: -0.77477, best fitness:  -0.70253
+***Doing generation 18 of 25***
+Generation average: -0.77026, best fitness:  -0.70156
+***Doing generation 19 of 25***
+Generation average: -0.77036, best fitness:  -0.69622
+***Doing generation 20 of 25***
+Generation average: -0.76657, best fitness:  -0.69458
+***Doing generation 21 of 25***
+Generation average: -0.77066, best fitness:  -0.69356
+***Doing generation 22 of 25***
+Generation average: -0.77230, best fitness:  -0.69356
+***Doing generation 23 of 25***
+Generation average: -0.77199, best fitness:  -0.69001
+***Doing generation 24 of 25***
+Generation average: -0.76499, best fitness:  -0.69001
+***Doing generation 25 of 25***
+Generation average: -0.76339, best fitness:  -0.69001
+***Doing perturbation 0.010000 ***
+***Doing generation 1 of 25***
+Generation average: -0.90774, best fitness:  -0.81207
+***Doing generation 2 of 25***
+Generation average: -0.87956, best fitness:  -0.81207
+***Doing generation 3 of 25***
+Generation average: -0.86616, best fitness:  -0.80775
+***Doing generation 4 of 25***
+Generation average: -0.85750, best fitness:  -0.80158
+***Doing generation 5 of 25***
+Generation average: -0.85326, best fitness:  -0.80039
+***Doing generation 6 of 25***
+Generation average: -0.85108, best fitness:  -0.78332
+***Doing generation 7 of 25***
+Generation average: -0.84520, best fitness:  -0.77126
+***Doing generation 8 of 25***
+Generation average: -0.83628, best fitness:  -0.77031
+***Doing generation 9 of 25***
+Generation average: -0.83939, best fitness:  -0.75860
+***Doing generation 10 of 25***
+Generation average: -0.83389, best fitness:  -0.75860
+***Doing generation 11 of 25***
+Generation average: -0.83128, best fitness:  -0.75728
+***Doing generation 12 of 25***
+Generation average: -0.83397, best fitness:  -0.75728
+***Doing generation 13 of 25***
+Traceback (most recent call last):
+  File "evolution_alg_render.py", line 189, in <module>
+    
+  File "evolution_alg_render.py", line 98, in grade
+    return -lossValue
+  File "evolution_alg_render.py", line 79, in fitness
+    # Create a random scale.
+  File "/home/jiachens/AML/apolloPytorch/xyz2grid.py", line 231, in gridi2feature
+    temp,idx = torch.max(torch.clamp(torch.sign(scale*(mix_input_cnt_3d-thresh_cnt)),0,1)*(height_map_full+5)-5,-1)
+RuntimeError: CUDA out of memory. Tried to allocate 208.00 MiB (GPU 0; 7.77 GiB total capacity; 1.59 GiB already allocated; 48.44 MiB free; 140.01 MiB cached)

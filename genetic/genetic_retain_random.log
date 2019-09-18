@@ -226,3 +226,69 @@ Generation average: -0.83634, best fitness:  -0.78219
 ***Doing generation 10 of 25***
 Generation average: -0.82605, best fitness:  -0.77902
 ***Doing generation 11 of 25***
+Generation average: -0.81564, best fitness:  -0.77382
+***Doing generation 12 of 25***
+Generation average: -0.80813, best fitness:  -0.76578
+***Doing generation 13 of 25***
+Generation average: -0.80010, best fitness:  -0.75811
+***Doing generation 14 of 25***
+Generation average: -0.79390, best fitness:  -0.75687
+***Doing generation 15 of 25***
+Generation average: -0.78741, best fitness:  -0.75557
+***Doing generation 16 of 25***
+Generation average: -0.78265, best fitness:  -0.75008
+***Doing generation 17 of 25***
+Generation average: -0.77905, best fitness:  -0.74119
+***Doing generation 18 of 25***
+Generation average: -0.77477, best fitness:  -0.74119
+***Doing generation 19 of 25***
+Generation average: -0.77243, best fitness:  -0.74051
+***Doing generation 20 of 25***
+Generation average: -0.77043, best fitness:  -0.74051
+***Doing generation 21 of 25***
+Generation average: -0.76841, best fitness:  -0.73884
+***Doing generation 22 of 25***
+Generation average: -0.76588, best fitness:  -0.73407
+***Doing generation 23 of 25***
+Generation average: -0.76460, best fitness:  -0.73287
+***Doing generation 24 of 25***
+Generation average: -0.76318, best fitness:  -0.73287
+***Doing generation 25 of 25***
+Generation average: -0.76148, best fitness:  -0.73078
+***Doing retain 0.200000, random 0.100000***
+***Doing generation 1 of 25***
+Generation average: -0.91859, best fitness:  -0.85743
+***Doing generation 2 of 25***
+Generation average: -0.90853, best fitness:  -0.85144
+***Doing generation 3 of 25***
+Generation average: -0.90029, best fitness:  -0.85144
+***Doing generation 4 of 25***
+Generation average: -0.89209, best fitness:  -0.84268
+***Doing generation 5 of 25***
+Generation average: -0.88509, best fitness:  -0.83337
+***Doing generation 6 of 25***
+Generation average: -0.87818, best fitness:  -0.82835
+***Doing generation 7 of 25***
+Generation average: -0.87135, best fitness:  -0.82044
+***Doing generation 8 of 25***
+Generation average: -0.86403, best fitness:  -0.80265
+***Doing generation 9 of 25***
+Generation average: -0.85541, best fitness:  -0.79309
+***Doing generation 10 of 25***
+Generation average: -0.84614, best fitness:  -0.79309
+***Doing generation 11 of 25***
+Generation average: -0.83614, best fitness:  -0.77910
+***Doing generation 12 of 25***
+Generation average: -0.82900, best fitness:  -0.77522
+***Doing generation 13 of 25***
+Generation average: -0.82095, best fitness:  -0.77359
+***Doing generation 14 of 25***
+Generation average: -0.81362, best fitness:  -0.77295
+***Doing generation 15 of 25***
+Generation average: -0.80705, best fitness:  -0.75961
+***Doing generation 16 of 25***
+Generation average: -0.80217, best fitness:  -0.75754
+Traceback (most recent call last):
+  File "genetic_alg.py", line 245, in <module>
+    rank[0][1].cpu().numpy().tofile('./genetic/%f_%f_2000_7_18_cyl_09_11.bin'%(retain,rand))
+IOError: [Errno 28] No space left on device

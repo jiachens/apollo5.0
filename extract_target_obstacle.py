@@ -19,6 +19,8 @@ import c2p_segmentation
 import os
 import inject_cube
 
+os.environ['CUDA_VISIBLE_DEVICES'] = '1'
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--idx', type=int, help='idx is which frame')
 FLAGS = parser.parse_args()
@@ -32,12 +34,24 @@ dataIdx = FLAGS.idx
 pclfile = '%06d.bin'%(dataIdx)
 PCL_path = pclpath + pclfile
 PCL = c2p_segmentation.loadPCL(PCL_path,True)
-
-#PCL = inject_cube.injectCylinder(PCL,1,0.25,7,-1.5,-1.73)
-#PCL = inject_cube.injectCylinder(PCL,1,7,-.25,-1.73)
-PCL = inject_cube.injectCylinder(PCL,0.5,0.25,7,0,-1.73)
+#PCL = inject_cube.injectCylinder(PCL,1.8,0.15,7,0,-1.73)
+#PCL = inject_cube.injectCylinder(PCL[:,:4].astype('float32'),1,0.05,7,0,-1.73)
+#PCL = inject_cube.injectPyramid(PCL,0.5,1,0.1,7,0,-1.73)
+#PCL = inject_cube.injectCube(PCL,0.5,7,-.25,-1.73)
+#PCL = inject_cube.injectCylinder(PCL,0.5,0.25,7,0,-1.73)
 
 PCL = PCL[:,:4].astype('float32')
+
+# injected_trace = np.array([[6.8,0.2,-0.73,0.55],
+#                            [6.8,0.1,-0.73,0.55],
+#                            [6.8,0.0,-0.73,0.55],
+#                            [6.8,-0.1,-0.73,0.55],
+#                            [6.8,-0.2,-0.73,0.55]]).astype('float32')
+
+injected_trace = np.load('/home/jiachens/AML/test1.npy')
+PCL = np.vstack([PCL,injected_trace])
+
+
 
 PCLConverted = c2p_segmentation.mapPointToGrid(PCL)
 featureM = c2p_segmentation.generateFM(PCL, PCLConverted)
@@ -50,13 +64,9 @@ obj, label_map = cluster.cluster(outputPytorch[1].data.cpu().numpy(), outputPyto
             outputPytorch[3].data.cpu().numpy(),outputPytorch[0].data.cpu().numpy(),
             outputPytorch[5].data.cpu().numpy())
 
+outputPytorch[2].data.cpu().numpy().tofile('./confidence.bin')
+outputPytorch[1].data.cpu().numpy().tofile('./category.bin')
 obstacle, cluster_id_list = c2p_segmentation.twod2threed(obj, label_map, PCL, PCLConverted)
-
-os.mkdir('./%d'%(dataIdx))
-for idx,obs in enumerate(obstacle):
-    pcd = np.array(obs.getPCL())
-    pcd.tofile('./'+ str(dataIdx) +'/' + str(idx) + '_obs.bin')
-
 
 if obstacle != []:
     pcd = np.array(obstacle[0].getPCL())
@@ -68,3 +78,9 @@ if obstacle != []:
         pcd.tofile('./obs/'+ str(dataIdx) +'_obs.bin')
 else:
     print('No Obstacle Detected.')
+
+os.mkdir('./%d'%(dataIdx))
+for idx,obs in enumerate(obstacle):
+    pcd = np.array(obs.getPCL())
+    pcd.tofile('./'+ str(dataIdx) +'/' + str(idx) + '_obs.bin')
+
